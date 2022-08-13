@@ -6,7 +6,7 @@ import TopNavbar from "./TopNavbar/TopNavbar";
 function MainLayout() {
   return (
     <>
-     {/* <TopNavbar /> */}
+     <TopNavbar />
       <Navbar />
       <Outlet />
       <Footer />

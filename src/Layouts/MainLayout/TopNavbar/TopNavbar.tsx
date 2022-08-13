@@ -1,8 +1,5 @@
 import {
-   
-    Box,
-   
-    Link
+    Box,Link,
   } from "@mui/material";
   import {
     kpmbar,
@@ -12,6 +9,7 @@ import {
     kthPmenu,
     barsection,
   } from "../../../Styles/Appbar/index";
+  import TopNavbarModal from "./TopNavbarModal/TopNavbarModal";
 
 function TopNavbar (){
     return (
@@ -31,6 +29,8 @@ Kunde inte hämta personlig information (klicka för att försöka igen) </Link>
       
         <Box sx={barsection}>
         <Link sx={LinkStyle} href="#" >Log in </Link>
+      
+
         </Box>
       
     </Box>
@@ -39,9 +39,10 @@ Kunde inte hämta personlig information (klicka för att försöka igen) </Link>
   
 
   
-
+<TopNavbarModal />
 
 </Box>
+
         </>
     )
 }

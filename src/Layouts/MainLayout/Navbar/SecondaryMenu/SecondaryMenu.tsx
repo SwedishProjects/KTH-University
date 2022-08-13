@@ -20,7 +20,9 @@ function  SecondaryMenu() {
     const [MenuInfo] = useState(SecondaryMenuInfo);
     return (
         <>
-        <Box  data-cid="1.865038" lang="en-GB">
+        <Box  data-cid="1.865038" lang="en-GB"
+        sx={{diplay:{xs:"none",md:"none",lg:"inline-block",}}}
+        >
     
     
     <Box id="Secondary top menu" sx={listStyle }>

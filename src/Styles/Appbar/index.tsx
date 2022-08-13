@@ -68,10 +68,27 @@ export const menuIconStyles = {
     sx: "block",
     md: "none",
   },
-  fontSize: "35px",
-  color: "common.digitaBlack",
+  zIndex: "25",
+ float:"right",
+  // padding: "5px 15px 15px",
+  backgroundColor: "#fff",
+  border:" 5px solid #fff",
+  borderLeft: "0",
+  borderRight: "0",
+  transform: "rotate(0)",
+  transition:" .3s ease-in-out",
   cursor: "pointer",
-  // "&:hover": { color: "#f03637" },
+ 
+  // marginTop: "calc(var(--kpm-bar-height,2em) + 1px)",
+  fontSize:" 2.25rem",
+  lineHeight: "1",
+  color:"#007fae",
+  "& .focus":{
+    border:" 5px solid  #ffc107",
+  borderRadius: "0.25rem",
+ 
+
+}
 };
 
 export const IconWrapper = styled(Box)(({ theme }) => ({
@@ -83,8 +100,7 @@ export const IconWrapper = styled(Box)(({ theme }) => ({
 
 export const appBarStyles = {
   width: "100%",
-  // paddingRight:"15px",
-  // paddingLeft:" 15px",
+
   marginRight:" auto",
   marginLeft:" auto",
   padding: "0 15px",
@@ -92,9 +108,11 @@ export const appBarStyles = {
   boxSizing: "border-box",
 };
 export const container ={
-  margin: "0 auto",
+  width: "100%",
+  margin: {sm:"0",lg:"0 auto"},
     maxWidth: "1228px",
-    padding: "15px 0 20px",
+    padding: {xs:"85px 0 30px",sm:"70px 0 30px" ,md:"100px 0 30px",lg:"200px 0 30px"},
+    // padding:"15px 0 20px ",
 }
 
 // =============================  SecondaryMenu   ================================
@@ -113,6 +131,8 @@ export const secondaryMenu ={
 
 
 export const listStyle ={
+  // display:{sm:"none",md:"none",lg:"block"},
+  display:"none",
   "& .UlStyle ": {
     listStyleType:" none",
     // position:" relative",
@@ -153,6 +173,10 @@ export const fault ={
 export const barsection ={
   verticalAlign: "middle",
   float: "right",
+
+  "& .kpmloginhelp":{
+    display:"block"
+  }
 }
 export const right ={
   float: "right",
@@ -169,6 +193,9 @@ export const LinkStyle ={
   textDecoration: "none",
   '&:hover': {
     background: "#007fae",
+    "& .kpmloginhelp":{
+      display:"block"
+    }
   }
 }
 
@@ -185,13 +212,15 @@ export const LinkStylehelp ={
   margin: "15px 0 0 0",
 }
 export const loginContent={
-  position: "absolute",
+  position: "static",
   right: "0",
+  width:{sm:"100%" , lg:"30%"},
 }
 export const hide ={
   display: "none"
 }
 export const kthPmenu ={
+  
 
   fontSize: "16px",
   lineHeight: "1.231",
@@ -212,4 +241,34 @@ export const gradientBorder ={
   height: "3px",
   backgroundImage: "linear-gradient(to left,#005ea4,#5c98c4)",
 }
+
+// ===========================  TopNavbarModal  =================================
+export const kpmloginhelpText = {
+  color: "#fff",
+ 
+  // margin: "15px 0 0 0",
+  // padding: "15px",
+  lineHeight:" 1.5",
+  fontFamily: "inherit",
+    fontSize: "100%",
+    fontWeight: "normal",
+    marginBottom:"0.5rem"
+}
+
+export const kpmloginhelp ={
+  margin: "auto",
+  marginTop:"1rem",
+  width:{sm:"100%" , lg:"30%"},
+  padding: "15px",
+  display:"none",
+  // justifyContent:"center",
+  // alignContent:"center",
+  position: "relative",
+  backgroundColor: "#65656c",
+
+  
+    
+}
+
+
 

@@ -1,7 +1,7 @@
 
 
 export const siteName ={
-    
+    width:"100%",
     fontSize: "1.25rem",
     fontWeight:" 600",
     color: "#000",
@@ -16,16 +16,23 @@ export const siteName ={
 
 export const headerContainerTop ={
     display: "flex",
-    marginTop:" 8px",
+    flexDirection:"row",
+    justifyContent:"flex-start",
+    alignItems:"flex-start",
+
+  
+   
 }
 export const figure ={
     margin: "0 15px 0 0",
     width: "auto",
+    display: "block",
 }
 
 export const figureimg ={
     marginBttom: "0",
-    height: "50px",
+    height: "70",
     maxWidth: "275px",
-    width: "auto",
+    width: "70",
+    
 }
