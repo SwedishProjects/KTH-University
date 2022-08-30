@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 import  {MoreNewsData}  from '../../Services/Utils/Data/data';
-
+import ReadArticle from "../ReadArticle/ReadArticle";
 import { Typography, Link, Grid ,Box ,Container,Divider
 } from "@mui/material";
 
@@ -65,6 +65,11 @@ const MoreNews = () => {
               link={card.link}
               />
             ))}
+           <Box>
+           <ReadArticle />
+           </Box>
+
+
     </Container>
   </>
     );

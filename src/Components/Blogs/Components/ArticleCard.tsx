@@ -2,7 +2,7 @@ import CardDescription from './CardDescription/CardDescription';
 import CardLink from './CardLink/CardLink';
 import CardImage from './CardImage/CardImage';
 import CardTitle from './CardTitle/CardTitle';
-import Card from '@mui/material/Card';
+
 
 
 
@@ -33,7 +33,7 @@ width:{xs:"100%",sm:"100%",md:"280px",lg:"280px",},
       
    
    
-     <Card>
+     <Box>
         <CardImage title={props.Imagename} image={props.image}></CardImage>
         <Box sx={{
           padding: "20px 0",
@@ -45,7 +45,7 @@ width:{xs:"100%",sm:"100%",md:"280px",lg:"280px",},
         ></CardDescription>
         <CardLink links={props.links}></CardLink>
         </Box>
-      </Card>
+      </Box>
    
      </Box>
    

@@ -29,7 +29,6 @@ const Explore = () => {
         flexDirection: "column",
         justifyContent: "flex-end",
         bgcolor: "#ffffff",
-        
         maxWidth: "100%",
         marginLeft:"-18px",
   

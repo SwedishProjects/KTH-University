@@ -1,6 +1,8 @@
 import  IMAGES  from "../../../Assets/Images";
 import ExploreCardImage from "../../../Assets/Images/ExploreCardImage";
 import MoreNews from "../../../Assets/Images/MoreNews";
+import ReadArticle from "../../../Assets/Images/ReadArticle";
+
 export const navbarItems = [
   {
     id: 1,
@@ -235,4 +237,41 @@ export const MoreNewsData = [
 
   
 ];
+
+
+//--------------------------------------ReadArticle ----------------------
+
+
+export const ReadArticleData = [
+  {
+    id: 1,
+    title: "Paving the way for a space station around the moon",
+    image: `${ReadArticle.Read1}`,
+
+    Imagename:"Paving the way for a space station around the moon" ,
+    text : "Just four years after graduating from KTH, Aerospace Engineer Desirée Brundin has managed to establish herself in the international space sector. Today she works at Rocket Lab in New Zealand and is cu...",
+    ReadLink: "Read the article ",
+  },
+  {
+   
+    id: 2,
+    title: "KTH retains all-time highest QS ranking for second consecutive year",
+    image: `${ReadArticle.Read2}`,
+
+    Imagename:"KTH retains all-time highest QS ranking for second consecutive year" ,
+    text : "For the second consecutive year, KTH has held its all-time highest position in the world’s top 100 university rankings, which were published on June 8 by QS World University Rankings. ",
+    ReadLink: "Read the article",
+  },
+  {
+    id: 3,
+    title: "Boats that fly like the wind",
+    image: `${ReadArticle.Read3}`,
+
+    Imagename:"Boats that fly like the wind" ,
+    text : "Silent zero-emission vessels that swiftly float past the cobs and skerries – is this the future of coastal and open-water boating? We paid a visit to the KTH Värmdö field station, where researchers ar...    ",
+    ReadLink: "Read the article",
+  },
+  
+];
+
 

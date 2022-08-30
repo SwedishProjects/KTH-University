@@ -14,6 +14,8 @@ export { default as Explore } from "./Explore/Explore";
 export { default as Calendar } from "./Calendar/Calendar";
 export { default as Alumni } from "./Alumni/Alumni";
 export { default as ArticleFooter } from "./ArticleFooter/ArticleFooter";
+export { default as ReadArticle } from "./ReadArticle/ReadArticle";
+
 
 
 

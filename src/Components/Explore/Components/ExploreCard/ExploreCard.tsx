@@ -1,6 +1,6 @@
 
 import { Typography, Link, Grid ,Box ,CardMedia,CardContent,
-    CardActions ,Card,Container
+   
   } from "@mui/material";
 import { ImageStyle ,TitleStyle ,TextStyle,linkStyle} from '../../../../Styles/Explore/index';
 
@@ -20,10 +20,11 @@ function ExploreCard(props: ExploreCardProps) {
   return (
    
     
-    <Card sx={{ display: 'flex',
+    <Box sx={{ display: 'flex',
      flexDirection: {xs:"column",sm:"row",md:"row",lg:"row",},
      backgroundColor: "#f6f6f6",marginTop:"30px",
      width:{sm:"100%",md:"831px",lg:"831px",},
+     height:{sm:"auto",md:"300px",lg:"300px",},
     }}>
       <CardMedia 
       sx={ImageStyle}
@@ -61,7 +62,7 @@ function ExploreCard(props: ExploreCardProps) {
        
       </Box>
      
-    </Card>
+    </Box>
   );
 }
 

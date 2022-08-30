@@ -20,7 +20,7 @@ function MoreNewsCard(props: MoreNewsCardProps) {
   return (
    
      
-    <Card sx={{ display: 'flex',
+    <Box sx={{ display: 'flex',
      flexDirection: {xs:"column",sm:"row",md:"row",lg:"row",},
      backgroundColor: "#f6f6f6",marginTop:"30px",
      width:{sm:"100%",md:"800px",lg:"800px",},marginLeft:"-22px",
@@ -62,7 +62,7 @@ function MoreNewsCard(props: MoreNewsCardProps) {
         alt={props.Imagename}
       />
      
-    </Card>
+    </Box>
   );
 }
 

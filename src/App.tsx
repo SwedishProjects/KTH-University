@@ -5,7 +5,6 @@ import {
   AboutKTH,
   ContactUs,
   Home,
-
   Library,
   CoOperation,
   Research,
@@ -26,32 +25,15 @@ function App() {
           <Routes>
             <Route element={<MainLayout />}>
               <Route path="/" element={<Home />} />
-             
-             
               <Route path="/about-kth" element={<AboutKTH />} />
               <Route path="/contact-kth" element={<ContactUs />} />
-            
-            
               <Route path="/library" element={<Library />} />
-             
               <Route path="/co-operation" element={<CoOperation />} />
-           
-           
               <Route path="/research" element={<Research />} />
-              
               <Route path="/studies" element={<Studies />} />
               <Route path="/alumni" element={<Alumni />} />
             </Route>
-            {/* <Route path="/panel/*" element={<PanelLayout />}>
-              <Route path="dashboard" element={<Dashboard />} />
-              <Route path="products" element={<Products />} />
-              <Route path="orders" element={<Orders />} />
-              <Route path="add-product" element={<AddProduct />} />
-              <Route path="add-article" element={<AddArticle />} />
-              <Route path="reviews" element={<Reviews />} />
-              <Route path="brands" element={<Brands />} />
-              <Route path="settings" element={<Settings />} />
-            </Route> */}
+           
           </Routes>
         </ScrollToTop>
       </Router>

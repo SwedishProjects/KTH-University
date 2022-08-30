@@ -6,7 +6,7 @@ import { CardContent,
    Grid,
     Divider,
      Container ,
-     Box,Card,CardMedia,Typography,
+     Box,CardMedia,Typography,
      Link,
     } from '@mui/material';
 
@@ -76,7 +76,7 @@ const Blogs = () => {
               links={article.links}
               />
             ))}
-            <Card sx={{ display: 'flex' ,marginRight:"20px"}}>
+            <Box sx={{ display: 'flex' ,marginRight:"20px"}}>
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
         <CardContent sx={{ flex: '1 0 auto' }}>
           <Typography component="h2" variant="h2" sx={NameStyle}>
@@ -111,7 +111,7 @@ const Blogs = () => {
         </Box>
       </Box>
   
-    </Card>
+    </Box>
             </Container>
         </Box>
          
