@@ -1,8 +1,6 @@
 export { default as Home } from "./Home/Home";
 export { default as ContactUs } from "./ContactUs/ContactUs";
 export { default as AboutKTH } from "./AboutKTH/AboutKTH";
-// export { default as Wishlist } from "./Wishlist/Wishlist";
-// export { default as Checkout } from "./Checkout/Checkout";
 export { default as CoOperation } from "./CoOperation/CoOperation";
 export { default as Library } from "./Library/Library";
 export { default as Research } from "./Research/Research";
