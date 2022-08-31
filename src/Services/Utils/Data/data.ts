@@ -275,3 +275,40 @@ export const ReadArticleData = [
 ];
 
 
+////------------------------------------ Home Page Calendar ------------------------
+
+
+export const HomeCalendar = [
+  {
+    id: 1,
+    links:"Walk in the Pride parade with Academic Pride!",
+    day:"6",
+    month:"Aug",
+    title:"Miscellaneous",
+    date:"Saturday 2022-08-06, 11:30 - 16:00",
+    location:"Rotundan, Stockholm University",
+  },
+  {
+   
+    id: 2,
+    links:"PDC Summer School 2022: 'Introduction to High Performance Computing'",
+    day:"15",
+    month:"Aug",
+    title:"Conferences and events",
+    date:"Mon 2022-08-15, 09:00 - Fri 2022-08-26, 12:30",
+    location:"KTH Main Campus",
+  },
+  {
+    id: 3,
+    links:"Formation of Bainite Studied by In-situ High-energy X-ray Diffraction",
+    day:"19",
+    month:"Aug",
+    title:"Public defences of doctoral theses",
+    date:"Friday 2022-08-19, 10:00",
+    location:"Kollegiesalen, Brinellvägen 8, Stockholm",
+  },
+  
+];
+
+
+

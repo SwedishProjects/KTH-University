@@ -1,5 +1,5 @@
 import {
-Explore ,Blogs ,MoreNews
+Explore ,Blogs ,MoreNews , Calendar
 } from "../../../Components";
 
 import {  Grid,Container } from '@mui/material';
@@ -28,6 +28,7 @@ function Home() {
    <Grid item xs={12} sm={8} lg={8}>
      <Explore />
      <MoreNews />
+     <Calendar />
 </Grid>
 
 <Grid item xs={12} sm={4} lg={4}>
