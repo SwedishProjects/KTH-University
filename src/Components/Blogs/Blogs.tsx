@@ -28,7 +28,7 @@ const Blogs = () => {
         <Box sx={{
               padding: "30px 0 ",
               maxWidth: "100%",
-             
+              marginLeft: {xs:"-80px",md:"0",lg:"0"},
         }}>
  <Container sx={{
                     maxWidth: "100%",

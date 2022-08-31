@@ -19,7 +19,7 @@ function ReadArticle(){
            
             overflow: "hidden",
             display: "flex",
-            // flexWrap:{xs:"wrap",md:"no-wrap",sm:"no-wrap"},
+            flexWrap:{xs:"wrap",md:"no-wrap",sm:"no-wrap"},
            alignItems:"stretch",
            
             justifyContent: "space-between",

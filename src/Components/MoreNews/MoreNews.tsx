@@ -50,11 +50,19 @@ const MoreNews = () => {
          
           variant="subtitle1"
         >
-     MORE NEWS
+           <Typography   variant="body2"  sx={{
+             width:"100%",
+             color: "#000",
+fontWeight: "600",
+ fontSize: "0.90rem",
+           }}>
+           MORE NEWS
+          </Typography>
+     
         </Link>
         </Box>
-        <Divider sx={{    margin: "15px 0", paddingBottom:"6px",marginBottom:"25px",
-              width:{xs:"100%",sm:"100%",md:"800px",lg:"800px", },color:"#fff",
+        <Divider color="#fff" sx={{    margin: "15px 0", paddingBottom:"3px",marginBottom:"25px",
+              width:{xs:"100%",sm:"100%",md:"800px",lg:"800px", },
             }} />
        {Cards.map((card) => (
               <MoreNewsCard
