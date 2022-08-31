@@ -1,4 +1,4 @@
-const IMAGES = {
+export const IMAGES = {
 
   blog1: require("../Images/blogs(2).jpg"),
   blog2: require("../Images/blogs(1).jpg"),
@@ -12,7 +12,20 @@ const IMAGES = {
 
 };
 
+export const AboutIMAGES = {
+
+  About1: require("../Images/About/About(3).jpg"),
+  About2: require("../Images/About/About(5).jpg"),
+  About3: require("../Images/About/About(2).jpg"),
+  About4: require("../Images/About/About(4).jpg"),
+  About5: require("../Images/About/About(1).jpeg"),
+  About6: require("../Images/About/About(2).jpeg"),
+
+ 
+  
+
+};
 
 
-export default IMAGES;
 
+// export default IMAGES;

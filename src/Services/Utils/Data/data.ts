@@ -1,4 +1,4 @@
-import  IMAGES  from "../../../Assets/Images";
+import  {IMAGES , AboutIMAGES}  from "../../../Assets/Images";
 import ExploreCardImage from "../../../Assets/Images/ExploreCardImage";
 import MoreNews from "../../../Assets/Images/MoreNews";
 import ReadArticle from "../../../Assets/Images/ReadArticle";
@@ -311,4 +311,79 @@ export const HomeCalendar = [
 ];
 
 
+//---------------------About Page -------------------
 
+
+export const CardsInfo1 = [
+  {
+    id: 1,
+    title: "Meet KTH",
+    image: `${AboutIMAGES.About1}`,
+
+    Imagename:"Meet KTH" ,
+    text : "KTH offers many opportunities throughout the year that invites you to meet us, collaborate with us and participate in our activities. Everything from music to popular science lectures, academic festivals and scientific conferences can be found here.",
+    links: ["See upcoming events at KTH"],
+  },
+  {
+   
+    id: 2,
+    title: "Discover KTH",
+    image: `${AboutIMAGES.About2}`,
+
+    Imagename:"Discover KTH" ,
+    text : "Since its founding in 1827, KTH Royal Institute of Technology in Stockholm has grown to become one of Europe’s leading technical and engineering universities.' Levi Prize, writes in this week's post about how digitalization as a work environment issue has become increasingly relevant, accepted and taken seriously.",
+    links: ["Study at KTH","Research","Business and Community",],
+  },
+
+  
+];
+
+
+
+export const CardsInfo2 = [
+  
+  {
+    id: 1,
+    title: "Work at KTH",
+    image: `${AboutIMAGES.About3}`,
+
+    Imagename:"Work at KTH" ,
+    text : "At KTH you will have the opportunity of bringing life to your ideas and, at the same time, contributing to tomorrow's society.",
+    links: ["KTH - Your future workplace","Vacancies"],
+  },
+  {
+    id: 2,
+    title: "Exchange opportunities",
+    image: `${AboutIMAGES.About4}`,
+
+    Imagename:"Exchange opportunities" ,
+    text : "KTH has an active student and staff exchange with over 200 prominent technical universities worldwide.",
+    links: ["Exchange universities"],
+  },
+  
+];
+
+
+
+export const CardsInfo3 = [
+  
+  {
+    id: 1,
+    title: "KTH's Annual Report 2021",
+    image: `${AboutIMAGES.About5}`,
+
+    Imagename:"KTH's Annual Report 2021" ,
+    text : "The Annual Report gives you a good oversight of KTH operations and virtually all our official statistics for 2021.",
+    links: ["Find KTH's Annual Reports"],
+  },
+  {
+    id: 2,
+    title: "KTH has gained HR Excellence in Research accreditation",
+    image: `${AboutIMAGES.About6}`,
+
+    Imagename:"KTH has gained HR Excellence in Research accreditation" ,
+    text : "KTH has now signed up to the EU Charter & Code following EU Commission approval of our application. ",
+    links: ["KTH in line with EU Charter & Code" ,"About the EU C&C on the Euraxess website"],
+  },
+  
+];
