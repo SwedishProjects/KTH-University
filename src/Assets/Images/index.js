@@ -1,4 +1,4 @@
-const IMAGES = {
+export const IMAGES = {
 
   blog1: require("../Images/blogs(2).jpg"),
   blog2: require("../Images/blogs(1).jpg"),
@@ -14,5 +14,13 @@ const IMAGES = {
 
 
 
-export default IMAGES;
+// export default IMAGES;
+
+
+export const AlumniCarteImage ={
+  alumni1: require("../Images/Alumni/Mentorpar-2022 Nicky Rosenberg.jpg"),
+  alumni2: require("../Images/Alumni/hoberbildhöjdare.jpg"),
+  alumni3: require("../Images/Alumni/Mentor Jackie and 3 Mentee_reviderad 2.jpg"),
+
+}
 

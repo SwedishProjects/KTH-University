@@ -68,3 +68,43 @@ export const AlumniButton={
     minHeight: "44px",
 
 }
+
+
+//------------Cart Style -------------------------------
+
+
+export const TextStyle ={
+    fontSize:" 1rem",
+    fontWeight: "400",
+    color:" #000",
+    lineHeight: "1.5",
+    maxWidth: "100%",
+}
+
+
+export const imageStyle ={
+    verticalAlign: "middle",
+    borderStyle: "none",
+    maxWidth: "100%",
+    height: "auto",
+    // float:"right"
+}
+
+
+export const linkStyle ={
+    fontSize: "1rem",
+    fontWeight:" 400",
+    lineHeight: "1.5",
+    marginTop: "0",
+    marginBottom: "0",
+    color:" #006cb7",
+    backgroundColor: "transparent",
+}
+
+export const NameStyle ={
+    color: "#000",
+    lineHeight: "1.3125",
+    marginTop:" 0",
+    marginBottom: "14px",
+    fontSize: "1.5rem",
+}

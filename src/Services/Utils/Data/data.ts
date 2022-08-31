@@ -1,4 +1,4 @@
-import  IMAGES  from "../../../Assets/Images";
+import   {IMAGES  , AlumniCarteImage} from "../../../Assets/Images";
 import ExploreCardImage from "../../../Assets/Images/ExploreCardImage";
 import MoreNews from "../../../Assets/Images/MoreNews";
 import ReadArticle from "../../../Assets/Images/ReadArticle";
@@ -355,3 +355,35 @@ export const AlumniCalendar = [
   
 ];
 
+
+export const AlumniCarteData = [
+  {
+    id: 1,
+    title: "The President's blog",
+    image: `${AlumniCarteImage.alumni1}`,
+
+    Imagename:"The President's blog" ,
+    text : "Sigbritt Karlsson on KTH's role in society and current and future education and research.",
+    links: ["Freedom worth its salt must be allowed to cost money"],
+  },
+  {
+   
+    id: 2,
+    title: "Digital work environment more established",
+    image: `${AlumniCarteImage.alumni2}`,
+
+    Imagename:"Digital work environment more established" ,
+    text : "Jan Gulliksen, Vice President for Digitalization and who just received the Swedish Engineers' Levi Prize, writes in this week's post about how digitalization as a work environment issue has become increasingly relevant, accepted and taken seriously.",
+    links: ["Always for the benefit of the user"],
+  },
+  {
+    id: 3,
+    title: "International student blog",
+    image: `${AlumniCarteImage.alumni3}`,
+
+    Imagename:"International student blog" ,
+    text : "Join master's students Declan, Claire and Valerie on their journeys towards a degree from KTH.",
+    links: ["Follow the student blog"],
+  },
+  
+];
