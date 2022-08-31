@@ -53,30 +53,31 @@ const  Network = [
  export const AlumniList =()=>{
     return (
         <>
-         <Container
+        <Box sx={{float:"left" , width:"100%", maxWidth: "100%",}}>
+        <Container
       sx={{
         minHeight: "560px",
         display: "flex",
         flexDirection: "column",
-        justifyContent: "flex-end",
+        justifyContent: "start",
         bgcolor: "#ffffff",
-        
+        width:"100%",
         maxWidth: "100%",
-       
-        padding: "15px"
+      //  marginLeft:"-23px",
+         paddingTop: "15px"
       }}
     >
       <Grid
         container
         height="100%"
         display="flex"
-        justifyContent="space-around"
+        justifyContent="space-between"
         alignItems="flex-start"
          sx={{
-          flexWrap: "wrap",
-          flexGrow: "1",
-          marginRight: "-15px",
-          marginLeft: "-15px",
+          // flexWrap: "wrap",
+          // flexGrow: "1",
+          // marginRight: "-15px",
+          // marginLeft: "-15px",
         }}
       >
        <Box
@@ -87,9 +88,9 @@ const  Network = [
 
   flexDirection: {xs:"column",sm:"row",md:"row",lg:"row",},
  
-  justifyContent: {xs:"center",sm:"center",md: "flex-start",lg: "flex-start",},
+  // justifyContent: {xs:"center",sm:"center",md: "space-between",lg: "space-between",},
  
- 
+ justifyContent:"stretch",
       }}
       >
        <Grid item xs={12} sm={12} md={3} lg={3}>
@@ -113,6 +114,7 @@ const  Network = [
       </Grid>
     
     </Container>
+        </Box>
         </>
     );
  } 

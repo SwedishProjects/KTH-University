@@ -310,5 +310,48 @@ export const HomeCalendar = [
   
 ];
 
+// --------------------------------- Alumni Page ---------------------------
 
+
+ 
+export const AlumniCalendar = [
+  {
+    id: 1,
+    links:"KTH Alumni Germany Chapter lunch",
+    day:"23",
+    month:"Jul",
+    
+    date:"Saturday 2022-07-23, 13:00",
+    location:"Arnulfstr. 52, 80335 Munich",
+  },
+  {
+   
+    id: 2,
+    links:"Reunion A-60",
+    day:"1",
+    month:"Sep",
+   
+    date:"Thursday 2022-09-01",
+    location:"KTH Campus",
+  },
+  {
+    id: 3,
+    links:"Reunion B-62",
+    day:"4",
+    month:"Oct",
+   
+    date:"Tuesday 2022-10-04",
+    location:"KTH Campus",
+  },
+  {
+    id: 4,
+    links:"Reunion M-62",
+    day:"17",
+    month:"Oct",
+   
+    date:"Monday 2022-10-17, 11:00",
+    location:"KTH Campus",
+  },
+  
+];
 
