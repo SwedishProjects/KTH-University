@@ -45,21 +45,23 @@ const  Cooperation = [
 function AboutLinks() {
   return (
     <>
-  <Box sx={{padding:"0 15px" ,margin:"0 auto"}}>
+  <Box sx={{width:"100%",}}>
   <Box sx={{marginBottom: "20px",
-    display: "block",width: "auto",  marginRight: "-15px",
-    marginLeft: "-15px",
-    margin: "0 0 1rem",}}>
+    display: "block",width: "auto", 
+    //  marginRight: "30px",
+    // marginLeft: "-15px",
+   }}>
    <Card sx={{     maxWidth: "100%",
     height: "auto",    marginBottom: "20px",
-    display: "block",width: "auto", }}>
+    display: "block", }}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="271"
-          width="1228"
+          // height="271"
+          // width="1228"
           image={images['About/About(1).jpg']}
           alt="green iguana"
+          sx={{width:"100%",height:{xs:"auto",lg:"271px"}}}
         />
       
       </CardActionArea>
@@ -72,25 +74,32 @@ function AboutLinks() {
         display: "flex",
         flexDirection: "column",
         justifyContent: "flex-end",
-        bgcolor: "#ffffff",
-        
+     
+        width:"100%",
         maxWidth: "100%",
-       
-        padding: "15px"
+      //  marginLeft:{xs:"-10px",sm:"-10px",lg:"-15px"},
+      // //  marginRight:{xs:"40px",sm:"30px",lg:"0"},
+      //   paddingRight:{xs:"0",sm:"0",lg:"0"},
+
+
+        // padding: "15px"
       }}
     >
       <Grid
         container
         height="100%"
         display="flex"
-        justifyContent="space-around"
+        justifyContent="space-between"
         alignItems="flex-start"
          sx={{
           flexWrap: "wrap",
           flexGrow: "1",
-          marginRight: "-15px",
-          marginLeft: "-15px",
-        
+         
+     
+          width:{xs:"100%",sm:"100%",lg:"1132px"},
+        margin:"0 ",
+        // marginRight: {xs:"-10px",sm:"30px",lg:"30px"},
+        marginLeft: {xs:"-25px",sm:"-30px",lg:"-30px"},
         }}
       >
        <Box
