@@ -1,6 +1,6 @@
 
-
-import imagekth from '../../../../Assets/Images/About/bigOneSmall.jpg'
+import images from "../../../../Importer/Importer"
+// import iagekth from '../../../../Assets/Images/About/bigOneSmall.jpg'
 
 import * as React from 'react';
 import Card from '@mui/material/Card';

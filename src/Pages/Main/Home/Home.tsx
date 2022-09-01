@@ -1,44 +1,44 @@
 import {
-Explore ,Blogs ,MoreNews , Calendar
+  Explore, Blogs, MoreNews, Calendar
 } from "../../../Components";
 
-import {  Grid,Container } from '@mui/material';
+import { Grid, Container } from '@mui/material';
 
 function Home() {
   return (
     <>
-   
-   <Container
-      sx={{
-      
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "flex-end",
-        bgcolor: "#ffffff",
-        
-        maxWidth: "100%",
-       
-        padding: "15px"
-      }}
-    >
-   
-   
-  
-   <Grid container spacing={2}>
-   <Grid item xs={12} sm={8} lg={8}>
-     <Explore />
-     <MoreNews />
-     <Calendar />
-</Grid>
 
-<Grid item xs={12} sm={4} lg={4}>
-<Blogs />
-</Grid>
+      <Container
+        sx={{
 
-    
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "flex-end",
+          bgcolor: "#ffffff",
 
+          maxWidth: "100%",
+
+          padding: "15px"
+        }}
+      >
+
+
+
+        <Grid container spacing={2}>
+          <Grid item xs={12} sm={8} lg={8}>
+            <Explore />
+            <MoreNews />
+            <Calendar />
           </Grid>
-          </Container>
+
+          <Grid item xs={12} sm={4} lg={4}>
+            <Blogs />
+          </Grid>
+
+
+
+        </Grid>
+      </Container>
     </>
   );
 }
