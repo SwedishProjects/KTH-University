@@ -1,6 +1,6 @@
 
-import { Typography, Link, Grid ,Box ,Container ,Divider} from "@mui/material";
-import {NameStyle , linkStyle,} from '../../Styles/ArticleFooter/index'
+import { Link,Box ,Container } from "@mui/material";
+import { linkStyle,} from '../../Styles/ArticleFooter/index'
 import {ContainerStyle } from '../../Styles/Container/Container'
 interface CustomBreadcrumbsProps {
   
@@ -11,11 +11,17 @@ interface CustomBreadcrumbsProps {
   function CustomBreadcrumbs ({ links , text}: CustomBreadcrumbsProps){
     return(
         <>
+         <Box sx={{margin:{xs:"0 -20px",lg:"0 -10px"}}}>
       <Container sx={ContainerStyle} >
          
    <Box>
-   <Box sx={{display:{xs:"block",sm:"block",md:"inline-block",lg:"inline-block"},color: "#006cb7",}}>
-    <Link
+   <Box sx={{
+     display:{xs:"block",sm:"block",md:"inline-block",lg:"inline-block"},
+   color: "#006cb7",}}>
+   <Box
+   sx={{display:{xs:"none",sm:"none",md:"none",lg:"inline-block"}}}
+   >
+   <Link
           sx={linkStyle}
         
           href="#"
@@ -27,6 +33,7 @@ interface CustomBreadcrumbsProps {
         >
            {"KTH"}
         </Link>
+ 
        
         {links.map((link, index) => (
         <Link
@@ -46,9 +53,13 @@ interface CustomBreadcrumbsProps {
       ))}
     </Box>
 
+    </Box>
+    <Box sx={{float:{xs:"none",sm:"right",md:"right",lg:"right",},
+    display:{xs:"block",sm:"block",md:"inline-block",lg:"inline-block"},
+  // marginLeft:{xs:"10px",sm:"0",md:"0",lg:"0"},
+  }}
     
-    <Box sx={{float:{xs:"none",sm:"none",md:"right",lg:"right",},
-    display:{xs:"block",sm:"block",md:"inline-block",lg:"inline-block"}}}>
+    >
     <Link
           sx={linkStyle}
         
@@ -65,6 +76,7 @@ interface CustomBreadcrumbsProps {
     </Box>
    </Box>
          </Container>
+         </Box>
         </>
     );
  

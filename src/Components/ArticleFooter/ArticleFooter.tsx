@@ -2,6 +2,8 @@
 import { Typography, Link, Grid ,Box ,Container ,Divider} from "@mui/material";
 import {NameStyle , linkStyle,TextStyle} from '../../Styles/ArticleFooter/index'
 import {ContainerStyle } from '../../Styles/Container/Container'
+
+import CreateIcon from '@mui/icons-material/Create';
 interface ArticleFooterProps {
     title: string;
    pageName :string;
@@ -11,7 +13,7 @@ interface ArticleFooterProps {
   function ArticleFooter ({ title, pageName , time}: ArticleFooterProps){
     return(
         <>
-            <Box sx={{marginLeft:"-25px"}}>
+            <Box sx={{marginLeft:"-27px"}}>
             <Container sx={ContainerStyle} >
          <Box sx={{flex: "0 0 100%" , maxWidth: "100%",}}>
          <Divider sx={{    margin: "15px 10px", paddingBottom:"10px",width:"100%",}} />
@@ -57,7 +59,9 @@ interface ArticleFooterProps {
            {title}
         </Link>
 </Box>
-
+<Box sx={{float:"right",marginTop:{xs:"-80px",lg:"-40px",md:"-40px"}}}>
+         <CreateIcon sx={{fontSize:"20px"}} />
+         </Box>
 <Box>
 <Typography
       sx={NameStyle}
@@ -97,10 +101,13 @@ interface ArticleFooterProps {
       >
        {time }
       </Typography>
+     
     </Box>
+    </Box>
+     
   
       </Box>
-         </Box>
+       
          </Container>
             </Box>
         </>
