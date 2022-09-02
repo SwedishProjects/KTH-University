@@ -6,4 +6,6 @@ export { default as Library } from "./Library/Library";
 export { default as Research } from "./Research/Research";
 export { default as Studies } from "./Studies/Studies";
 export { default as Alumni } from "./Alumni/Alumni";
+export { default as PhD } from "./PhD/PhD";
+
 // export { default as Student } from "./Student/Student"
