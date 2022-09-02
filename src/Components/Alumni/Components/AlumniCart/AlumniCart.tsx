@@ -8,7 +8,7 @@ import { CardContent,
       Box,CardMedia,Typography,
       Link,
      } from '@mui/material';
-import ArticleCard from "./ArticleCard";
+import ArticleCard from "./ArticleCard/ArticleCard";
      
 
 function AlumniCart(){
