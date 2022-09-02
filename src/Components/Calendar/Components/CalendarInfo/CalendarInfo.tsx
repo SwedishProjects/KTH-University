@@ -1,11 +1,8 @@
 
 
 import {CalendarEventInfo , linkStyle,CalendarInfoText} from "../../../../Styles/Calendar"
-import { CardContent,
-    Grid,
-     Divider,
-      Container ,
-      Box,CardMedia,Typography,
+import { 
+      Box,Typography,
       Link,
      } from '@mui/material';
 
@@ -18,7 +15,13 @@ import { CardContent,
       }
 function  CalendarInfo(props: CalendarInfoProps ){
     return (
-        <Box >
+        <Box
+
+        ///with media quary in galaxy fold last calendar  by changed
+    //  sx={{
+    //   marginRight:(props.title==="Public defences of doctoral theses") ? {xs:"-10px"} :{xs:"0"},
+    //  }}
+        >
               <Typography
        sx={CalendarEventInfo}
            variant="body2"
@@ -61,7 +64,9 @@ function  CalendarInfo(props: CalendarInfoProps ){
      
      <Box
      sx={{display:(props.title==="Public defences of doctoral theses") ? "flex" :"none",
-     justifyContent:"flex-start",alignItems:"start",}}
+     justifyContent:"flex-start",alignItems:"start",
+  
+    }}
      >
        
      <Typography

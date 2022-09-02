@@ -10,7 +10,7 @@ import {
   Research,
   Studies,
   Alumni,
- 
+
 } from "./Pages/Main";
 
 import MainLayout from "./Layouts/MainLayout/MainLayout";
@@ -33,7 +33,6 @@ function App() {
               <Route path="/studies" element={<Studies />} />
               <Route path="/alumni" element={<Alumni />} />
             </Route>
-           
           </Routes>
         </ScrollToTop>
       </Router>

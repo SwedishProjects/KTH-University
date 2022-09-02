@@ -1,7 +1,7 @@
 
-import imagekth from '../../../../Assets/Images/About/About(1).jpg'
-
-import * as React from 'react';
+// import imagekth from '../../../../Assets/Images/About/About(1).jpg'
+import images from "../../../../Importer/Importer"
+ import * as React from 'react';
 import Card from '@mui/material/Card';
 import LinkList from '../../../LinkList/LinkList'
 import CardMedia from '@mui/material/CardMedia';
@@ -58,7 +58,7 @@ function AboutLinks() {
           component="img"
           height="271"
           width="1228"
-          image={imagekth}
+          image={images['About/About(1).jpg']}
           alt="green iguana"
         />
       
