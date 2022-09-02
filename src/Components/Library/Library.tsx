@@ -1,24 +1,25 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
 import Divider from '@mui/material/Divider';
-
-import SearchIcon from '@mui/icons-material/Search';
-import InfoIcon from '@mui/icons-material/Info';
+import { Container } from '@mui/system';
 import LibraryLink from './Components/LibraryLink/LibraryLink';
-import  CustomBreadcrumbs from '../CustomBreadcrumbs/CustomBreadcrumbs';
+import LibraryInfo from './Components/LibraryInfo/LibraryInfo';
+import CustomBreadcrumbs from '../CustomBreadcrumbs/CustomBreadcrumbs';
+import LibrarySearch from './Components/LibrarySearch/LibrarySearch';
 
-const links=[
+const links = [
   "KTH Library"
 ]
 const Library = () => {
-    return (
-    <>
-    <CustomBreadcrumbs links={links} text={" "} />
-<LibraryLink />
+  return (
+    <Container>
+      <CustomBreadcrumbs links={links} text={" "} />
+      <LibrarySearch />
+      <LibraryInfo />
+      <LibraryLink />
 
-     
-    </>
-    );
-  };
-  
-  export default Library;
+    </Container>
+  );
+};
+
+export default Library;
