@@ -3,7 +3,7 @@ import { theme } from "./Theme/theme";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   AboutKTH,
-  ContactUs,
+  Contact,
   Home,
   Library,
   CoOperation,
@@ -26,7 +26,7 @@ function App() {
             <Route element={<MainLayout />}>
               <Route path="/" element={<Home />} />
               <Route path="/about-kth" element={<AboutKTH />} />
-              <Route path="/contact-kth" element={<ContactUs />} />
+              <Route path="/contact-kth" element={<Contact />} />
               <Route path="/library" element={<Library />} />
               <Route path="/co-operation" element={<CoOperation />} />
               <Route path="/research" element={<Research />} />

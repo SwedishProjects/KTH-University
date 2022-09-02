@@ -1,5 +1,5 @@
 export { default as Home } from "./Home/Home";
-export { default as ContactUs } from "./ContactUs/ContactUs";
+export { default as Contact } from "./Contact/Contact";
 export { default as AboutKTH } from "./AboutKTH/AboutKTH";
 export { default as CoOperation } from "./CoOperation/CoOperation";
 export { default as Library } from "./Library/Library";
