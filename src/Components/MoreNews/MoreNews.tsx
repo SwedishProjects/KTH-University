@@ -4,7 +4,7 @@ import { useState } from "react";
 import { MoreNewsData } from '../../Services/Utils/Data/data';
 import ReadArticle from "../ReadArticle/ReadArticle";
 import {
-  Typography, Link, Grid, Box, Container, Divider
+  Typography, Link, Box, Container, Divider
 } from "@mui/material";
 
 import { useTheme } from '@mui/material/styles';

@@ -9,5 +9,5 @@ export const ContainerStyle={
     
     maxWidth: "100%",
    
-    padding: {xs:"25px",lg:"30px"}
+    padding: {xs:"25px",sm:"30px",lg:"30px"}
 }

@@ -10,6 +10,7 @@ function Home() {
 
       <Container
         sx={{
+          overflowX:"hidden",
 
           display: "flex",
           flexDirection: "column",
@@ -18,7 +19,7 @@ function Home() {
 
           maxWidth: "100%",
 
-          padding: "15px"
+          padding: {xs:"25px",lg:"30px"}
         }}
       >
 

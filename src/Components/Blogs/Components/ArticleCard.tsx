@@ -24,7 +24,8 @@ function ArticleCard(props: info) {
       
 display: "flex",
 
-
+marginLeft: {xs:"0",md:"0",lg:"-25px"},
+// marginLeft:"-25px",
 flexDirection: "column",
 justifyContent: "flex-start",
 width:{xs:"100%",sm:"100%",md:"280px",lg:"280px",},
@@ -37,6 +38,7 @@ width:{xs:"100%",sm:"100%",md:"280px",lg:"280px",},
         <CardImage title={props.Imagename} image={props.image}></CardImage>
         <Box sx={{
           padding: "20px 0",
+          paddingRight:"10px"
         }}>
         <CardTitle title={props.title}></CardTitle>
         <CardDescription

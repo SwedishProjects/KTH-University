@@ -1,7 +1,7 @@
 
 import {
-  Typography, Link, Grid, Box, CardMedia, CardContent,
-  CardActions, Card, Container
+  Typography, Link, Box, CardMedia, CardContent,
+ 
 } from "@mui/material";
 import { ImageStyle, TitleStyle, TextStyle, linkStyle } from '../../../../Styles/Explore/index';
 

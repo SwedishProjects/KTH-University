@@ -45,5 +45,6 @@ export const imageStyle={
     width:{xs:"100%",sm:"100%",md:"280px",lg:"280px",},
     lineHeight: "1",
     display: "block",
+    marginleft: {xs:"0",md:"0",lg:"-20px"},
    
 }

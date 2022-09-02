@@ -1,7 +1,7 @@
 
-import { Typography, Link, Grid ,Box} from "@mui/material";
+import { Typography ,Box} from "@mui/material";
 import {HomeCalendar} from "../../Services/Utils/Data/data";
-import {CalendarHeading , linkStyle ,CalendarInfoText} from "../../Styles/Calendar"
+import {CalendarHeading ,} from "../../Styles/Calendar"
 import { useState } from "react";
 
 
@@ -37,15 +37,6 @@ const Calendar = () => {
 
 
 
-{/* 
-<CalendarBox
-              links="Walk in the Pride parade with Academic Pride!"
-              title= "Miscellaneous"
-              day= "6"
-               month= "Aug"
-              date = "Saturday 2022-08-06, 11:30 - 16:00"
-              location=" Rotundan, Stockholm University"
-              /> */}
 
 <CalendarLink  links="More events on KTH"/>
 
