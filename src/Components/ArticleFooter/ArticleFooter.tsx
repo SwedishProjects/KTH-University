@@ -13,17 +13,22 @@ interface ArticleFooterProps {
   function ArticleFooter ({ title, pageName , time}: ArticleFooterProps){
     return(
         <>
-            <Box sx={{marginLeft:"-27px"}}>
-            <Container sx={ContainerStyle} >
+            <Box sx={{
+              backgroundColor:"#fff" ,
+              marginLeft:{xs:"-15px",md:"-16px",lg:"-16px"} ,   
+                 boxSizing:"border-box",}}>
+            {/* <Container sx={ContainerStyle} > */}
          <Box sx={{flex: "0 0 100%" , maxWidth: "100%",}}>
-         <Divider sx={{    margin: "15px 10px", paddingBottom:"10px",width:"100%",}} />
+         <Divider sx={{    margin: "15px 0",
+          paddingBottom:"10px",
+         width:"100%",}} />
 <Box sx={{
         flexBasis: "0",
         flexGrow: "1",
         maxWidth: "100%",
         width: "100%",
-    paddingRight: "10px",
-    paddingLeft: "10px",
+    // paddingRight: "10px",
+    // paddingLeft: "10px",
 }}>
       
 <Box>
@@ -108,7 +113,7 @@ interface ArticleFooterProps {
   
       </Box>
        
-         </Container>
+         {/* </Container> */}
             </Box>
         </>
     );
