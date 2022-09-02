@@ -15,10 +15,11 @@ function AlumniTeaser(){
       <Box>
         <CardMedia
           component="img"
-          height="600"
-          width="1228"
+          // height="600"
+          // width="1228"
           image={TeaserAlumni}
           alt="Stay in touch with KTH"
+          sx={{width:"100%",height:{xs:"auto",lg:"600px"}}}
         />
       {/* <StayTouch /> */}
       </Box>

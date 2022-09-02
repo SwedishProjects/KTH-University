@@ -33,7 +33,7 @@ function LinkList({ title, links }: LinkListProps) {
     display: "block",
       }}
         variant="h2"
-        mb={2.5}
+      
        
        
       >

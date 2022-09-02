@@ -1,13 +1,13 @@
 
 
-import imagekth from '../../../../Assets/Images/About/bigOneSmall.jpg'
+
 
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import LinkList from '../../../LinkList/LinkList'
-import CardMedia from '@mui/material/CardMedia';
 
-import {  Grid, CardActionArea, Container ,Box} from '@mui/material';
+import LinkList from '../../../LinkList/LinkList'
+
+
+import {  Grid,  Container ,Box} from '@mui/material';
 
 
 
@@ -53,44 +53,51 @@ const  Network = [
  export const AlumniList =()=>{
     return (
         <>
-        <Box sx={{float:"left" , width:"100%", maxWidth: "100%",}}>
+        
         <Container
       sx={{
+        marginBottom: "20px",
         minHeight: "560px",
         display: "flex",
         flexDirection: "column",
-        justifyContent: "start",
-        bgcolor: "#ffffff",
+        justifyContent: "flex-end",
+        bgcolor: "#000",
         width:"100%",
         maxWidth: "100%",
-      //  marginLeft:"-23px",
-         paddingTop: "15px"
+        paddingLeft:"0",
+        paddingRight:"0"
+    
       }}
     >
       <Grid
-        container
-        height="100%"
-        display="flex"
-        justifyContent="space-between"
-        alignItems="flex-start"
+    container
+    height="100%"
+    display="flex"
+    justifyContent="space-between"
+    alignItems="flex-start"
          sx={{
-          // flexWrap: "wrap",
-          // flexGrow: "1",
-          // marginRight: "-15px",
-          // marginLeft: "-15px",
+          flexWrap: "wrap",
+          flexGrow: "1",
+         
+     
+          width:{xs:"100%",sm:"100%",md:"100%",lg:"1228px"},
+        margin:"0 ",
+       
+        marginLeft: {xs:"0",sm:"0",md:"0",lg:"-25px"},
+
         }}
       >
        <Box
       sx={{
         
-  display: "flex",
+        display: "flex",
 
-
-  flexDirection: {xs:"column",sm:"row",md:"row",lg:"row",},
- 
-  // justifyContent: {xs:"center",sm:"center",md: "space-between",lg: "space-between",},
- 
- justifyContent:"stretch",
+        bgcolor: "#ffc107",
+        width:{xs:"100%",sm:"100%",md:"100%",lg:"1141px"},
+        
+        flexDirection: {xs:"column",sm:"row",md:"row",lg:"row",},
+        justifyContent: {xs:"center",sm:"center",md: "space-between",lg: "space-between",},
+      //  alignItems:{xs:"center",sm:"center",md: "space-between",lg: "space-between",},
       }}
       >
        <Grid item xs={12} sm={12} md={3} lg={3}>
@@ -114,7 +121,7 @@ const  Network = [
       </Grid>
     
     </Container>
-        </Box>
+     
         </>
     );
  } 
