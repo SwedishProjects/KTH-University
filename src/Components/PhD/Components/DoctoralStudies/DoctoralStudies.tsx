@@ -8,11 +8,14 @@ import Admission from '../Admission/Admission';
 import Degrees from '../Degrees/Degrees';
 import Options from '../Options/Options';
 import Blogs from '../Blogs/Blogs';
+import NationalInformation from '../NationalInformation/NationalInformation';
+
 function DoctoralStudies(){
     return(
         <>
        <Box
        sx={{backgroundColor:"#17a2b8" ,
+       
     marginLeft:{lg:"-16px",xs:"-18px" ,},
     marginTop:{lg:"-16px"}
     }}
@@ -43,12 +46,13 @@ KTH Royal Institute of Technology offers the opportunity to complete
       }}>
       <Grid item xs={12} sm={12} md={8.8} lg={8.8} sx={{
             backgroundColor:"#6610f2" ,
+            height:"auto"
 }}>
          
          <KTH />
          <Admission />
-         <Degrees />
-         <Options />
+         {/* <Degrees /> */}
+         {/* <Options /> */}
 
 
          </Grid>
@@ -56,6 +60,7 @@ KTH Royal Institute of Technology offers the opportunity to complete
     //   display:{xs:"none",sm:"none",md:"flex",lg:"flex"},
       }}>
        <Blogs />
+       <NationalInformation />
           </Grid>
 
     

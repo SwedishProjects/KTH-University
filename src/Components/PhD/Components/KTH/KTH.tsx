@@ -11,7 +11,8 @@ function KTH(){
         <>
        <Box
        sx={{backgroundColor:"#17a2b8" ,
-    marginLeft:{lg:"-16px",xs:"-18px"}
+    marginLeft:{lg:"-16px",xs:"-18px"},
+    
     }}
        >
        <Typography variant="body2" component="p" sx={TitrPhD}>

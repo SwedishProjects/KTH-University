@@ -5,7 +5,8 @@ import ArticleFooter from "../ArticleFooter/ArticleFooter"
 import {ContainerStyle } from '../../Styles/Container/Container'
 import PhDList from "./Components/PhDList/PhDList";
 import DoctoralStudies from "./Components/DoctoralStudies/DoctoralStudies";
-
+import Options from "./Components/Options/Options";
+import Degrees from "./Components/Degrees/Degrees";
 
 const    links = [
     "Study at KTH",
@@ -50,6 +51,11 @@ function PhD(){
 
 }}>
           <DoctoralStudies />
+          <Degrees />
+          <Options />
+        
+
+
           
       <ArticleFooter title={"info@kth.se"}
      pageName={"Student web"} time={" Jun 21, 2022"} />

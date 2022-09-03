@@ -23,8 +23,8 @@ function ArticleCard(props: info) {
     sx={{
       
 display: "flex",
-height:"400px",
-// border:"2px solid #000",
+// height:"400px",
+border:"2px solid #000",
 flexDirection: "column",
 justifyContent: "flex-start",
 width:{xs:"100%",sm:"100%",md:"200px",lg:"196px",},
