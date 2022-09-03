@@ -10,7 +10,7 @@ type props = {
 
 const CardImage = ({ image, title }: props) => {
   return (
-    <Link href='#'>
+    <Link href='#' sx={{float:"right"}}>
       <CardMedia component='img' image={`${image}`} alt={`${title}`}  sx={imageStyle}/>
     </Link>
   );
