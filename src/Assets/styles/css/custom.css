@@ -1,0 +1,47 @@
+body {
+    background-color: #f6f6f6;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.myBorder {
+    border: 1px solid #d4d4d4 !important;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.blueBox {
+    color: #fff;
+    background-color: #007fae;
+}
+
+.a-in-rightBox {
+    color: #fff !important;
+    text-decoration: underline;
+}
+
+#secondaryBlock {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bg-grey {
+    background-color: #f6f6f6
+}
+
+.margin-top {
+    margin-top: 35px
+}
+
+a {
+    text-decoration: none !important;
+}

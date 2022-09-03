@@ -10,12 +10,14 @@ import {
   Research,
   Studies,
   Alumni,
+  Student
 
 } from "./Pages/Main";
 
 import MainLayout from "./Layouts/MainLayout/MainLayout";
 
 import { ScrollToTop } from "./Components";
+import './Assets/styles/css/custom.css'
 
 function App() {
   return (
@@ -31,6 +33,7 @@ function App() {
               <Route path="/co-operation" element={<CoOperation />} />
               <Route path="/research" element={<Research />} />
               <Route path="/studies" element={<Studies />} />
+              <Route path="/student" element={<Student />} />
               <Route path="/alumni" element={<Alumni />} />
             </Route>
           </Routes>
