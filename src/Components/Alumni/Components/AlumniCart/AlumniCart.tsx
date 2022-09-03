@@ -1,12 +1,10 @@
-import ClusterNetwork from "../../Assets/Images/About/clusterNetwork.jpg";
+
 import { useState } from "react";
 import {AlumniCarteData} from "../../../../Services/Utils/Data/data"
-import { CardContent,
-    Grid,
-     Divider,
-      Container ,
-      Box,CardMedia,Typography,
-      Link,
+import {
+  
+      Box,
+     
      } from '@mui/material';
 import ArticleCard from "./ArticleCard/ArticleCard";
      

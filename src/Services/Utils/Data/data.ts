@@ -356,31 +356,31 @@ export const AlumniCalendar = [
 export const AlumniCarteData = [
   {
     id: 1,
-    title: "The President's blog",
+    title: "KTH Alumni Mentor Programme",
     image: `${images['Alumni/Mentorpar-2022 Nicky Rosenberg.jpg']}`,
 
-    Imagename:"The President's blog" ,
-    text : "Sigbritt Karlsson on KTH's role in society and current and future education and research.",
-    links: ["Freedom worth its salt must be allowed to cost money"],
+    Imagename:"KTH Alumni Mentor Programme" ,
+    text : "Join the KTH Alumni Mentor Programme 2022/23:",
+    links: ["Students/Mentees","Alumni/Mentors"],
   },
   {
    
     id: 2,
-    title: "Digital work environment more established",
+    title: "Meet the Alum of the Year 2022: Sophia Hober",
     image: `${images['Alumni/hoberbildhöjdare.jpg']}`,
 
-    Imagename:"Digital work environment more established" ,
-    text : "Jan Gulliksen, Vice President for Digitalization and who just received the Swedish Engineers' Levi Prize, writes in this week's post about how digitalization as a work environment issue has become increasingly relevant, accepted and taken seriously.",
-    links: ["Always for the benefit of the user"],
+    Imagename:"Meet the Alum of the Year 2022: Sophia Hober" ,
+    text : "When the pandemic was upon us, her research group quickly developed a high quality rapid test to measure antibodies against Covid-19. Professor Sophia Hober has now been named the 2022 KTH Alum of the Year",
+    links: ["Read the interview with Prof. Sophia Hober"],
   },
   {
     id: 3,
-    title: "International student blog",
+    title: "Become a mentor to an exchange student",
     image: `${images['Alumni/Mentor Jackie and 3 Mentee_reviderad 2.jpg']}`,
 
-    Imagename:"International student blog" ,
-    text : "Join master's students Declan, Claire and Valerie on their journeys towards a degree from KTH.",
-    links: ["Follow the student blog"],
+    Imagename:"Become a mentor to an exchange student" ,
+    text : "Get involved by mentoring a student via the KTH International Buddy Programme. Through sharing your knowledge and experience, in matters great and small, both the student and you will gain new perspectives.",
+    links: ["Apply and learn more about KTH International Buddy Program"],
   },
   
 ];

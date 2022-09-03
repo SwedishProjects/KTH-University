@@ -99,6 +99,7 @@ export const linkStyle ={
     marginBottom: "0",
     color:" #006cb7",
     backgroundColor: "transparent",
+    display:"block"
 }
 
 export const NameStyle ={

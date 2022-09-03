@@ -3,11 +3,12 @@ import CardLink from '../CardLink/CardLink';
 import CardImage from '../CardImage/CardImage';
 import CardTitle from '../CardTitle/CardTitle';
 
+import AlumniMentor from '../AlumniMentor/AlumniMentor';
 
 
 
 
-import {  Grid, Divider, Container ,Box} from '@mui/material';
+import {  Link, Typography, Container ,Box} from '@mui/material';
 interface info {
   title: string;
   image: string;
@@ -56,6 +57,11 @@ flexDirection: {xs:"column",sm:"row",lg:"row",md:"row"},
         
         ></CardDescription>
         <CardLink links={props.links}></CardLink>
+     <Box sx={{
+       display:props.title==="KTH Alumni Mentor Programme" ? "block":"none",
+     }}>
+     <AlumniMentor />
+     </Box>
         </Box>
         <CardImage title={props.Imagename} image={props.image}></CardImage>
 
@@ -70,6 +76,11 @@ flexDirection: {xs:"column",sm:"row",lg:"row",md:"row"},
         
         ></CardDescription>
         <CardLink links={props.links}></CardLink>
+        <Box sx={{
+       display:props.title==="KTH Alumni Mentor Programme" ? "block":"none",
+     }}>
+     <AlumniMentor />
+     </Box>
         </Box>
       
       </Box>
