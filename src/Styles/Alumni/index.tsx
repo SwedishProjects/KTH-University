@@ -1,17 +1,26 @@
-
-
-export const  teaserBox ={
-
-    // @media (maxWidth: 1024px)
-    // .teaserBox {
+import { Box } from "@mui/material";
+import { styled } from "@mui/material/styles";
+export const TeaserBox = styled(Box)(({ theme }) => ({
+    position: "absolute",
+    top:" 50px",
+    left: "0px",
+    width: "67%",
+    background: "#fff",
+    paddingTop: "15px",
+    paddingLeft:" 35px",
+    paddingRight: "25px",
+    paddingBottom: "15px",
+    [theme.breakpoints.up("md")]: {
         position:" relative",
         top:" 0px",
         width: "100%",
         padding:" 20px 0px 0px 0px",
         left: "0px",
-    // }
+    },
+    
+  }));
 
-}
+
  export const teaserBoxHeaderWrap={
     display: "flex",
     flexWrap:" wrap",
@@ -27,14 +36,17 @@ export const  teaserBoxHeader ={
     overflow:" hidden",
 
 }
- export const teaserBoxHeading ={
-    // @media (max-width: 576px)
-    // .teaserBoxHeading {
+ export const TeaserBoxHeading =styled(Box)(({ theme }) => ({
+
+    fontSize: "1.875rem !important",
+    fontWeight:" 600 !important",
+    marginBottom: "10px !important",
+    [theme.breakpoints.up("sm")]: {
         fontSize:" 1.5rem !important",
         fontWeight:" 600 !important",
         marginBottom: "14px !important",
-    // }
- }
+    },
+}));
  export const teaserBoxBody={
     maxWidth:" 100%",
     fontSize:" 1rem",

@@ -1,9 +1,9 @@
 
 import {AlumniButton,
-    teaserBox ,
+    TeaserBox ,
     teaserBoxHeaderWrap,
     teaserBoxHeader ,
-    teaserBoxHeading ,
+    TeaserBoxHeading ,
     teaserBoxBody,
 
 } from "../../../../../Styles/Alumni"
@@ -12,13 +12,13 @@ function StayTouch (){
     return (
         <>
 
-<Box sx={teaserBox}>
+<TeaserBox>
         <Box sx={teaserBoxHeaderWrap}>
           <Box sx={teaserBoxHeader}>
               </Box>
         </Box>
 
-              <Typography sx={teaserBoxHeading}>Stay in touch with KTH</Typography>
+              <TeaserBoxHeading>Stay in touch with KTH</TeaserBoxHeading>
    
 
         <Box>
@@ -28,7 +28,7 @@ As a KTH-alum you are part of a global network of 100 000 alumni in more than 10
         <Box>
           <Typography> <Link underline="none"sx={AlumniButton} href="" target="_blank">Join the Alumni Network</Link> </Typography>
         </Box>
-        </Box>
+        </TeaserBox>
         </>
 
     )
