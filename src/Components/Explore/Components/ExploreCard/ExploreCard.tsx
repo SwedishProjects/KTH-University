@@ -1,5 +1,5 @@
 
-import { Typography, Link, Grid ,Box ,CardMedia,CardContent,
+import { Typography, Link,Box ,CardMedia,CardContent,
    
   } from "@mui/material";
 import { ImageStyle ,TitleStyle ,TextStyle,linkStyle} from '../../../../Styles/Explore/index';
@@ -22,9 +22,14 @@ function ExploreCard(props: ExploreCardProps) {
     
     <Box sx={{ display: 'flex',
      flexDirection: {xs:"column",sm:"row",md:"row",lg:"row",},
-     backgroundColor: "#f6f6f6",marginTop:"30px",
-     width:{sm:"100%",md:"831px",lg:"831px",},
+     backgroundColor: "#f6f6f6",
+     marginTop:"30px",
+     width:{xs:"100%",sm:"100%",md:"831px",lg:"831px",},
      height:{sm:"auto",md:"300px",lg:"300px",},
+     marginLeft:{xs:"0",sm:"auto",md:"-22px",lg:"-22px",},
+     marginRight:"0",
+   
+  
     }}>
       <CardMedia 
       sx={ImageStyle}

@@ -1,6 +1,6 @@
 export const ImageStyle={
     height:{sm:"auto",md:"300px",lg:"300px",},
-    width:{sm:"100%",md:"434px",lg:"434px",},
+    width:{sm:"auto",md:"434px",lg:"434px",},
     display: "block",
 } 
 export const TitleStyle={

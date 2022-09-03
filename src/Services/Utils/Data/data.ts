@@ -1,8 +1,5 @@
-import  IMAGES  from "../../../Assets/Images";
-import ExploreCardImage from "../../../Assets/Images/ExploreCardImage";
-import MoreNews from "../../../Assets/Images/MoreNews";
-import ReadArticle from "../../../Assets/Images/ReadArticle";
 
+import images from "../../../Importer/Importer"
 export const navbarItems = [
   {
     id: 1,
@@ -106,7 +103,7 @@ export const articlesBlogsOne = [
   {
     id: 1,
     title: "The President's blog",
-    image: `${IMAGES.blog1}`,
+    image: `${images['Home/blogs(2).jpg']}`,
 
     Imagename:"The President's blog" ,
     text : "Sigbritt Karlsson on KTH's role in society and current and future education and research.",
@@ -116,7 +113,7 @@ export const articlesBlogsOne = [
    
     id: 2,
     title: "Digital work environment more established",
-    image: `${IMAGES.blog2}`,
+    image: `${images['Home/blogs(1).jpg']}`,
 
     Imagename:"Digital work environment more established" ,
     text : "Jan Gulliksen, Vice President for Digitalization and who just received the Swedish Engineers' Levi Prize, writes in this week's post about how digitalization as a work environment issue has become increasingly relevant, accepted and taken seriously.",
@@ -125,7 +122,7 @@ export const articlesBlogsOne = [
   {
     id: 3,
     title: "International student blog",
-    image: `${IMAGES.blog3}`,
+    image: `${images['Home/blogs(6).jpg']}`,
 
     Imagename:"International student blog" ,
     text : "Join master's students Declan, Claire and Valerie on their journeys towards a degree from KTH.",
@@ -138,7 +135,7 @@ export const articlesBlogsTwo = [
   {
     id: 4,
     title: "Your future workplace",
-    image: `${IMAGES.blog4}`,
+    image: `${images['Home/blogs(5).jpg']}`,
 
     Imagename:"Your future workplace" ,
     text : " ",
@@ -147,7 +144,7 @@ export const articlesBlogsTwo = [
   {
     id: 5,
     title: "On the war in Ukraine",
-    image: `${IMAGES.blog5}`,
+    image: `${images['Home/blogs(4).jpg']}`,
 
     Imagename:"On the war in Ukraine" ,
     text : " ",
@@ -156,7 +153,7 @@ export const articlesBlogsTwo = [
   {
     id: 6,
     title: "COVID-19",
-    image: `${IMAGES.blog6}`,
+    image: `${images['Home/blogs(7).jpg']}`,
 
     Imagename:"COVID-19" ,
     text : " ",
@@ -170,7 +167,7 @@ export const articlesBlogsThree = [
   {
     id: 7,
     title: " ",
-    image: `${IMAGES.blog7}`,
+    image: `${images['Home/blogs(1).png']}`,
 
     Imagename:" " ,
     text : "THE Innovation and Impact Summit, initiated by ranking body Times Higher Education, is hosted by KTH in April 2022.",
@@ -179,7 +176,7 @@ export const articlesBlogsThree = [
   {
     id: 8,
     title: "",
-    image: `${IMAGES.blog8}`,
+    image: `${images['Home/blogs(2).png']}`,
 
     Imagename:"Digital work environment more established" ,
     text : "Part of the Unite! alliance - A European Universities Initiative",
@@ -194,7 +191,7 @@ export const ExploreCardData = [
   {
     id: 1,
     title:  "Explore our programmes",
-    image: `${ExploreCardImage.card1}`,
+    image: `${images['Home/Explore(1).jpg']}`,
 
     Imagename:"Explore our programmes" ,
     text : "KTH offers 60 master's programmes taught in English. They present an opportunity for students with a bachelor's degree to obtain a master's degree of the highest international standard. The application for most programmes opens in October.",
@@ -204,7 +201,7 @@ export const ExploreCardData = [
    
     id: 2,
     title: "Discover KTH in our virtual campus tour",
-    image: `${ExploreCardImage.card2}`,
+    image: `${images['Home/Explore(2).jpg']}`,
 
     Imagename:"Discover KTH in our virtual campus tour" ,
     text : "Let our students guide you through the KTH campuses and explore student life at Sweden's largest and highest ranked technical university.",
@@ -218,7 +215,7 @@ export const MoreNewsData = [
   {
     id: 1,
     title:  "Newsmakers at KTH",
-    image: `${MoreNews.card1}`,
+    image: `${images['Home/MoreNews(1).jpg']}`,
 
     Imagename:"Newsmakers at KTH" ,
     text : "Safer nuclear waste management, electricity from renewable energy sources and sustainable construction These are some of the areas in which researchers and students at KTH have recently garnered widespread attention.",
@@ -228,7 +225,7 @@ export const MoreNewsData = [
    
     id: 2,
     title: "Ink can enable heat-powered wearables",
-    image: `${MoreNews.card2}`,
+    image: `${images['Home/MoreNews(2).jpg']}`,
 
     Imagename:"Ink can enable heat-powered wearables" ,
     text : "An ink coating developed at KTH could be used to convert heat to electrical power for wearables and devices in the internet of things.",
@@ -246,7 +243,7 @@ export const ReadArticleData = [
   {
     id: 1,
     title: "Paving the way for a space station around the moon",
-    image: `${ReadArticle.Read1}`,
+    image: `${images['Home/dragbildnasa desiree 2.jpg']}`,
 
     Imagename:"Paving the way for a space station around the moon" ,
     text : "Just four years after graduating from KTH, Aerospace Engineer Desirée Brundin has managed to establish herself in the international space sector. Today she works at Rocket Lab in New Zealand and is cu...",
@@ -256,7 +253,7 @@ export const ReadArticleData = [
    
     id: 2,
     title: "KTH retains all-time highest QS ranking for second consecutive year",
-    image: `${ReadArticle.Read2}`,
+    image: `${images['Home/borgg8683.jpg']}`,
 
     Imagename:"KTH retains all-time highest QS ranking for second consecutive year" ,
     text : "For the second consecutive year, KTH has held its all-time highest position in the world’s top 100 university rankings, which were published on June 8 by QS World University Rankings. ",
@@ -265,7 +262,7 @@ export const ReadArticleData = [
   {
     id: 3,
     title: "Boats that fly like the wind",
-    image: `${ReadArticle.Read3}`,
+    image: `${images['Home/blogs(3).jpg']}`,
 
     Imagename:"Boats that fly like the wind" ,
     text : "Silent zero-emission vessels that swiftly float past the cobs and skerries – is this the future of coastal and open-water boating? We paid a visit to the KTH Värmdö field station, where researchers ar...    ",
