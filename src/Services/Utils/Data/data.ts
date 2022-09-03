@@ -307,5 +307,48 @@ export const HomeCalendar = [
   
 ];
 
+// -----------------------------------PhD Page ---------------
 
+
+export const PhDBlogs = [
+  {
+    id: 1,
+    title: "Why choose KTH?",
+    image: `${images['PhD/PhD1.jpg']}`,
+
+    Imagename:"Why choose KTH?" ,
+    text : " ",
+    links: ["The advantages of being a","doctoral student at KTH"],
+  },
+  {
+   
+    id: 2,
+    title: " ",
+    image: `${images['PhD/PhD2.png']}`,
+
+    Imagename:"PhD" ,
+    text : "'Meeting people in industry who are interested in what I'm doing motivates me'",
+    links: ["Student interviews"],
+  },
+  {
+    id: 3,
+    title: "KTH Relocation Service",
+    image: `${images['PhD/PhD3.jpg']}`,
+
+    Imagename:"KTH Relocation Service" ,
+    text : "...helps international doctoral students to settle in Sweden and at KTH.",
+    links: ["KTH Relocation Service"],
+  },
+  {
+    id: 3,
+    title: "KTH Relocation Service",
+    image: `${images['PhD/PhD3.jpg']}`,
+
+    Imagename:"KTH Relocation Service" ,
+    text : "...helps international doctoral students to settle in Sweden and at KTH.",
+    links: ["KTH Relocation Service"],
+  },
+ 
+  
+];
 

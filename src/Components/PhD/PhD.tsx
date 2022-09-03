@@ -43,7 +43,9 @@ function PhD(){
           <Grid item xs={12} sm={12} md={8.8} lg={8.8} sx={{
             backgroundColor:"#d4351c" ,
             paddingLeft:"0",
-            paddingRight:"0px"
+            paddingRight:"0px",
+            paddingTop:"0",
+
 
 
 }}>
