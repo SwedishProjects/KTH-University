@@ -225,7 +225,7 @@ export const inputText = {
   export const  inputCheckBox={
         maxWidth:" 100%",
         fontFamily: "inherit",
-        marginTop:" 0px",
+        marginTop:" 8px",
         verticalAlign:" middle",
         marginBottom:" 0px",
     }
@@ -294,9 +294,10 @@ export const inputText = {
         userSelect: "none",
         verticalAlign:" middle",
         whiteSpace: "nowrap",
-        width:" 100%",
+        width:" auto",
         wordSpacing:" 0px",
         writingMode:" horizontalTb",
+        borderRadius:"none",
         // WebkitAppearance:" none",
         // WebkitRtl-ordering: "logical",
         // WebkitBorderImage:" none",

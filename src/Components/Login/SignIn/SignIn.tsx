@@ -1,6 +1,6 @@
 
 import {content,header,LogoImg,workArea,
-  groupMargin,loginText,
+  groupMargin,loginText,inputText,submit,inputCheckBox
 } from "../../../Styles/Login"
 import {
   Box,
@@ -45,21 +45,10 @@ function SignIn(){
  Sign in
       </Typography>
       <form >
-      <FormLabel
-                color="primary"
-                sx={{ fontSize: "15px", color: "#333333", display: "flex" }}
-              >
-                Your Email
-                <Typography
-                  component={"span"}
-                  sx={{ color: "#f03637", marginLeft: "2px" }}
-                >
-                  *
-                </Typography>
-              </FormLabel>
+     
       <TextField
-                placeholder="Your Email"
-                // sx={inputStyles}
+                placeholder="Enter your KTH username"
+                sx={inputText}
                 // value={enteredEmail}
                 // onChange={(e) => setEnteredEmail(e.target.value)}
                 // onBlur={() => setEmailTouched(true)}
@@ -68,23 +57,18 @@ function SignIn(){
               <FormControlLabel
                 control={
                   <Checkbox
-                    defaultChecked
-                    sx={{
-                      color: "#f03637",
-                      "&.Mui-checked": {
-                        color: "#f03637",
-                      },
-                    }}
+                    // defaultChecked
+                    sx={inputCheckBox}
                   />
                 }
-                label="Also subscribe us"
+                label="Keep me signed in"
               />
             </FormGroup>
             <Button
               variant="contained"
-              sx={{ width: { xs: "100%", sm: "35%" }, height: "50px" }}
+              sx={submit}
             >
-              Send Message
+             Next
             </Button>
         </form>
       </Box>
