@@ -25,7 +25,7 @@ function MoreNewsCard(props: MoreNewsCardProps) {
       display: 'flex',
       flexDirection: { xs: "column", sm: "row", md: "row", lg: "row", },
       backgroundColor: "#f6f6f6", marginTop: "30px",
-      width: { sm: "100%", md: "800px", lg: "800px", }, marginLeft: "-22px",
+      width: { sm: "100%", md: "100%", lg: "800px", }, marginLeft: "-22px",
     }}>
 
       <Box sx={{

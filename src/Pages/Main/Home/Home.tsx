@@ -26,7 +26,7 @@ function Home() {
 
 
         <Grid container spacing={2}>
-          <Grid item xs={12} sm={8} lg={8}>
+          <Grid item xs={12} sm={12} lg={8} md={12}>
             <Explore />
             <MoreNews />
             <Calendar />
