@@ -4,13 +4,7 @@ import {content,header,LogoImg,workArea,
 } from "../../../Styles/Login"
 import {
   Box,
-
-  Checkbox,
-
-  FormControlLabel,
-  FormGroup,
  
-
   TextField,
   Typography,
   CardMedia,
@@ -18,8 +12,8 @@ import {
 import images from "../../../Importer/Importer"
 import LinkBox from "../LinkBox/LinkBox";
 import SignInButton from "../SignInButton/SignInButton";
-
-
+import FormCheckbox from "../FormCheckbox/FormCheckbox";
+import Input from "../Input/Input";
 function SignIn(){
     return(
         <>
@@ -40,35 +34,21 @@ function SignIn(){
     <Box sx={workArea}>
     <Box sx={groupMargin}>
       <Box>
-      <Typography
-      sx={loginText}
-        variant="h2"
-      >
- Sign in
-      </Typography>
-      <form >
+   
+    
      
-      <TextField
+      {/* <TextField
                 placeholder="Enter your KTH username"
                 sx={inputText}
                 // value={enteredEmail}
                 // onChange={(e) => setEnteredEmail(e.target.value)}
                 // onBlur={() => setEmailTouched(true)}
-              />
-                <FormGroup>
-              <FormControlLabel
-                control={
-                  <Checkbox
-                    // defaultChecked
-                    sx={inputCheckBox}
-                  />
-                }
-                label="Keep me signed in"
-              />
-            </FormGroup>
-           
-<SignInButton />
-        </form>
+              /> */}
+           <Input title="Sign in" place="Enter your KTH username"/>
+                
+           <FormCheckbox />
+{/* <SignInButton /> */}
+    
         <LinkBox />
       </Box>
 
