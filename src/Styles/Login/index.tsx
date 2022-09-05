@@ -14,7 +14,7 @@ export const FullPage={
 export const loginText={
     marginBottom: "0px",
     marginTop:" 35px",
-    fontSize: {xs:"20px",lg:"small"},
+    fontSize: {xs:"20px",lg:"18px"},
 }
 
 export const brandingWrapper ={
@@ -30,8 +30,8 @@ export const brandingWrapper ={
 
 export const branding ={
     backgroundColor: "inherit",
-    backgroundRepeat: "noRepeat",
-    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+   
     height: "100%",
     width: "100%",
    
@@ -44,9 +44,7 @@ export const brandingTint ={
     backgroundColor: {xs:"#fff",sm:"#fff",md:"#fff",lg:" rgba(0,0,0,0.4)"},
     height:" 100%",
     width: "100%",
-    // -webkitBackgroundSize: cover,
-    // -mozBackgroundSize: cover,
-    // -oBackgroundSize: cover",
+   
 }
 
 export const contentWrapper= {
@@ -59,7 +57,7 @@ export const contentWrapper= {
 }
 
 export const content  ={
-    position:{xs:"relativ",lg:"36px"},
+    position:{xs:"relativ",lg:"fixed"},
     top: {xs:"0",lg:"50%"},
     left:  {xs:"0",lg:"50%"},
     transform:{xs:"none",lg:" translate(-50%, -50%)"},
@@ -73,7 +71,9 @@ export const content  ={
     margin:" 0px",
     width: {xs:"calc(100% - 40px)",md:"100%",sm:"100%",lg:"338px"},
     height: {xs:"auto",sm:"100%",md:"100%",lg:"auto",},
-    padding: "36px",
+    padding: {xs:"50px",lg:"36px"},
+  
+
     boxShadow:{xs:"none",lg:" 0 2px 3px rgb(0 0 0 / 55%)"},
     border: {xs:"none",lg:"1px solid rgba(0,0,0,0.4)"},
 }
@@ -203,7 +203,7 @@ export const linkStyle={
     padding: "0px",
     marginBottom: "0px",
     // marginTop:" 35px",
-    fontSize: {xs:"20px",lg:"small"},
+    fontSize: {xs:"20px",lg:"18px"},
     marginLeft:"4px",
     marginTop: "-3px",
 }

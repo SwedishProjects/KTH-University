@@ -19,16 +19,22 @@ const blue = {
 };
 
 const CustomButton = styled(ButtonUnstyled)`
-margin-left: -2px;
-left: 229px;
-bottom: -30px;
+display: block;
+position: relative;
 height: 32px;
 width: 108px;
+left: 229px;
+bottom: -15px;
 align-items: flex-start;
     background-color: rgb(0, 103, 184);
     border-bottom-color: rgb(0, 103, 184);
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
     border-left-color: rgb(0, 103, 184);
     border-left-style: solid;
     border-left-width: 1px;
@@ -42,6 +48,7 @@ align-items: flex-start;
     color: rgb(255, 255, 255);
     cursor: pointer;
     direction: ltr;
+   
     font-family: "Segoe UI Webfont", -apple-system, "Helvetica Neue", "Lucida Grande", Roboto, Ebrima, "Nirmala UI", Gadugi, "Segoe Xbox Symbol", "Segoe UI Symbol", "Meiryo UI", "Khmer UI", Tunga, "Lao UI", Raavi, "Iskoola Pota", Latha, Leelawadee, "Microsoft YaHei UI", "Microsoft JhengHei UI", "Malgun Gothic", "Estrangelo Edessa", "Microsoft Himalaya", "Microsoft New Tai Lue", "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Yi Baiti", "Mongolian Baiti", "MV Boli", "Myanmar Text", "Cambria Math";
     font-size: 15px;
     font-stretch: normal;
@@ -50,12 +57,13 @@ align-items: flex-start;
     font-variant-ligatures: normal;
     font-variant-numeric: normal;
     font-weight: normal;
-  
+   
     letter-spacing: normal;
     line-height: 25px;
     margin-bottom: 0px;
+    margin-left: -110px;
     margin-right: 0px;
-    margin-top: 0px;
+    margin-top: -32px;
     max-width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -63,7 +71,7 @@ align-items: flex-start;
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 3px;
-    position: relative;
+    
     text-align: center;
     text-indent: 0px;
     text-overflow: ellipsis;
@@ -74,7 +82,7 @@ align-items: flex-start;
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    
+  
     word-spacing: 0px;
     writing-mode: horizontal-tb;
     -webkit-appearance: none;
@@ -86,7 +94,7 @@ align-items: flex-start;
 }
     @media (max-width: 300px), (max-height: 392px)
  {
-  margin-left: -150px;
+  margin-left: -100px;
 }
 
 
@@ -103,14 +111,74 @@ align-items: flex-start;
     outline: none;
   }
 
+  &.${buttonUnstyledClasses.disabled} {
+    color: black;
+    width: 108px;
+    float: left;
+    background: #CCCCCC;
+    border-color: #CCCCCC;
+    margin-left: -2px;
+    height: 32px;
+    position: relative;
+    left: 110px;
+    bottom: 17px;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+
+    letter-spacing: normal;
+    line-height: 25px;
+    margin-bottom: 0px;
+
+    margin-right: 0px;
+    margin-top: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 3px;
+    
+    text-align: center;
+    text-indent: 0px;
+    text-overflow: ellipsis;
+    text-rendering: auto;
+    text-shadow: none;
+    text-size-adjust: 100%;
+    touch-action: manipulation;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
  
+    word-spacing: 0px;
+    writing-mode: horizontal-tb;
+    -webkit-appearance: none;
+    -webkit-rtl-ordering: logical;
+    -webkit-border-image: none;
+
+    @media (max-width: 400px), (max-height: 392px)
+    {
+     margin-left: -100px;
+    }
+        @media (max-width: 300px), (max-height: 392px)
+     {
+      margin-left: -120px;
+    }
+  }
 ` as OverridableComponent<ButtonUnstyledTypeMap>;
 
-export default function SignInButton({title  }: props) {
+export default function BackButton() {
   return (
    <Box  sx={{display:"flex" ,justifyContent:"flex-start",}}>
-       
-      <CustomButton component="span">{title}</CustomButton>
+        <CustomButton component="span" disabled>
+       Back
+      </CustomButton>
+      <CustomButton component="span">Sign In</CustomButton>
    
       </Box>
   );

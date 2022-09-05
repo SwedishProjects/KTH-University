@@ -12,6 +12,7 @@ import LinkBox from "../LinkBox/LinkBox";
 import SignInButton from "../SignInButton/SignInButton";
 import FormCheckbox from "../FormCheckbox/FormCheckbox";
 import Input from "../Input/Input";
+import BackButton from "../BackButton/BackButton";
 function SignIn(){
     return(
         <>
@@ -37,7 +38,15 @@ function SignIn(){
            <Input title="Sign in" place="Enter your KTH username"/>
                 
            <FormCheckbox />
-{/* <SignInButton /> */}
+<Box sx={{
+  marginTop:{xs:"60px"},
+
+}}>
+{/* <SignInButton  title="Next"/> */}
+<BackButton  />
+
+
+</Box>
     
         <LinkBox />
       </Box>

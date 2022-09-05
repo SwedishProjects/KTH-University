@@ -21,7 +21,7 @@ const StyledInputElement = styled('input')(
   ({ theme }) => `
   width: 320px;
   font-family: IBM Plex Sans, sans-serif;
-  font-size: 0.875rem;
+  font-size: 1rem;
 
   font-weight: 400;
   line-height: 1.5;
@@ -67,10 +67,7 @@ const StyledInputElement = styled('input')(
     
  
   }
-  @media (max-width: 600px), (max-height: 392px)
-  #brandingWrapper {
-      display: none;
-  }
+ 
 `,
 );
 
