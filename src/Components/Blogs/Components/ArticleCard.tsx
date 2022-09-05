@@ -28,7 +28,7 @@ marginLeft: {xs:"0",md:"0",lg:"-25px"},
 // marginLeft:"-25px",
 flexDirection: "column",
 justifyContent: "flex-start",
-width:{xs:"100%",sm:"100%",md:"280px",lg:"280px",},
+width:{xs:"100%",sm:"100%",md:"100%",lg:"280px",},
 
     }}>
       
