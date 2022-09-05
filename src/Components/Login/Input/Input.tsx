@@ -22,6 +22,7 @@ const StyledInputElement = styled('input')(
   width: 320px;
   font-family: IBM Plex Sans, sans-serif;
   font-size: 0.875rem;
+
   font-weight: 400;
   line-height: 1.5;
   padding: 12px;
@@ -42,22 +43,33 @@ const StyledInputElement = styled('input')(
   text-size-adjust: 100%;
   text-transform: none;
   user-select: text;
-  width: 338px;
+  width: 310px;
   word-spacing: 0px;
   writing-mode: horizontal-tb;
   -webkit-appearance: none;
   -webkit-locale: "en";
   -webkit-rtl-ordering: logical;
   -webkit-border-image: none;
-  
+  border-bottom-color:  #4488dd;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  margin-top : 15px;
 
   &:hover {
-    border: none;
+  
   }
 
   &:focus {
-    border: none;
+    border-bottom-color: #4488dd;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    
+    
  
+  }
+  @media (max-width: 600px), (max-height: 392px)
+  #brandingWrapper {
+      display: none;
   }
 `,
 );

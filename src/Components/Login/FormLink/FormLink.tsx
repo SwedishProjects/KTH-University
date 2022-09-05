@@ -19,7 +19,7 @@ const FormLink = ({text  , links}: props) => {
     <Typography
     sx={{  marginBottom: "0px",
     // marginTop:" 35px",
-    fontSize: "small",}}
+    fontSize:  {xs:"20px",lg:"small"},}}
       variant="body2"
       mb={2.5}
      

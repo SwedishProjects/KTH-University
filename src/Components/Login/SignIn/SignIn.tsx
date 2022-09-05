@@ -1,12 +1,10 @@
 
 import {content,header,LogoImg,workArea,
-  groupMargin,loginText,inputText,submit,inputCheckBox
+  groupMargin,
 } from "../../../Styles/Login"
 import {
   Box,
  
-  TextField,
-  Typography,
   CardMedia,
 } from "@mui/material";
 import images from "../../../Importer/Importer"
@@ -22,8 +20,7 @@ function SignIn(){
    
         <CardMedia
           component="img"
-        //   height="271"
-        //   width="1228"
+      
         sx={LogoImg}
           image={images['Login/logo.png']}
           alt="KTH logo"
@@ -37,13 +34,6 @@ function SignIn(){
    
     
      
-      {/* <TextField
-                placeholder="Enter your KTH username"
-                sx={inputText}
-                // value={enteredEmail}
-                // onChange={(e) => setEnteredEmail(e.target.value)}
-                // onBlur={() => setEmailTouched(true)}
-              /> */}
            <Input title="Sign in" place="Enter your KTH username"/>
                 
            <FormCheckbox />
