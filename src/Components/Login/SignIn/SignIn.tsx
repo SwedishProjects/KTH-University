@@ -4,18 +4,20 @@ import {content,header,LogoImg,workArea,
 } from "../../../Styles/Login"
 import {
   Box,
-  Button,
+
   Checkbox,
-  FormControl,
+
   FormControlLabel,
   FormGroup,
-  FormLabel,
-  Grid,
+ 
+
   TextField,
   Typography,
   CardMedia,
 } from "@mui/material";
 import images from "../../../Importer/Importer"
+import LinkBox from "../LinkBox/LinkBox";
+import SignInButton from "../SignInButton/SignInButton";
 
 
 function SignIn(){
@@ -64,13 +66,10 @@ function SignIn(){
                 label="Keep me signed in"
               />
             </FormGroup>
-            <Button
-              variant="contained"
-              sx={submit}
-            >
-             Next
-            </Button>
+           
+<SignInButton />
         </form>
+        <LinkBox />
       </Box>
 
 </Box >

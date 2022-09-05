@@ -312,3 +312,18 @@ export const inputText = {
 
   
 
+// -------------------------FormLink
+
+export const linkStyle={
+    color:" #0067b8",
+    textDecoration: "none",
+    backgroundColor:" transparent",
+    wordWrap: "normal",
+    margin: "0px",
+    padding: "0px",
+    marginBottom: "0px",
+    // marginTop:" 35px",
+    fontSize: "small",
+    marginLeft:"4px",
+    marginTop: "-3px",
+}
