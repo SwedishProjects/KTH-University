@@ -107,23 +107,23 @@ function AboutLinks() {
         
   display: "flex",
 
-
+flexWrap:{sm:"wrap"},
   flexDirection: {xs:"column",sm:"row",md:"row",lg:"row",},
   justifyContent: {xs:"center",sm:"center",md: "flex-start",lg: "flex-start",},
  
  
       }}
       >
-       <Grid item xs={12} sm={12} md={3} lg={3}>
+       <Grid item xs={12} sm={6} md={6} lg={3}>
           <LinkList title={"About KTH"} links={AboutKTH} />
         </Grid>
-        <Grid item xs={12} sm={12} md={3} lg={3}>
+        <Grid item xs={12} sm={6} md={6} lg={3}>
           <LinkList title={"KTH Schools"} links={KTHSchools} />
         </Grid>
-        <Grid item xs={12} sm={12} md={3} lg={3}>
+        <Grid item xs={12} sm={6} md={6} lg={3}>
           <LinkList title={"Cooperation"} links={Cooperation} />
         </Grid>
-        <Grid item xs={12} sm={12} md={3} lg={3}>
+        <Grid item xs={12} sm={6} md={6} lg={3}>
         <LinkList title={"Contact"} links={Contact} />
 
         </Grid>

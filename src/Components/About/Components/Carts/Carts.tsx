@@ -25,7 +25,7 @@ const Cards = () => {
     <Grid container spacing={2}>
          
    {Info1.map((cart) => (
-      <Grid item xs={12} md={6}>
+      <Grid item xs={12} sm={6}  md={6}>
               <AboutCart
               title= {cart.title}
               image= {cart.image}
@@ -43,7 +43,7 @@ const Cards = () => {
 <Grid container spacing={2}>
          
          {Info2.map((cart) => (
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} sm={6}  md={6}>
                     <AboutCart
                     title= {cart.title}
                     image= {cart.image}
@@ -62,7 +62,7 @@ const Cards = () => {
       <Grid container spacing={2}>
          
          {Info3.map((cart) => (
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} sm={6} md={6}>
                     <AboutCart
                     title= {cart.title}
                     image= {cart.image}
