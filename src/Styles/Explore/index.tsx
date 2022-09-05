@@ -1,6 +1,6 @@
 export const ImageStyle={
-    height:{sm:"auto",md:"300px",lg:"300px",},
-    width:{sm:"auto",md:"434px",lg:"434px",},
+    height:{sm:"auto",md:"auto",lg:"300px",},
+    width:{sm:"auto",md:"auto",lg:"434px",},
     display: "block",
 } 
 export const TitleStyle={
@@ -19,17 +19,7 @@ export const TitleStyle={
    display:{xs:"block",sm:"block",md:"inline-block",lg:"inline-block",},
 }
 
-export const samira={
-    fontSize: "1rem",
-    fontWeight: "400",
-    color: "#000",
-    lineHeight: "1.5",
-    backgroundColor:"#00ff00",
-    "& :hover" :{
-        backgroundColor:"#ffff00",
-    }
 
-}
 
 
 export const TextStyle={
