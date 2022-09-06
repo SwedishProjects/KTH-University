@@ -2,7 +2,7 @@ import StudiesList from './Components/StudiesList/StudiesList'
 import  ArticleFooter from '../ArticleFooter/ArticleFooter';
 import CustomBreadcrumbs from '../CustomBreadcrumbs/CustomBreadcrumbs';
 import {ContainerStyle } from '../../Styles/Container/Container'
-import { Box, Container } from "@mui/material";
+import { Container } from "@mui/material";
 import StudyTeaser from './Components/StudyTeaser/StudyTeaser';
 
 const    links = [
