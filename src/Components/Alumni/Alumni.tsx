@@ -1,7 +1,7 @@
 
 import { AlumniList } from "./Components/AlumniList/AlumniList";
 import { Container } from '@mui/material';
-import { wraperPage } from "../../Styles/About";
+
 import  ArticleFooter from '../ArticleFooter/ArticleFooter';
 import CustomBreadcrumbs from '../CustomBreadcrumbs/CustomBreadcrumbs';
 import {ContainerStyle } from '../../Styles/Container/Container'

@@ -1,24 +1,24 @@
 
 import {AlumniButton,
-    TeaserBox ,
+    teaserBox ,
     teaserBoxHeaderWrap,
     teaserBoxHeader ,
-    TeaserBoxHeading ,
+    teaserBoxHeading ,
     teaserBoxBody,
 
 } from "../../../../../Styles/Alumni"
-import {   Typography, Link,Grid, CardMedia, Container ,Box} from '@mui/material';
+import {   Typography, Link,Box} from '@mui/material';
 function StayTouch (){
     return (
         <>
 
-<TeaserBox>
+<Box sx={teaserBox}>
         <Box sx={teaserBoxHeaderWrap}>
           <Box sx={teaserBoxHeader}>
               </Box>
         </Box>
 
-              <TeaserBoxHeading>Stay in touch with KTH</TeaserBoxHeading>
+              <Typography sx={teaserBoxHeading }>Stay in touch with KTH</Typography>
    
 
         <Box>
@@ -28,7 +28,7 @@ As a KTH-alum you are part of a global network of 100 000 alumni in more than 10
         <Box>
           <Typography> <Link underline="none"sx={AlumniButton} href="" target="_blank">Join the Alumni Network</Link> </Typography>
         </Box>
-        </TeaserBox>
+        </Box>
         </>
 
     )

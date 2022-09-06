@@ -1,6 +1,6 @@
 
 import TeaserAlumni from '../../../../Assets/Images/Alumni/KTHbanner_webb 900.jpg';
-import {  Grid, CardMedia, Container ,Box} from '@mui/material';
+import {  CardMedia ,Box} from '@mui/material';
 import StayTouch from './StayTouch/StayTouch';
 function AlumniTeaser(){
     return (
@@ -15,13 +15,12 @@ function AlumniTeaser(){
       <Box>
         <CardMedia
           component="img"
-          // height="600"
-          // width="1228"
+        
           image={TeaserAlumni}
           alt="Stay in touch with KTH"
           sx={{width:"100%",height:{xs:"auto",lg:"600px"}}}
         />
-      {/* <StayTouch /> */}
+      <StayTouch />
       </Box>
       
     </Box>
