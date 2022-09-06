@@ -98,8 +98,10 @@ export const imageStyle ={
     verticalAlign: "middle",
     borderStyle: "none",
     maxWidth: "100%",
-    height: "auto",
-    // float:"right"
+    height: {md:"100%" ,xs:"100%",sm:"100%" , lg:"auto"},
+    width:"auto",
+    overflow:" hidden",
+    // float:"right
 }
 
 
@@ -111,7 +113,8 @@ export const linkStyle ={
     marginBottom: "0",
     color:" #006cb7",
     backgroundColor: "transparent",
-    display:"block"
+    display:"block",
+    overflow:" hidden",
 }
 
 export const NameStyle ={
@@ -120,4 +123,5 @@ export const NameStyle ={
     marginTop:" 0",
     marginBottom: "14px",
     fontSize: "1.5rem",
+    overflow:" hidden",
 }

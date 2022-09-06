@@ -21,7 +21,7 @@ function AlumniTeaser(){
           alt="Stay in touch with KTH"
           sx={{width:"100%",height:{xs:"auto",lg:"600px"}}}
         />
-      <StayTouch />
+      {/* <StayTouch /> */}
       </Box>
       
     </Box>

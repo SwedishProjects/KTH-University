@@ -17,6 +17,8 @@ function LinkList({ title, links }: LinkListProps) {
     display:"flex",
       justifyContent:"flex-start",
       alignItems:"flex-start",
+      margin:"0",
+      overflow:" hidden",
   
       }}
     >
