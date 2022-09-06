@@ -1,13 +1,13 @@
 
 
-import imagekth from '../../../../Assets/Images/About/bigOneSmall.jpg'
+
 
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import LinkList from '../../../LinkList/LinkList'
-import CardMedia from '@mui/material/CardMedia';
 
-import {  Grid, CardActionArea, Container ,Box} from '@mui/material';
+import LinkList from '../../../LinkList/LinkList'
+
+
+import {  Grid,  Container ,Box} from '@mui/material';
 
 
 
@@ -53,57 +53,73 @@ const  Network = [
  export const AlumniList =()=>{
     return (
         <>
-         <Container
+        
+        <Container
       sx={{
-        minHeight: "560px",
+        overflowX:"hidden",
+        marginBottom: "20px",
+       
         display: "flex",
         flexDirection: "column",
         justifyContent: "flex-end",
-        bgcolor: "#ffffff",
-        
+        // bgcolor: "#000",
+        width:"100%",
         maxWidth: "100%",
-       
-        padding: "15px"
+        paddingLeft:"0",
+        paddingRight:"0",
+        padding:"0",
+    
       }}
     >
       <Grid
-        container
-        height="100%"
-        display="flex"
-        justifyContent="space-around"
-        alignItems="flex-start"
+    container
+    height="100%"
+    display="flex"
+    justifyContent="space-between"
+    alignItems="flex-start"
          sx={{
-          flexWrap: "wrap",
-          flexGrow: "1",
-          marginRight: "-15px",
-          marginLeft: "-15px",
+      
+
+
+        flexWrap: "wrap",
+        flexGrow: "1",
+       
+        marginLeft: {xs:"0",sm:"-22px",md:"-25px",lg:"-25px"},
+        width:{xs:"100%",sm:"100%",lg:"1228px",md:"100%"},
+      margin:"0 ",
+   
+
         }}
       >
        <Box
       sx={{
         
-  display: "flex",
+      
+        marginLeft: {xs:"0",sm:"0",md:"0",lg:"0"},
+        // bgcolor: "#ffc107",
+        width:{xs:"100%",sm:"100%",md:"1200px",lg:"1141px"},
+       
+       
+        
+        display: "flex",
 
-
-  flexDirection: {xs:"column",sm:"row",md:"row",lg:"row",},
- 
-  justifyContent: {xs:"center",sm:"center",md: "flex-start",lg: "flex-start",},
- 
- 
+        flexWrap:{sm:"wrap"},
+          flexDirection: {xs:"column",sm:"row",md:"row",lg:"row",},
+          justifyContent: {xs:"center",sm:"center",md: "flex-start",lg: "flex-start",},
       }}
       >
-       <Grid item xs={12} sm={12} md={3} lg={3}>
+       <Grid item xs={12} sm={6} md={6} lg={3}>
           <LinkList title={"Get involved"} links={GetInvolved} />
           <LinkList title={"KTH Opportunities Fund"} links={KTHOpportunitiesFund} />
         </Grid>
-        <Grid item xs={12} sm={12} md={3} lg={3}>
+        <Grid item xs={12} sm={6} md={6} lg={3}>
           <LinkList title={"Network"} links={Network} />
           <LinkList title={"Our alumni"} links={OurAlumni} />
         </Grid>
-        <Grid item xs={12} sm={12} md={3} lg={3}>
+        <Grid item xs={12} sm={6} md={6} lg={3}>
           <LinkList title={"Calendar"} links={Calendar} />
         </Grid>
-        <Grid item xs={12} sm={12} md={3} lg={3}>
+        <Grid item xs={12} sm={6} md={6} lg={3}>
         <LinkList title={"Contact"} links={Contact} />
         <LinkList title={"Support KTH"} links={SupportKTH} />
 
@@ -113,6 +129,7 @@ const  Network = [
       </Grid>
     
     </Container>
+     
         </>
     );
  } 

@@ -1,6 +1,5 @@
-import  IMAGES  from "../../../Assets/Images";
-import ExploreCardImage from "../../../Assets/Images/ExploreCardImage";
-import MoreNews from "../../../Assets/Images/MoreNews";
+
+import images from "../../../Importer/Importer"
 export const navbarItems = [
   {
     id: 1,
@@ -104,7 +103,7 @@ export const articlesBlogsOne = [
   {
     id: 1,
     title: "The President's blog",
-    image: `${IMAGES.blog1}`,
+    image: `${images['Home/blogs(2).jpg']}`,
 
     Imagename:"The President's blog" ,
     text : "Sigbritt Karlsson on KTH's role in society and current and future education and research.",
@@ -114,7 +113,7 @@ export const articlesBlogsOne = [
    
     id: 2,
     title: "Digital work environment more established",
-    image: `${IMAGES.blog2}`,
+    image: `${images['Home/blogs(1).jpg']}`,
 
     Imagename:"Digital work environment more established" ,
     text : "Jan Gulliksen, Vice President for Digitalization and who just received the Swedish Engineers' Levi Prize, writes in this week's post about how digitalization as a work environment issue has become increasingly relevant, accepted and taken seriously.",
@@ -123,7 +122,7 @@ export const articlesBlogsOne = [
   {
     id: 3,
     title: "International student blog",
-    image: `${IMAGES.blog3}`,
+    image: `${images['Home/blogs(6).jpg']}`,
 
     Imagename:"International student blog" ,
     text : "Join master's students Declan, Claire and Valerie on their journeys towards a degree from KTH.",
@@ -136,7 +135,7 @@ export const articlesBlogsTwo = [
   {
     id: 4,
     title: "Your future workplace",
-    image: `${IMAGES.blog4}`,
+    image: `${images['Home/blogs(5).jpg']}`,
 
     Imagename:"Your future workplace" ,
     text : " ",
@@ -145,7 +144,7 @@ export const articlesBlogsTwo = [
   {
     id: 5,
     title: "On the war in Ukraine",
-    image: `${IMAGES.blog5}`,
+    image: `${images['Home/blogs(4).jpg']}`,
 
     Imagename:"On the war in Ukraine" ,
     text : " ",
@@ -154,7 +153,7 @@ export const articlesBlogsTwo = [
   {
     id: 6,
     title: "COVID-19",
-    image: `${IMAGES.blog6}`,
+    image: `${images['Home/blogs(7).jpg']}`,
 
     Imagename:"COVID-19" ,
     text : " ",
@@ -168,7 +167,7 @@ export const articlesBlogsThree = [
   {
     id: 7,
     title: " ",
-    image: `${IMAGES.blog7}`,
+    image: `${images['Home/blogs(1).png']}`,
 
     Imagename:" " ,
     text : "THE Innovation and Impact Summit, initiated by ranking body Times Higher Education, is hosted by KTH in April 2022.",
@@ -177,7 +176,7 @@ export const articlesBlogsThree = [
   {
     id: 8,
     title: "",
-    image: `${IMAGES.blog8}`,
+    image: `${images['Home/blogs(2).png']}`,
 
     Imagename:"Digital work environment more established" ,
     text : "Part of the Unite! alliance - A European Universities Initiative",
@@ -192,7 +191,7 @@ export const ExploreCardData = [
   {
     id: 1,
     title:  "Explore our programmes",
-    image: `${ExploreCardImage.card1}`,
+    image: `${images['Home/Explore(1).jpg']}`,
 
     Imagename:"Explore our programmes" ,
     text : "KTH offers 60 master's programmes taught in English. They present an opportunity for students with a bachelor's degree to obtain a master's degree of the highest international standard. The application for most programmes opens in October.",
@@ -202,7 +201,7 @@ export const ExploreCardData = [
    
     id: 2,
     title: "Discover KTH in our virtual campus tour",
-    image: `${ExploreCardImage.card2}`,
+    image: `${images['Home/Explore(2).jpg']}`,
 
     Imagename:"Discover KTH in our virtual campus tour" ,
     text : "Let our students guide you through the KTH campuses and explore student life at Sweden's largest and highest ranked technical university.",
@@ -216,7 +215,7 @@ export const MoreNewsData = [
   {
     id: 1,
     title:  "Newsmakers at KTH",
-    image: `${MoreNews.card1}`,
+    image: `${images['Home/MoreNews(1).jpg']}`,
 
     Imagename:"Newsmakers at KTH" ,
     text : "Safer nuclear waste management, electricity from renewable energy sources and sustainable construction These are some of the areas in which researchers and students at KTH have recently garnered widespread attention.",
@@ -226,7 +225,7 @@ export const MoreNewsData = [
    
     id: 2,
     title: "Ink can enable heat-powered wearables",
-    image: `${MoreNews.card2}`,
+    image: `${images['Home/MoreNews(2).jpg']}`,
 
     Imagename:"Ink can enable heat-powered wearables" ,
     text : "An ink coating developed at KTH could be used to convert heat to electrical power for wearables and devices in the internet of things.",
@@ -236,3 +235,230 @@ export const MoreNewsData = [
   
 ];
 
+
+//--------------------------------------ReadArticle ----------------------
+
+
+export const ReadArticleData = [
+  {
+    id: 1,
+    title: "Paving the way for a space station around the moon",
+    image: `${images['Home/dragbildnasa desiree 2.jpg']}`,
+
+    Imagename:"Paving the way for a space station around the moon" ,
+    text : "Just four years after graduating from KTH, Aerospace Engineer Desirée Brundin has managed to establish herself in the international space sector. Today she works at Rocket Lab in New Zealand and is cu...",
+    ReadLink: "Read the article ",
+  },
+  {
+   
+    id: 2,
+    title: "KTH retains all-time highest QS ranking for second consecutive year",
+    image: `${images['Home/borgg8683.jpg']}`,
+
+    Imagename:"KTH retains all-time highest QS ranking for second consecutive year" ,
+    text : "For the second consecutive year, KTH has held its all-time highest position in the world’s top 100 university rankings, which were published on June 8 by QS World University Rankings. ",
+    ReadLink: "Read the article",
+  },
+  {
+    id: 3,
+    title: "Boats that fly like the wind",
+    image: `${images['Home/blogs(3).jpg']}`,
+
+    Imagename:"Boats that fly like the wind" ,
+    text : "Silent zero-emission vessels that swiftly float past the cobs and skerries – is this the future of coastal and open-water boating? We paid a visit to the KTH Värmdö field station, where researchers ar...    ",
+    ReadLink: "Read the article",
+  },
+  
+];
+
+
+////------------------------------------ Home Page Calendar ------------------------
+
+
+export const HomeCalendar = [
+  {
+    id: 1,
+    links:"Walk in the Pride parade with Academic Pride!",
+    day:"6",
+    month:"Aug",
+    title:"Miscellaneous",
+    date:"Saturday 2022-08-06, 11:30 - 16:00",
+    location:"Rotundan, Stockholm University",
+  },
+  {
+   
+    id: 2,
+    links:"PDC Summer School 2022: 'Introduction to High Performance Computing'",
+    day:"15",
+    month:"Aug",
+    title:"Conferences and events",
+    date:"Mon 2022-08-15, 09:00 - Fri 2022-08-26, 12:30",
+    location:"KTH Main Campus",
+  },
+  {
+    id: 3,
+    links:"Formation of Bainite Studied by In-situ High-energy X-ray Diffraction",
+    day:"19",
+    month:"Aug",
+    title:"Public defences of doctoral theses",
+    date:"Friday 2022-08-19, 10:00",
+    location:"Kollegiesalen, Brinellvägen 8, Stockholm",
+  },
+  
+];
+
+// --------------------------------- Alumni Page ---------------------------
+
+// --------------------------------- Alumni Page ---------------------------
+
+
+ 
+export const AlumniCalendar = [
+  {
+    id: 1,
+    links:"KTH Alumni Germany Chapter lunch",
+    day:"23",
+    month:"Jul",
+    
+    date:"Saturday 2022-07-23, 13:00",
+    location:"Arnulfstr. 52, 80335 Munich",
+  },
+  {
+   
+    id: 2,
+    links:"Reunion A-60",
+    day:"1",
+    month:"Sep",
+   
+    date:"Thursday 2022-09-01",
+    location:"KTH Campus",
+  },
+  {
+    id: 3,
+    links:"Reunion B-62",
+    day:"4",
+    month:"Oct",
+   
+    date:"Tuesday 2022-10-04",
+    location:"KTH Campus",
+  },
+  {
+    id: 4,
+    links:"Reunion M-62",
+    day:"17",
+    month:"Oct",
+   
+    date:"Monday 2022-10-17, 11:00",
+    location:"KTH Campus",
+  },
+  
+];
+
+
+export const AlumniCarteData = [
+  {
+    id: 1,
+    title: "KTH Alumni Mentor Programme",
+    image: `${images['Alumni/Mentorpar-2022 Nicky Rosenberg.jpg']}`,
+
+    Imagename:"KTH Alumni Mentor Programme" ,
+    text : "Join the KTH Alumni Mentor Programme 2022/23:",
+    links: ["Students/Mentees","Alumni/Mentors"],
+  },
+  {
+   
+    id: 2,
+    title: "Meet the Alum of the Year 2022: Sophia Hober",
+    image: `${images['Alumni/hoberbildhöjdare.jpg']}`,
+
+    Imagename:"Meet the Alum of the Year 2022: Sophia Hober" ,
+    text : "When the pandemic was upon us, her research group quickly developed a high quality rapid test to measure antibodies against Covid-19. Professor Sophia Hober has now been named the 2022 KTH Alum of the Year",
+    links: ["Read the interview with Prof. Sophia Hober"],
+  },
+  {
+    id: 3,
+    title: "Become a mentor to an exchange student",
+    image: `${images['Alumni/Mentor Jackie and 3 Mentee_reviderad 2.jpg']}`,
+
+    Imagename:"Become a mentor to an exchange student" ,
+    text : "Get involved by mentoring a student via the KTH International Buddy Programme. Through sharing your knowledge and experience, in matters great and small, both the student and you will gain new perspectives.",
+    links: ["Apply and learn more about KTH International Buddy Program"],
+  },
+  
+];
+//---------------------About Page -------------------
+
+
+export const CardsInfo1 = [
+  {
+    id: 1,
+    title: "Meet KTH",
+    image: `${images['About/About(3).jpg']}`,
+
+    Imagename:"Meet KTH" ,
+    text : "KTH offers many opportunities throughout the year that invites you to meet us, collaborate with us and participate in our activities. Everything from music to popular science lectures, academic festivals and scientific conferences can be found here.",
+    links: ["See upcoming events at KTH"],
+  },
+  {
+   
+    id: 2,
+    title: "Discover KTH",
+    image: `${images['About/About(5).jpg']}`,
+
+    Imagename:"Discover KTH" ,
+    text : "Since its founding in 1827, KTH Royal Institute of Technology in Stockholm has grown to become one of Europe’s leading technical and engineering universities.' Levi Prize, writes in this week's post about how digitalization as a work environment issue has become increasingly relevant, accepted and taken seriously.",
+    links: ["Study at KTH","Research","Business and Community",],
+  },
+
+  
+];
+
+
+
+export const CardsInfo2 = [
+  
+  {
+    id: 1,
+    title: "Work at KTH",
+    image: `${images['About/About(2).jpg']}`,
+
+    Imagename:"Work at KTH" ,
+    text : "At KTH you will have the opportunity of bringing life to your ideas and, at the same time, contributing to tomorrow's society.",
+    links: ["KTH - Your future workplace","Vacancies"],
+  },
+  {
+    id: 2,
+    title: "Exchange opportunities",
+    image: `${images['About/About(4).jpg']}`,
+
+    Imagename:"Exchange opportunities" ,
+    text : "KTH has an active student and staff exchange with over 200 prominent technical universities worldwide.",
+    links: ["Exchange universities"],
+  },
+  
+];
+
+
+
+export const CardsInfo3 = [
+  
+  {
+    id: 1,
+    title: "KTH's Annual Report 2021",
+    image: `${images['About/About(1).jpeg']}`,
+
+    Imagename:"KTH's Annual Report 2021" ,
+    text : "The Annual Report gives you a good oversight of KTH operations and virtually all our official statistics for 2021.",
+    links: ["Find KTH's Annual Reports"],
+  },
+  {
+    id: 2,
+    title: "KTH has gained HR Excellence in Research accreditation",
+    image: `${images['About/About(2).jpeg']}`,
+
+    Imagename:"KTH has gained HR Excellence in Research accreditation" ,
+    text : "KTH has now signed up to the EU Charter & Code following EU Commission approval of our application. ",
+    links: ["KTH in line with EU Charter & Code" ,"About the EU C&C on the Euraxess website"],
+  },
+  
+];

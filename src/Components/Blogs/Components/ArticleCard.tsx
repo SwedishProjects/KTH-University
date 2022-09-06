@@ -2,7 +2,7 @@ import CardDescription from './CardDescription/CardDescription';
 import CardLink from './CardLink/CardLink';
 import CardImage from './CardImage/CardImage';
 import CardTitle from './CardTitle/CardTitle';
-import Card from '@mui/material/Card';
+
 
 
 
@@ -24,19 +24,21 @@ function ArticleCard(props: info) {
       
 display: "flex",
 
-
+marginLeft: {xs:"0",md:"0",lg:"-25px"},
+// marginLeft:"-25px",
 flexDirection: "column",
 justifyContent: "flex-start",
-width:{xs:"100%",sm:"100%",md:"280px",lg:"280px",},
+width:{xs:"100%",sm:"100%",md:"100%",lg:"280px",},
 
     }}>
       
    
    
-     <Card>
+     <Box>
         <CardImage title={props.Imagename} image={props.image}></CardImage>
         <Box sx={{
           padding: "20px 0",
+          paddingRight:"10px"
         }}>
         <CardTitle title={props.title}></CardTitle>
         <CardDescription
@@ -45,7 +47,7 @@ width:{xs:"100%",sm:"100%",md:"280px",lg:"280px",},
         ></CardDescription>
         <CardLink links={props.links}></CardLink>
         </Box>
-      </Card>
+      </Box>
    
      </Box>
    

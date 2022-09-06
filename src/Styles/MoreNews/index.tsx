@@ -1,6 +1,6 @@
 export const ButtonStyle={
-    display:{xs:"block",sm:"block",md:"flex",lg:"flex",},
-    
+    display:"flex",
+    width:{xs:"100px",sm:"100px",md:"100px",lg:"100px",},
     backgroundColor: "#fff",
     borderColor: "#fff",
     color: "#000",
@@ -9,7 +9,7 @@ export const ButtonStyle={
     marginBottom: "20px",
     fontWeight: "600",
     height: "auto",
-    fontSize: "1rem",
+ 
     border :"1px solid #000",
     lineHeight: "1.5",
     marginTop: "0",

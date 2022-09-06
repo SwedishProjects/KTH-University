@@ -1,5 +1,5 @@
 
-import logoImg from "../../../../Assets/Images/KTH_Logo.svg"
+import images from "../../../../Importer/Importer"
 import {
     Box,
     Divider,
@@ -32,7 +32,7 @@ function SiteName (){
 <Box sx={figure}>
 <Link href="https://www.kth.se/en" underline="none"   className="customerReview"   sx={figureimg}>
                 
-                <img src={logoImg} alt="To KTH startpage" 
+                <img src={images['Home/KTH_Logo.svg']} alt="To KTH startpage" 
                 height="70" width="70"
                 />
                 </Link>
