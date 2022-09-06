@@ -307,7 +307,85 @@ export const HomeCalendar = [
   
 ];
 
+// --------------------------------- Alumni Page ---------------------------
 
+// --------------------------------- Alumni Page ---------------------------
+
+
+ 
+export const AlumniCalendar = [
+  {
+    id: 1,
+    links:"KTH Alumni Germany Chapter lunch",
+    day:"23",
+    month:"Jul",
+    
+    date:"Saturday 2022-07-23, 13:00",
+    location:"Arnulfstr. 52, 80335 Munich",
+  },
+  {
+   
+    id: 2,
+    links:"Reunion A-60",
+    day:"1",
+    month:"Sep",
+   
+    date:"Thursday 2022-09-01",
+    location:"KTH Campus",
+  },
+  {
+    id: 3,
+    links:"Reunion B-62",
+    day:"4",
+    month:"Oct",
+   
+    date:"Tuesday 2022-10-04",
+    location:"KTH Campus",
+  },
+  {
+    id: 4,
+    links:"Reunion M-62",
+    day:"17",
+    month:"Oct",
+   
+    date:"Monday 2022-10-17, 11:00",
+    location:"KTH Campus",
+  },
+  
+];
+
+
+export const AlumniCarteData = [
+  {
+    id: 1,
+    title: "KTH Alumni Mentor Programme",
+    image: `${images['Alumni/Mentorpar-2022 Nicky Rosenberg.jpg']}`,
+
+    Imagename:"KTH Alumni Mentor Programme" ,
+    text : "Join the KTH Alumni Mentor Programme 2022/23:",
+    links: ["Students/Mentees","Alumni/Mentors"],
+  },
+  {
+   
+    id: 2,
+    title: "Meet the Alum of the Year 2022: Sophia Hober",
+    image: `${images['Alumni/hoberbildhöjdare.jpg']}`,
+
+    Imagename:"Meet the Alum of the Year 2022: Sophia Hober" ,
+    text : "When the pandemic was upon us, her research group quickly developed a high quality rapid test to measure antibodies against Covid-19. Professor Sophia Hober has now been named the 2022 KTH Alum of the Year",
+    links: ["Read the interview with Prof. Sophia Hober"],
+  },
+  {
+    id: 3,
+    title: "Become a mentor to an exchange student",
+    image: `${images['Alumni/Mentor Jackie and 3 Mentee_reviderad 2.jpg']}`,
+
+    Imagename:"Become a mentor to an exchange student" ,
+    text : "Get involved by mentoring a student via the KTH International Buddy Programme. Through sharing your knowledge and experience, in matters great and small, both the student and you will gain new perspectives.",
+    links: ["Apply and learn more about KTH International Buddy Program"],
+  },
+  
+];
 //---------------------About Page -------------------
 
 
