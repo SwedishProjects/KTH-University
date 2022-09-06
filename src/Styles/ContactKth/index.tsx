@@ -15,3 +15,17 @@ export const ContactName={
     color: "#000",
     marginTop:" 0",
 }
+
+
+
+// --------------------------------------Contact Nav
+
+export const navLink={
+    color: "#000",
+    padding: {md:"0.5rem 1rem",lg:"7px 15px 7px 0"},
+    display: "block",
+}
+
+export const mainMenu={
+    
+}

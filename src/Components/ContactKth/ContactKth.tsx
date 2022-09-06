@@ -1,7 +1,7 @@
 
 import { Box, Container ,Grid } from "@mui/material";
 import CustomBreadcrumbs from '../CustomBreadcrumbs/CustomBreadcrumbs';
-import ContactList from "./Components/ContactList/ContactList"
+import ContactNav from "./Components/ContactNav/ContactNav"
 import {ContainerStyle } from '../../Styles/Container/Container'
 import ArticleFooter from "../ArticleFooter/ArticleFooter"
 import ContactText from "./Components/ContactText/ContactText"
@@ -28,7 +28,7 @@ function ContactKth(){
         <Grid item xs={12} sm={2.8} lg={2.8} sx={{backgroundColor:"#528400",
       display:{xs:"none",sm:"none",md:"none",lg:"flex"}
       }}>
-        <ContactList />
+        <ContactNav />
           </Grid>
 
           <Grid item xs={12} sm={8.8} lg={8.8} sx={{
