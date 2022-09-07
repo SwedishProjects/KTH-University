@@ -86,9 +86,7 @@ function Navbar() {
         <Collapse in={collapse} timeout={600}>
          
             <Toolbar sx={{ justifyContent: "space-between" }} disableGutters>
-              {/* <Box> */}
             
-              {/* </Box> */}
            <Box
            sx={{
             width:"100%", 

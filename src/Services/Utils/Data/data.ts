@@ -57,6 +57,16 @@ export const SecondaryMenuInfo = [
   },
   
 ];
+// -------------------------------------------Login navbar
+export const LoginNavbarInfo = [
+  {
+    id: 1,
+    name: "Log in",
+     route:"/login"
+  },
+ 
+  
+];
 
 
 export const shopMenuItems = [

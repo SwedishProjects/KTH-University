@@ -1,6 +1,7 @@
 import {
     Box,Link,
   } from "@mui/material";
+  import { useState } from "react";
   import {
     kpmbar,
     fault ,
@@ -8,18 +9,20 @@ import {
     kthpmWrapper ,
     kthPmenu,
     barsection,
-  } from "../../../Styles/Appbar/index";
+  } from "../../../Styles/TopNavbar/index";
   import TopNavbarModal from "./TopNavbarModal/TopNavbarModal";
-
+import {LoginNavbarInfo} from "../../../Services/Utils/Data/data";
 function TopNavbar (){
+  const [LoginInfo] = useState(LoginNavbarInfo);
     return (
         <>
-        <Box sx={kthPmenu}   lang="sv" aria-label="Personliga menyn">
+        <Box sx={kthPmenu}  >
 <Box sx={kthpmWrapper}>
 <Box sx={kpmbar}>
  <Link href="#" sx={fault}>
 Kunde inte hämta personlig information (klicka för att försöka igen) </Link>
-</Box></Box>
+</Box>
+</Box>
 </Box>
 <Box sx={kthPmenu}   lang="en" aria-label="Personliga menyn">
 	
@@ -28,9 +31,10 @@ Kunde inte hämta personlig information (klicka för att försöka igen) </Link>
     <Box sx={kpmbar}>
       
         <Box sx={barsection}>
-        <Link sx={LinkStyle} href="#" >Log in </Link>
+        {LoginInfo.map((item) => (
+        <Link sx={LinkStyle} href={item.route} >  {item.name} </Link>
       
-
+        ))}
         </Box>
       
     </Box>

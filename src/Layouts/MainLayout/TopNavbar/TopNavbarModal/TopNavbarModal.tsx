@@ -10,7 +10,7 @@ import {
     loginContent ,
     kpmloginhelpText ,
 
-} from '../../../../Styles/Appbar'
+} from '../../../../Styles/TopNavbar'
     function TopNavbarModal (){
         return(
             <>
