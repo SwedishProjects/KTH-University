@@ -2,6 +2,7 @@
 const ResearchBulletin = () => {
     return (
     <>
+    
     </>
     );
   };

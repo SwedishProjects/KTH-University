@@ -498,3 +498,78 @@ export const CurrentActivitiesData = [
   },
   
 ];
+
+
+export const ResearchNewsData = [
+  {
+    id: 1,
+    date: "15 Jun 2022",
+    links :"Ink coating could enable devices powered by heat"
+    
+  },
+  {
+    id: 2,
+    date: "8 Jun 2022",
+    links :"Boats that fly like the wind"
+    
+  },
+  {
+    id: 3,
+    date: "7 Jun 2022",
+    links :"100 students behind advanced new racing car"
+    
+  },
+  {
+    id: 4,
+    date: "7 Jun 2022",
+    links :"Insulation from wood research proves better than plastic-based materials"
+    
+  },
+  {
+    id: 5,
+    date: "11 May 2022",
+    links :"KTH Climate Action Centre mobilises forces"
+    
+  },
+  
+];
+
+
+
+export const ResearchBulletinData = [
+  {
+    id: 1,
+    date: "",
+    links :""
+    
+  },
+  {
+    id: 2,
+    date: "",
+    links :""
+    
+  },
+  {
+    id: 3,
+    date: "",
+    links :""
+    
+  },
+  {
+    id: 4,
+    date: "",
+    links :""
+    
+  },
+  {
+    id: 5,
+    date: "",
+    links :""
+    
+  },
+  
+];
+
+
+
+
