@@ -2,7 +2,8 @@ import ResearchNews from "./Components/ResearchNews/ResearchNews";
 import ResearchLink from "./Components/ResearchLink/ResearchLink";
 import  ArticleFooter from '../ArticleFooter/ArticleFooter';
 import  CustomBreadcrumbs from '../CustomBreadcrumbs/CustomBreadcrumbs';
-import { Box, Container } from "@mui/material";
+import {  Container } from "@mui/material";
+import ResearchTeaser from "./Components/ResearchTeaser/ResearchTeaser";
 import {ContainerStyle } from '../../Styles/Container/Container'
 const links=[
   "Research"
@@ -11,8 +12,13 @@ const links=[
 const Research = () => {
     return (
     <>
+ 
+
+
+
       <Container sx={ContainerStyle} >
      <CustomBreadcrumbs links={links} text={"Denna sida på svenska"} />
+     <ResearchTeaser />
     <ResearchLink />
     <ArticleFooter title={"Louise Gustafsson"}
      pageName={"Research"} time={"Jun 28, 2022"} />
