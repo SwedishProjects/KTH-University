@@ -604,5 +604,51 @@ export const  ResearchCalendarDate = [
   
 ];
 
+// --------------------------Research /RecentPublications ----------
+
+
+export const RecentPublicationsDate=[
+  {
+    id:"1",
+    author:"K. Lindvalll and J. Scheffel,",
+    links : " '2D continuous Chebyshev-Galerkin time-spectral method,' ",
+    title:"Computer Physics Communications, vol. 271, pp. ",
+    date :"108217-108217, 2022.",
+
+  },
+  {
+    id:"2",
+    author:"S. Caron et al.,",
+    links : "'A comparative analysis of opto-thermal figures of merit for high temperature solar thermal absorber coatings,'",
+    title:"Renewable & sustainable energy reviews, vol. ",
+    date :"154, 2022.",
+
+  },
+  {
+    id:"3",
+    author:"S. Mravinacová et al.,",
+    links : "'A cell-free high throughput assay for assessment of SARS-CoV-2 neutralizing antibodies,'",
+    title:"Biotechnology, vol. 66, pp. ",
+    date :"46-52, 2022.",
+
+  },
+  {
+    id:"4",
+    author:"M. Alibakhshikenari et al.,",
+    links : " 'A Comprehensive Survey on Antennas On-Chip Based on Metamaterial, Metasurface, and Substrate Integrated Waveguide Principles for Millimeter-Waves and Terahertz Integrated Circuits and Systems,'",
+    title:"IEEE Access, vol. 10, pp.",
+    date :" 3668-3692, 2022.",
+
+  },
+  {
+    id:"5",
+    author:"C. Fei et al.,",
+    links : " '100-m/3-Gbps underwater wireless optical transmission using a wideband photomultiplier tube (PMT),'",
+    title:"Optics Express, vol. 30, no. 2, pp.",
+    date :"2326-2337, 2022.",
+
+  },
+]
+
 
 
