@@ -569,7 +569,40 @@ export const ResearchBulletinData = [
   },
   
 ];
+// -----------------------------------Research /ResearchCalendar
 
+export const  ResearchCalendarDate = [
+  {
+    id: 1,
+    links:"PDC Summer School 2022: 'Introduction to High Performance Computing'",
+    day:"15",
+    month:"Aug",
+    title:"Conferences and events",
+    date:"Mon 2022-08-15, 09:00 - Fri 2022-08-26, 12:30",
+    location:"Location: KTH Main Campus",
+  },
+  {
+   
+    id: 2,
+    links:"Formation of Bainite Studied by In-situ High-energy X-ray Diffraction",
+    day:"19",
+    month:"Aug",
+    title:"Public defences of doctoral theses",
+    date:"Friday 2022-08-19, 10:00",
+    location:" Kollegiesalen, Brinellvägen 8, Stockholm",
+  },
+  {
+    id: 3,
+    links:"Ragnar Holm lecture: A dive into the wonders of solid-state hydrogen storage systems with in situ neutron scattering methods",
+    day:"19",
+    month:"Aug",
+    title:"Lectures and seminars",
+    date:"Friday 2022-08-19, 14:15",
+    location:" FB53, Roslagstullsbacken 21",
+  },
+  
+  
+];
 
 
 

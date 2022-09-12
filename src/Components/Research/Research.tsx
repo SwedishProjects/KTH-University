@@ -7,6 +7,7 @@ import ResearchTeaser from "./Components/ResearchTeaser/ResearchTeaser";
 import {ContainerStyle } from '../../Styles/Container/Container'
 import CurrentActivities from "./Components/CurrentActivities/CurrentActivities";
 import ResearchBulletin from "./Components/ResearchBulletin/ResearchBulletin"
+import ResearchCalendar from "./Components/ResearchCalendar/ResearchCalendar";
 const links=[
   "Research"
 ]
@@ -27,6 +28,12 @@ const Research = () => {
    
        <Grid item xs={12} sm={6} md={6} lg={6}>
          <ResearchNews />
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={6}>
+        <ResearchBulletin />
+        </Grid>
+        <Grid item xs={12} sm={6} md={6} lg={6}>
+         <ResearchCalendar />
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={6}>
         <ResearchBulletin />
