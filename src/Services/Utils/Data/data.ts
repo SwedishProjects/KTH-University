@@ -462,3 +462,39 @@ export const CardsInfo3 = [
   },
   
 ];
+
+
+
+//----------------------------------Research Page ------------------------------------------
+
+export const CurrentActivitiesData = [
+  {
+    id: 1,
+    title: "Ink coating could enable devices powered by heat",
+    image: `${images['Research/Research(2).jpg']}`,
+
+    Imagename:"Ink coating could enable devices powered by heat" ,
+    text : "Researchers at KTH report that they are closing in on a way to replace batteries for wearables and low-power applications in the internet of things (IoT). The answer lies in an ink coating that enable...",
+    ReadLink: "Read the article ",
+  },
+  {
+   
+    id: 2,
+    title: "Boats that fly like the wind",
+    image: `${images['Research/Research(4).jpg']}`,
+
+    Imagename:"Boats that fly like the wind" ,
+    text : "Silent zero-emission vessels that swiftly float past the cobs and skerries – is this the future of coastal and open-water boating? We paid a visit to the KTH Värmdö field station, where researchers ar...",
+    ReadLink: "Read the article",
+  },
+  {
+    id: 3,
+    title: "100 students behind advanced new racing car",
+    image: `${images['Research/Research(1).jpg']}`,
+
+    Imagename:"100 students behind advanced new racing car" ,
+    text : "Since 2004, students at KTH have built no fewer than 15 racing cars. And now, number 16 is here. A brand new driverless vehicle, designed and built from scratch, with electrical and four-wheel drive a...",
+    ReadLink: "Read the article",
+  },
+  
+];
