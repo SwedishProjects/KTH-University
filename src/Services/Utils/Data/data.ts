@@ -539,32 +539,32 @@ export const ResearchNewsData = [
 export const ResearchBulletinData = [
   {
     id: 1,
-    date: "",
-    links :""
+    date: "7 Jun 2022",
+    links :"Energy research helps boost heat pumps in the U.S."
     
   },
   {
     id: 2,
-    date: "",
-    links :""
+    date: "17 May 2022",
+    links :"Adjustable visors with 4D printing method"
     
   },
   {
     id: 3,
-    date: "",
-    links :""
+    date: "4 May 2022",
+    links :"Unexpected bonds between covid and inorganic surfaces"
     
   },
   {
     id: 4,
-    date: "",
-    links :""
+    date: "21 Apr 2022",
+    links :"Knots that can solve the problems of the future"
     
   },
   {
     id: 5,
-    date: "",
-    links :""
+    date: "19 Apr 2022  ",
+    links :"New glasses can pave way for new battery standard"
     
   },
   
