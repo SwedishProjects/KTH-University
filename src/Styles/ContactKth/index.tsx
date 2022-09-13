@@ -22,10 +22,12 @@ export const ContactName={
 
 export const navLink={
     color: "#000",
-    padding: {md:"0.5rem 1rem",lg:"7px 15px 7px 0"},
+    padding: {md:"0.5rem 1rem",lg:"6px 15px 6px 0"},
     display: "block",
+    marginTop:"-10px",
+    marginLeft:{md:"-8px",lg:"0px"},
 }
 
 export const mainMenu={
-    
+  
 }

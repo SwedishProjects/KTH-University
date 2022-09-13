@@ -25,8 +25,10 @@ function ContactKth(){
       
       }}>
 
-        <Grid item xs={12} sm={2.8} lg={2.8} sx={{backgroundColor:"#528400",
-      display:{xs:"none",sm:"none",md:"none",lg:"flex"}
+        <Grid item xs={12} sm={2.8} lg={2.8} sx={{
+          // backgroundColor:"#528400",
+      display:{xs:"none",sm:"none",md:"flex",lg:"flex"},
+      marginTop:"20px",
       }}>
         <ContactNav />
           </Grid>

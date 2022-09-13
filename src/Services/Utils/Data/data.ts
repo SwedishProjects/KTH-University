@@ -650,5 +650,58 @@ export const RecentPublicationsDate=[
   },
 ]
 
+// ---------------------------------Contact Page
 
 
+
+
+
+
+export const ContactNavItem=[
+  {
+    id:1,
+    text:"Registrar´s Office",
+    href:"https://www.kth.se/en/om/kontakt/registrator-1.15615"
+
+
+  },
+  {
+    id:2,
+    text:"Employee search",
+    href:"https://www.kth.se/en/om/kontakt/sok-anstallda-pa-kth-1.448246",
+
+
+  }, {
+    id:3,
+    text:"Our campuses",
+    href:"https://www.kth.se/en/om/kontakt/campus",
+
+
+  }, {
+    id:4,
+    text:"KTH Entré",
+    href:"https://www.kth.se/en/om/kontakt/kth-entre",
+
+
+  }, {
+    id:5,
+    text:"Current procurements",
+    href:"https://www.kth.se/en/om/kontakt/pagaende-upphandlingar-1.30087",
+
+
+  },
+  {
+    id:6,
+    text:"Web issues",
+    href:"https://www.kth.se/en/om/kontakt/kontaktuppgifter-for-kth-s-webbplats-1.2318",
+
+
+  },
+  {
+    id:7,
+    text:"Terms of use for KTH's accounts in social media",
+    href:"https://www.kth.se/en/om/kontakt/anvandarvillkor-sociala-medier-1.987747",
+
+
+  },
+]

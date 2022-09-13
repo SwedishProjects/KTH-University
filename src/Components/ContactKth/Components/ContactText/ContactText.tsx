@@ -1,8 +1,4 @@
-import{ Box,
-  
-    Checkbox,
-    Grid,
-    Typography,}  from '@mui/material';
+import{ Box,Typography,}  from '@mui/material';
 import {ContactName} from "../../../../Styles/ContactKth";
 import TextKth from '../TextKth/TextKth';
 import ContactBoldText from '../ContactBoldText/ContactBoldText';

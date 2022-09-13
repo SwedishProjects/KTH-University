@@ -1,6 +1,8 @@
 
-import { Box, Container ,Grid ,Link} from "@mui/material";
+import { Box,Link} from "@mui/material";
 import {navLink} from "../../../../Styles/ContactKth"
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+
 interface NavLinkProps {
  
    
@@ -8,26 +10,37 @@ interface NavLinkProps {
     text :string;
   }
 
-function NavLink ({  href , text }: NavLinkProps){
+function NavLink ( NavLinkProps){
+  const LinkArrow1 = ((NavLinkProps.text==="Our campuses"  ) )? true : false ;
+  const LinkArrow2 = ((NavLinkProps.text==="KTH Entré"  ) )? true : false ;
+  const LinkArrow = (LinkArrow1 || LinkArrow2)? true : false ;
+
+
+
     return (
         <>
          
-                <li >
+           <Box sx={{display:"flex",justifyContent:"space-between"}}>
                 <Link
           sx={navLink}
   
-          href={href}
+          href={NavLinkProps.href}
          
           underline="hover"
           mb={1.5}
          
           variant="subtitle1"
         >
-                       {text}
+                       {NavLinkProps.text}
                         </Link>
-                    </li>
-               
-                
+              
+            <ArrowForwardIosIcon 
+            sx={{
+              display:LinkArrow ? "block" : "none",
+              fontSize:"1rem",
+            }}
+            /> 
+            </Box>     
         </>
     )
 }

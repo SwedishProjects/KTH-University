@@ -1,13 +1,10 @@
-import * as React from 'react';
+import {linkStyle} from "../../../../Styles/Calendar"
+import { useState } from "react";
+import {ContactNavItem} from "../../../../Services/Utils/Data/data"
+import NavLink from '../NavLink/NavLink';
 
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import{ Box,
-    List,
-    ListItem,
-   
-    ListItemText,
-   
-    Grid,
+   Link,
     Typography,}  from '@mui/material';
 
 import {mainMenu} from "../../../../Styles/ContactKth"
@@ -15,33 +12,47 @@ import {mainMenu} from "../../../../Styles/ContactKth"
 
 
 function ContactNav(){
-  
+    const [Item] = useState(ContactNavItem);
     return (
         <>
          <Box sx={mainMenu} >
-          <div class="collapse navbar-collapse" id="navbarNav">
-             <ul class="nav">
-               <li class="parentLink"><a href="https://www.kth.se/en/om">About KTH</a></li>
-            </ul>
+         <Link
+         sx={linkStyle}
+          href=""
+          underline="hover"
+          variant="subtitle1"
+        >
+              About KTH     
+        </Link>
 
+         <Typography sx={{
+               
+               fontSize:" 1.5rem",
+               fontWeight: "600",
+               lineHeight: "1.5",
+               marginTop:" 0",
+               marginBottom:" 14px",
+           }}>
+          Contact
+           </Typography>
+             <Typography sx={{
+               
+                 fontSize:" 1rem",
+                 fontWeight: "600",
+                 lineHeight: "1.5",
+                 marginTop:" 0",
+                 marginBottom:" 14px",
+             }}>
+             Contact KTH
+             </Typography>
+         {Item.map((item) => (
+              <NavLink
              
-              <ul class="nav nav-ancestor">
-              <li><span class="nav-item ancestor">Contact</span></li>
-             </ul>
-              <ul class="nav nav-list">
-          <li class="nav-item selected"><span class="nav-link inactiveLink">Contact KTH</span></li>
-              
-                
-              </ul>
-            
+              text = {item.text}
+              href={item.href}
              
-            
-              <script>
-                 processTaskList();
-              </script>
-            
-
-          </div>
+              />
+            ))}
          </Box>
         </>
     )
