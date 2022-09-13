@@ -17,7 +17,9 @@ function LinkList({ title, links }: LinkListProps) {
     display:"flex",
       justifyContent:"flex-start",
       alignItems:"flex-start",
-    
+      margin:"0",
+      overflow:" hidden",
+  
       }}
     >
       <Box >
@@ -33,7 +35,7 @@ function LinkList({ title, links }: LinkListProps) {
     display: "block",
       }}
         variant="h2"
-        mb={2.5}
+      
        
        
       >

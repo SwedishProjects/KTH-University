@@ -1,4 +1,4 @@
-import { Typography, Link, Grid ,Box} from "@mui/material";
+import {  Link ,Box} from "@mui/material";
 import {linkStyle} from '../../../../Styles/Blogs/index'
 
 interface CardLinkProps {

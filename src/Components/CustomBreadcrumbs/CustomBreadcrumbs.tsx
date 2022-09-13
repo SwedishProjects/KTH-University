@@ -1,7 +1,7 @@
 
 import { Link,Box ,Container } from "@mui/material";
 import { linkStyle,} from '../../Styles/ArticleFooter/index'
-// import {ContainerStyle } from '../../Styles/Container/Container'
+
 interface CustomBreadcrumbsProps {
   
    links : string[];
@@ -11,8 +11,7 @@ interface CustomBreadcrumbsProps {
   function CustomBreadcrumbs ({ links , text}: CustomBreadcrumbsProps){
     return(
         <>
-         {/* <Box >
-      <Container sx={ContainerStyle} > */}
+  
          
    <Box>
    <Box sx={{
@@ -56,7 +55,7 @@ interface CustomBreadcrumbsProps {
     </Box>
     <Box sx={{float:{xs:"none",sm:"right",md:"right",lg:"right",},
     display:{xs:"block",sm:"block",md:"inline-block",lg:"inline-block"},
-  // marginLeft:{xs:"10px",sm:"0",md:"0",lg:"0"},
+
   }}
     
     >
@@ -75,8 +74,7 @@ interface CustomBreadcrumbsProps {
       
     </Box>
    </Box>
-         {/* </Container>
-         </Box> */}
+      
         </>
     );
  

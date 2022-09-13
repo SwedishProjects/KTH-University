@@ -1,6 +1,6 @@
 import * as React from 'react';
-import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
+
+import {Divider,Button} from '@mui/material';
 
 import SearchIcon from '@mui/icons-material/Search';
 import InfoIcon from '@mui/icons-material/Info';

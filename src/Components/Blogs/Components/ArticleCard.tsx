@@ -7,7 +7,7 @@ import CardTitle from './CardTitle/CardTitle';
 
 
 
-import {  Grid, Divider, Container ,Box} from '@mui/material';
+import { Box} from '@mui/material';
 interface info {
   title: string;
   image: string;
@@ -25,10 +25,10 @@ function ArticleCard(props: info) {
 display: "flex",
 
 marginLeft: {xs:"0",md:"0",lg:"-25px"},
-// marginLeft:"-25px",
+
 flexDirection: "column",
 justifyContent: "flex-start",
-width:{xs:"100%",sm:"100%",md:"280px",lg:"280px",},
+width:{xs:"100%",sm:"100%",md:"100%",lg:"280px",},
 
     }}>
       

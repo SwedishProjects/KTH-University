@@ -1,5 +1,5 @@
 
-import { Typography, Link, Grid ,Box ,Container ,Divider} from "@mui/material";
+import { Typography, Link ,Box ,Container ,Divider} from "@mui/material";
 import {NameStyle , linkStyle,TextStyle} from '../../Styles/ArticleFooter/index'
 import {ContainerStyle } from '../../Styles/Container/Container'
 

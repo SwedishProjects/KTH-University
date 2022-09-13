@@ -45,21 +45,21 @@ const  Cooperation = [
 function AboutLinks() {
   return (
     <>
-  <Box sx={{padding:"0 15px" ,margin:"0 auto"}}>
+  <Box sx={{width:"100%",}}>
   <Box sx={{marginBottom: "20px",
-    display: "block",width: "auto",  marginRight: "-15px",
-    marginLeft: "-15px",
-    margin: "0 0 1rem",}}>
+    display: "block",width: "auto", 
+
+   }}>
    <Card sx={{     maxWidth: "100%",
     height: "auto",    marginBottom: "20px",
-    display: "block",width: "auto", }}>
+    display: "block", }}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="271"
-          width="1228"
+         
           image={images['About/About(1).jpg']}
           alt="green iguana"
+          sx={{width:"100%",height:{xs:"auto",lg:"271px"}}}
         />
       
       </CardActionArea>
@@ -72,25 +72,27 @@ function AboutLinks() {
         display: "flex",
         flexDirection: "column",
         justifyContent: "flex-end",
-        bgcolor: "#ffffff",
-        
+     
+        width:"100%",
         maxWidth: "100%",
-       
-        padding: "15px"
+ 
       }}
     >
       <Grid
         container
         height="100%"
         display="flex"
-        justifyContent="space-around"
+        justifyContent="space-between"
         alignItems="flex-start"
          sx={{
           flexWrap: "wrap",
           flexGrow: "1",
-          marginRight: "-15px",
-          marginLeft: "-15px",
-        
+         
+     
+          width:{xs:"100%",sm:"100%",lg:"1132px"},
+        margin:"0 ",
+      
+        marginLeft: {xs:"-25px",sm:"-30px",lg:"-30px"},
         }}
       >
        <Box
@@ -98,23 +100,23 @@ function AboutLinks() {
         
   display: "flex",
 
-
+flexWrap:{sm:"wrap"},
   flexDirection: {xs:"column",sm:"row",md:"row",lg:"row",},
   justifyContent: {xs:"center",sm:"center",md: "flex-start",lg: "flex-start",},
  
  
       }}
       >
-       <Grid item xs={12} sm={12} md={3} lg={3}>
+       <Grid item xs={12} sm={6} md={6} lg={3}>
           <LinkList title={"About KTH"} links={AboutKTH} />
         </Grid>
-        <Grid item xs={12} sm={12} md={3} lg={3}>
+        <Grid item xs={12} sm={6} md={6} lg={3}>
           <LinkList title={"KTH Schools"} links={KTHSchools} />
         </Grid>
-        <Grid item xs={12} sm={12} md={3} lg={3}>
+        <Grid item xs={12} sm={6} md={6} lg={3}>
           <LinkList title={"Cooperation"} links={Cooperation} />
         </Grid>
-        <Grid item xs={12} sm={12} md={3} lg={3}>
+        <Grid item xs={12} sm={6} md={6} lg={3}>
         <LinkList title={"Contact"} links={Contact} />
 
         </Grid>

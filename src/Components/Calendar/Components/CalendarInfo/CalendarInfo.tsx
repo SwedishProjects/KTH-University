@@ -16,11 +16,11 @@ import {
 function  CalendarInfo(props: CalendarInfoProps ){
     return (
         <Box
-
-        ///with media quary in galaxy fold last calendar  by changed
-    //  sx={{
-    //   marginRight:(props.title==="Public defences of doctoral theses") ? {xs:"-10px"} :{xs:"0"},
-    //  }}
+        sx={{
+       
+        width:(props.title==="Public defences of doctoral theses") ?{xs:"60%",lg:"100%"} : "100"
+     
+       }}
         >
               <Typography
        sx={CalendarEventInfo}
@@ -64,7 +64,10 @@ function  CalendarInfo(props: CalendarInfoProps ){
      
      <Box
      sx={{display:(props.title==="Public defences of doctoral theses") ? "flex" :"none",
-     justifyContent:"flex-start",alignItems:"start",
+   
+     marginLeft:{xs:"-30px",sm:"0",md:"0",lg:"0"},
+    
+
   
     }}
      >
@@ -78,6 +81,7 @@ function  CalendarInfo(props: CalendarInfoProps ){
        color: "#000",
        lineHeight:" 1.5",
        paddingRight:"0.3rem"
+       
       }}
        >
          Doctoral student: 

@@ -24,9 +24,9 @@ function ExploreCard(props: ExploreCardProps) {
      flexDirection: {xs:"column",sm:"row",md:"row",lg:"row",},
      backgroundColor: "#f6f6f6",
      marginTop:"30px",
-     width:{xs:"100%",sm:"100%",md:"831px",lg:"831px",},
-     height:{sm:"auto",md:"300px",lg:"300px",},
-     marginLeft:{xs:"0",sm:"auto",md:"-22px",lg:"-22px",},
+     width:{xs:"100%",sm:"100%",md:"970px",lg:"831px",},
+     height:{xs:"auto",sm:"auto",md:"auto",lg:"300px",},
+     marginLeft:{xs:"0",sm:"auto",md:"-20px",lg:"-22px",},
      marginRight:"0",
    
   
@@ -39,7 +39,7 @@ function ExploreCard(props: ExploreCardProps) {
         alt={props.Imagename}
       />
       <Box sx={{ display: 'flex', flexDirection: 'column' ,
-      width:{sm:"100%",md:"434px",lg:"434px",},
+      width:{sm:"100%",md:"634px",lg:"434px",},
     }}>
         <CardContent sx={{ flex: '1 0 auto' ,
          flexDirection: "column",

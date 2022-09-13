@@ -39,10 +39,10 @@ export const LinkStyle={
 
 export const CartTitle={
     
-    fontSize: "1.5rem",
-    fontWeight: "600",
+    fontSize: "2rem",
+    fontWeight: "500",
     color: "#000",
-    lineHeight: "1.375",
+    lineHeight: "1.3125",
     marginTop: "28px",
     marginBottom: "14px",
     display: "block",
@@ -57,8 +57,21 @@ export const cartStyle={
     border: "none",
 }
 export const cartContentStyle={
-    fontSize: "1.125rem",
+    fontSize: "1rem",
     fontWeight: "400",
-    lineHeight: "1.4375",
+    lineHeight: "1.5",
     maxWidth: "100%",
+    color:" #000",
+    margin:" 0 0 14px",
+}
+
+export const gainedHeadStyle ={
+    fontSize: "1rem",
+    fontWeight: "400",
+    lineHeight: "1.5",
+    maxWidth: "100%",
+    color:" #000",
+    marginTop:"20px",
+    marginBottom:"0"
+
 }

@@ -3,14 +3,15 @@ import { theme } from "./Theme/theme";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   AboutKTH,
-  ContactUs,
+  Contact,
   Home,
   Library,
   CoOperation,
   Research,
   Studies,
   Alumni,
-  PhD
+  PhD,
+  Login,
 
 } from "./Pages/Main";
 
@@ -27,13 +28,15 @@ function App() {
             <Route element={<MainLayout />}>
               <Route path="/" element={<Home />} />
               <Route path="/about-kth" element={<AboutKTH />} />
-              <Route path="/contact-kth" element={<ContactUs />} />
+              <Route path="/contact-kth" element={<Contact />} />
               <Route path="/library" element={<Library />} />
               <Route path="/co-operation" element={<CoOperation />} />
               <Route path="/research" element={<Research />} />
               <Route path="/studies" element={<Studies />} />
               <Route path="/alumni" element={<Alumni />} />
               <Route path="/phd" element={<PhD />} />
+              <Route path="/login" element={<Login />} />
+
             </Route>
           </Routes>
         </ScrollToTop>
