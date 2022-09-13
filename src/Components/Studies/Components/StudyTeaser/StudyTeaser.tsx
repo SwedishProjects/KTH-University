@@ -2,7 +2,7 @@
 
 
 import images from "../../../../Importer/Importer"
-import { Box, Container,CardMedia,Card,CardActionArea } from "@mui/material";
+import { Box,CardMedia, } from "@mui/material";
 import TeaserBox from "../TeaserBox/TeaserBox";
 function StudyTeaser (){
     return (

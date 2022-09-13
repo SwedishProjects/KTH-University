@@ -1,6 +1,6 @@
 import { useState } from "react";
 import {ResearchNewsData} from "../../../../Services/Utils/Data/data";
-import { Typography, Link,Divider ,Box} from "@mui/material";
+import { Typography,} from "@mui/material";
 import {NameStyle} from '../../../../Styles/BulletinLink/index'
 import BulletinLink from "../BulletinLink/BulletinLink";
 const ResearchNews = () => {

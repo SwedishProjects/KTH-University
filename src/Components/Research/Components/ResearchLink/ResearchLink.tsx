@@ -57,7 +57,7 @@ const ResearchLink = () => {
         display: "flex",
         flexDirection: "column",
         justifyContent: "flex-end",
-        // bgcolor: "#000",
+    
         width:"100%",
         maxWidth: "100%",
         paddingLeft:"0",
@@ -87,7 +87,7 @@ const ResearchLink = () => {
       sx={{
    
         marginLeft: {xs:"0",sm:"0",md:"0",lg:"0"},
-        // bgcolor: "#ffc107",
+     
         width:{xs:"100%",sm:"100%",md:"1200px",lg:"1141px"},
        
        
