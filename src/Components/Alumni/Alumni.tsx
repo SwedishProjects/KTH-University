@@ -1,19 +1,17 @@
 
 import { AlumniList } from "./Components/AlumniList/AlumniList";
-import { Container } from '@mui/material';
-
 import  ArticleFooter from '../ArticleFooter/ArticleFooter';
 import CustomBreadcrumbs from '../CustomBreadcrumbs/CustomBreadcrumbs';
 import {ContainerStyle } from '../../Styles/Container/Container'
 import AlumniTeaser from "./Components/AlumniTeaser/AlumniTeaser";
 import Calendar from "./Components/AlumniCalendar/Calendar";
 import AlumniCart from "./Components/AlumniCart/AlumniCart";
-import {Box} from "@mui/material";
+import {Box ,Container } from "@mui/material";
 
 const    links = [
  "Alumni",
- 
    ];
+   
   const Alumni =()=>{
     return (
         <>

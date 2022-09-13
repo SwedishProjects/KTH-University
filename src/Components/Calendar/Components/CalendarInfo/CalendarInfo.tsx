@@ -17,7 +17,7 @@ function  CalendarInfo(props: CalendarInfoProps ){
     return (
         <Box
         sx={{
-        // marginLeft:(props.title==="Public defences of doctoral theses") ?{xs:"-20px",lg:"0"} : "0",
+       
         width:(props.title==="Public defences of doctoral theses") ?{xs:"60%",lg:"100%"} : "100"
      
        }}
@@ -64,10 +64,10 @@ function  CalendarInfo(props: CalendarInfoProps ){
      
      <Box
      sx={{display:(props.title==="Public defences of doctoral theses") ? "flex" :"none",
-    //  justifyContent:"flex-start",alignItems:"start",
+   
      marginLeft:{xs:"-30px",sm:"0",md:"0",lg:"0"},
     
-    //  paddingRight:{xs:"0px",lg:"0"}
+
   
     }}
      >

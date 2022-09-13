@@ -2,8 +2,6 @@
 
 
 
-import * as React from 'react';
-
 import LinkList from '../../../LinkList/LinkList'
 
 
@@ -62,7 +60,7 @@ const  Network = [
         display: "flex",
         flexDirection: "column",
         justifyContent: "flex-end",
-        // bgcolor: "#000",
+
         width:"100%",
         maxWidth: "100%",
         paddingLeft:"0",
@@ -96,7 +94,7 @@ const  Network = [
         
       
         marginLeft: {xs:"0",sm:"0",md:"0",lg:"0"},
-        // bgcolor: "#ffc107",
+       
         width:{xs:"100%",sm:"100%",md:"1200px",lg:"1141px"},
        
        

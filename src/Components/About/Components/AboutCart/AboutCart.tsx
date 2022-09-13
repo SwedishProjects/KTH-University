@@ -3,9 +3,7 @@ import * as React from 'react';
 
 import {
    CardMedia,
-    CardActionArea,
-  Card ,
-  CardContent,
+ 
   Typography,
    Box ,
   } from '@mui/material';
@@ -40,7 +38,7 @@ function AboutCart(props: info) {
           sx={{
             height: "calc(100% - 30px)",
             margin: "0 0 30px",
-            // marginRight:"20px",
+        
             display: "block",
             backgroundColor:trueAriticle ? "#fff" : "#f6f6f6",
             border:trueAriticle ? "1px solid #d4d4d4" : "none",

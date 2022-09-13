@@ -1,5 +1,5 @@
-import CardMedia from '@mui/material/CardMedia';
-import Link from '@mui/material/Link';
+
+import {Link ,CardMedia} from '@mui/material';
 import {imageStyle} from '../../../../Styles/Blogs/index'
 
 type props = {

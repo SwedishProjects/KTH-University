@@ -25,7 +25,6 @@ function ArticleCard(props: info) {
       
 display: "flex",
 paddingRight:"0",
-// backgroundColor:"#17a2b8",
 flexDirection: {xs:"column",sm:"",lg:"row",md:"row"},
 justifyContent: "flex-start",
 width:{xs:"100%",sm:"100%",md:"100%",lg:"100%",},
@@ -39,10 +38,10 @@ width:{xs:"100%",sm:"100%",md:"100%",lg:"100%",},
       display: "flex",
       marginTop:"30px",
       width:"100%",
-// backgroundColor:"#d4351c",
+
 flexDirection: {xs:"column",sm:"row",lg:"row",md:"row"},
       justifyContent:  {xs:"space-between",sm:"",lg:"space-between",md:"space-between",},
-      // alignItems:"flex-end"
+    
       border:" 1px solid #d4d4d4!important",
       }}>
 

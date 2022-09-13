@@ -34,7 +34,7 @@ const Blogs = () => {
     width:{xs:"100%",sm:"100%",md:"100%",lg:"280px",},
                     maxWidth: "100%",
                     backgroundColor: "inherit",
-                    // backgroundColor: "#c1c1c1",
+            
                   padding:"0",
                   paddingLeft:"0",
                  
