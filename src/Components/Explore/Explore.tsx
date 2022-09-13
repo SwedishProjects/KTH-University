@@ -2,7 +2,6 @@
 
 
 
-import * as React from 'react';
 
 import { useState } from "react";
 import  {ExploreCardData}  from '../../Services/Utils/Data/data';

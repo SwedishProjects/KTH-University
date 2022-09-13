@@ -1,4 +1,4 @@
-import { Typography, Link, Grid ,Box} from "@mui/material";
+import { Typography, Grid ,Box} from "@mui/material";
 import { ArticleTitleStyle ,ArticleTextStyle} from "../../../../Styles/ReadArticle"
 
 interface ArticleTextProps {

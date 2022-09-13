@@ -9,7 +9,6 @@ export { default as Student } from "./Student/Student";
 export { default as Studies } from "./Studies/Studies";
 export { default as MoreNews } from "./MoreNews/MoreNews";
 export { default as Blogs } from "./Blogs/Blogs";
-export { default as ListCart } from "./ListCart/ListCart";
 export { default as Explore } from "./Explore/Explore";
 export { default as Calendar } from "./Calendar/Calendar";
 export { default as Alumni } from "./Alumni/Alumni";

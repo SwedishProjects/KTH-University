@@ -7,7 +7,6 @@ import {
   Typography, Link, Box, Container, Divider
 } from "@mui/material";
 
-import { useTheme } from '@mui/material/styles';
 import { ButtonStyle, TitleStyle } from '../../Styles/MoreNews/index'
 import MoreNewsCard from './Components/MoreNewsCard/MoreNewsCard';
 const MoreNews = () => {
