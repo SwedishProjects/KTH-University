@@ -2,13 +2,12 @@ import * as React from 'react';
 import {   Box,
     Typography,
     Button ,
-    Grid} from "@mui/material";
-import {teaserBoxHeaderWrap,teaserBox,
+   } from "@mui/material";
+import {teaserBoxHeaderWrap,
     teaserBoxHeader,teaserBoxHeading
 } from "../../../../Styles/Study";
-import SearchBar from "src/Layouts/MainLayout/Navbar/SearchBar/SearchBar";
+import {teaserBox,} from "../../../../Styles/Research"
 
-import { CloseRounded } from "@mui/icons-material";
 import {inputGroup,
     searchWidgetButton,} from "../../../../Styles/Research"
 

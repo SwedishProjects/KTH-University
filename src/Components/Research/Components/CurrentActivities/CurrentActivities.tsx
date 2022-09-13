@@ -30,6 +30,7 @@ const CurrentActivities = () => {
 
 {Info.map((article) => (
             <ReadArticleCard
+            use="Current activities"
             title= {article.title}
             image= {article.image}
             Imagename= {article.Imagename}

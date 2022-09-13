@@ -10,7 +10,8 @@ type props = {
 function  ArticleImage ({ image, title }: props){
     return (
         <>
-        <CardMedia component='img' image={`${image}`} alt={`${title}`}  sx={ArticleImageStyle}/>
+        <CardMedia component='img' image={`${image}`} alt={`${title}`} 
+         sx={ArticleImageStyle}/>
         </>
     )
 }

@@ -31,6 +31,7 @@ function ReadArticle(){
     
 {Info.map((article) => (
               <ReadArticleCard
+              use=" "
               title= {article.title}
               image= {article.image}
               Imagename= {article.Imagename}

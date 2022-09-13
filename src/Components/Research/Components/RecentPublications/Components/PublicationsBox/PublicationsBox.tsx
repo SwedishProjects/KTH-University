@@ -34,6 +34,7 @@ function PublicationsBox (Info){
   variant="body2"
   sx={{
     lineHeight: "2rem",
+    fontSize:"1rem",
   }}
 >
  {Info.author} 
