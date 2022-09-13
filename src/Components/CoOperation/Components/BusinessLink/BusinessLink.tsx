@@ -1,12 +1,10 @@
 
 
 
-import * as React from 'react';
-import Card from '@mui/material/Card';
 import LinkList from '../../../LinkList/LinkList'
-import CardMedia from '@mui/material/CardMedia';
 
-import {  Grid, CardActionArea, Container ,Box} from '@mui/material';
+
+import {  Grid,  Container ,Box} from '@mui/material';
 
 
 

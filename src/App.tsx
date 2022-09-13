@@ -10,6 +10,7 @@ import {
   Research,
   Studies,
   Alumni,
+  Login
 
 } from "./Pages/Main";
 
@@ -32,6 +33,8 @@ function App() {
               <Route path="/research" element={<Research />} />
               <Route path="/studies" element={<Studies />} />
               <Route path="/alumni" element={<Alumni />} />
+              <Route path="/login" element={<Login />} />
+
             </Route>
           </Routes>
         </ScrollToTop>

@@ -19,7 +19,7 @@ function ReadArticle(){
            
             overflow: "hidden",
             display: "flex",
-            flexWrap:{xs:"wrap",md:"no-wrap",sm:"no-wrap"},
+            flexWrap:{xs:"wrap",md:"no-wrap",sm:"no-wrap",lg:"no-wrap"},
            alignItems:"stretch",
            
             justifyContent: "space-between",
@@ -31,6 +31,7 @@ function ReadArticle(){
     
 {Info.map((article) => (
               <ReadArticleCard
+              use=" "
               title= {article.title}
               image= {article.image}
               Imagename= {article.Imagename}
