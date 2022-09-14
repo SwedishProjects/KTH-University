@@ -13,7 +13,7 @@ export const teaserBox={
     width: {xs:"100%",md:"100%",sm:"100%",lg:"50%"},
     backgroundColor: "#fff",
     paddingTop: {xs:"20px",sm:"20px",md:"20px",lg:"20px"},
-    paddingLeft:  {xs:"0px",sm:"0px",md:"0px",lg:"35px"},
+    paddingLeft:  {xs:"0px",sm:"0px",md:"0px",lg:"36px"},
     paddingRight:  {xs:"0px",sm:"0px",md:"0px",lg:"25px"},
     paddingBottom:  {xs:"0px",sm:"0px",md:"0px",lg:"25px"}, 
 }
@@ -40,6 +40,26 @@ export const teaserBoxHeading={
     
 }
 export const teaserBoxBody={
-    margin:" 0",
+    // margin:" 0",
     maxWidth: "100%",
+    fontFamily: "'Open Sans',Arial,'Helvetica Neue',helvetica,sans-serif",
+    fontSize: "1rem",
+    fontWeight: "400",
+    color:"#000",
+    lineHeight:" 1.5",
+
+    margin: "0 0 14px",
+}
+
+
+export const CoOperationText={
+    // margin:" 0",
+    maxWidth: "100%",
+    fontFamily: "'Open Sans',Arial,'Helvetica Neue',helvetica,sans-serif",
+    fontSize: "1.5rem",
+    fontWeight: "500",
+    color:"#000",
+    lineHeight:" 1.5",
+
+    margin: "0 0 14px",
 }
