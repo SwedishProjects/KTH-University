@@ -51,12 +51,15 @@ width:{xs:"100%",sm:"100%",md:"200px",lg:"196px",},
 
         </Box>
       </Box>
-       {/* <Divider sx={{    margin: "15px 0",
+       <Divider orientation="vertical" sx={{    margin: "15px 0",
                paddingBottom:"6px",
-              width:{xs:"100%",sm:"100%",md:"270px",lg:"270px",},
-               marginBottom:"25px"
+              width:{xs:"100%",sm:"100%",md:"100%",lg:"100%",},
+               marginBottom:"25px",
+               color:"#d4351c",
+            
+
             }} />
-         */}
+        
      
      </Box>
    

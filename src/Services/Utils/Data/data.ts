@@ -352,6 +352,51 @@ export const PhDBlogs = [
 ];
 
 
+
+export const PhDNavItem=[
+  {
+    id:1,
+    text:"Why choose KTH?",
+    href:"https://www.kth.se/en/studies/phd/why-1.521017"
+  },
+  {
+    id:2,
+    text:"Being a doctoral student",
+    href:"https://www.kth.se/en/studies/phd/student",
+  }, {
+    id:3,
+    text:"How to apply",
+    href:"https://www.kth.se/en/studies/phd/how-to-apply-1.520089",
+  }, {
+    id:4,
+    text:"Entry requirements",
+    href:"https://www.kth.se/en/studies/phd/entry-requirements-for-doctoral-studies-1.520175",
+  }, {
+    id:5,
+    text:"Courses",
+    href:"https://www.kth.se/en/studies/phd/nodvandig-ompekningsartikel-lat-vara-1.792712",
+  },
+  {
+    id:6,
+    text:"Joint programmes and scholarships",
+    href:"https://www.kth.se/en/studies/phd/partnerships-1.520098",
+  },
+  {
+    id:7,
+    text:"Virtual campus tour",
+    href:"https://www.kth.se/en/studies/phd/campus-tour/virtual-campus-tour-1.1014217",
+  },
+  {
+    id:8,
+    text:"Interviews",
+    href:"https://www.kth.se/en/studies/phd/interviews",
+  },
+  {
+    id:9,
+    text:"Contact",
+    href:"https://www.kth.se/en/studies/phd/contact-1.534316",
+  },
+]
 // --------------------------------- Alumni Page ---------------------------
 
 // --------------------------------- Alumni Page ---------------------------

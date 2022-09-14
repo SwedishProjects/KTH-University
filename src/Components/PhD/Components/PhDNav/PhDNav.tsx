@@ -1,18 +1,18 @@
 import {linkStyle} from "../../../../Styles/Calendar"
 import { useState } from "react";
-import {ContactNavItem} from "../../../../Services/Utils/Data/data"
-import NavLink from '../NavLink/NavLink';
+import {PhDNavItem} from "../../../../Services/Utils/Data/data"
+import NavLink from '../../../ContactKth/Components/NavLink/NavLink';
 
 import{ Box,
    Link,
- Typography,}  from '@mui/material';
+    Typography,}  from '@mui/material';
 
 import {mainMenu} from "../../../../Styles/ContactKth"
 
 
 
-function ContactNav(){
-    const [Item] = useState(ContactNavItem);
+function PhDNav(){
+    const [Item] = useState(PhDNavItem);
     return (
         <>
          <Box sx={mainMenu} >
@@ -22,7 +22,7 @@ function ContactNav(){
           underline="hover"
           variant="subtitle1"
         >
-              About KTH     
+            Study at KTH   
         </Link>
 
          <Typography sx={{
@@ -33,7 +33,7 @@ function ContactNav(){
                marginTop:" 0",
                marginBottom:" 14px",
            }}>
-          Contact
+         Doctoral studies (PhD)
            </Typography>
              <Typography sx={{
                
@@ -43,7 +43,7 @@ function ContactNav(){
                  marginTop:" 0",
                  marginBottom:" 14px",
              }}>
-             Contact KTH
+       Doctoral studies at KTH
              </Typography>
          {Item.map((item) => (
               <NavLink
@@ -58,4 +58,4 @@ function ContactNav(){
     )
 }
 
-export default ContactNav;
+export default PhDNav;
