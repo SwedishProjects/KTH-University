@@ -1,35 +1,18 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
+
+
 import images from "../../../../Importer/Importer";
 import { ContainerStyle } from '../../../../Styles/Container/Container'
-import { Link } from "@mui/material";
+
 import SearchIcon from '@mui/icons-material/Search';
-import { Typography } from '@mui/material';
+import { Typography ,Box,
+  Link} from '@mui/material';
 import { Container } from '@mui/system';
-import { makeStyles, createTheme } from '@mui/material';
 
-// const theme = createTheme({
-//   breakpoints: {
-//     values: {
-//       xs: 0,
-//       sm: 600,
-//       md: 1024,
-//       lg: 1200,
-//       xl: 1536,
-//     },
-//   },
-// });
 
-// const useStyles: any = (theme) => ({
-//   searchTitle: {
-//     [theme.breakpoints.down("md")]:{
-//       fontSize: "large"
-//   }
-//   }
-// })
+
 
 const LibrarySearch = () => {
-  // const classes = useStyles();
+ 
   return (
     <Box sx={{ margin: { xs: "0 -20px", lg: "0 -10px" } }}>
       <Container sx={ContainerStyle} >
