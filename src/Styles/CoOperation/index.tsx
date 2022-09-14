@@ -23,7 +23,15 @@ export const EventsCardContentBox={
 export const EventsImage={
     width:{xs:"100%",sm:"50%",lg:"30%"}
 
-
-
-
 }
+// --------------------------------CollaborateKTH ---------------
+
+
+export const CollaborateBox={
+    backgroundColor:" #f6f6f6",
+    margin: "0 0 30px",
+    display: 'flex',
+
+    flexDirection: 'column' ,
+    padding:"30px"
+  }

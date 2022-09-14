@@ -5,7 +5,7 @@ import {ContainerStyle } from '../../Styles/Container/Container'
 import  CustomBreadcrumbs from '../CustomBreadcrumbs/CustomBreadcrumbs';
 import CoOperationTeaser from './Components/CoOperationTeaser/CoOperationTeaser';
 import NewsEvents from './Components/NewsEvents/NewsEvents';
-
+import CollaborateKTH from './Components/CollaborateKTH/CollaborateKTH';
 const links=[
   "Business and Community"
 ]
@@ -22,6 +22,7 @@ const CoOperation = () => {
     <CoOperationTeaser />
       <BusinessLink />
       <NewsEvents />
+      <CollaborateKTH />
     <ArticleFooter title={"nickyr@kth.se"}
      pageName={"Business and Community"} time={"Mar 27, 2022"} />
 
