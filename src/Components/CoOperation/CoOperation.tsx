@@ -4,6 +4,7 @@ import {  Container,Grid , } from "@mui/material";
 import {ContainerStyle } from '../../Styles/Container/Container'
 import  CustomBreadcrumbs from '../CustomBreadcrumbs/CustomBreadcrumbs';
 import CoOperationTeaser from './Components/CoOperationTeaser/CoOperationTeaser';
+import NewsEvents from './Components/NewsEvents/NewsEvents';
 
 const links=[
   "Business and Community"
@@ -20,6 +21,7 @@ const CoOperation = () => {
     <CustomBreadcrumbs links={links} text={"Denna sida på svenska"} />
     <CoOperationTeaser />
       <BusinessLink />
+      <NewsEvents />
     <ArticleFooter title={"nickyr@kth.se"}
      pageName={"Business and Community"} time={"Mar 27, 2022"} />
 
