@@ -1,16 +1,64 @@
 import * as React from 'react';
-import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
-
+import Box from '@mui/material/Box';
+import images from "../../../../Importer/Importer";
+import { ContainerStyle } from '../../../../Styles/Container/Container'
+import { Link } from "@mui/material";
 import SearchIcon from '@mui/icons-material/Search';
-import InfoIcon from '@mui/icons-material/Info';
+import { Typography } from '@mui/material';
+import { Container } from '@mui/system';
+import { makeStyles, createTheme } from '@mui/material';
+
+// const theme = createTheme({
+//   breakpoints: {
+//     values: {
+//       xs: 0,
+//       sm: 600,
+//       md: 1024,
+//       lg: 1200,
+//       xl: 1536,
+//     },
+//   },
+// });
+
+// const useStyles: any = (theme) => ({
+//   searchTitle: {
+//     [theme.breakpoints.down("md")]:{
+//       fontSize: "large"
+//   }
+//   }
+// })
+
 const LibrarySearch = () => {
-    return (
-    <>
-      <Button variant="contained">Contained</Button>
-      <Divider variant="inset" component="li" />
-    </>
-    );
-  };
-  
-  export default LibrarySearch;
+  // const classes = useStyles();
+  return (
+    <Box sx={{ margin: { xs: "0 -20px", lg: "0 -10px" } }}>
+      <Container sx={ContainerStyle} >
+        <Box component={"div"} sx={{ position: "relative", backgroundColor: "white" }}>
+          <Box style={{}}>
+            <img
+              style={{ position: "relative", inset: 0 }}
+              height="auto"
+              width="100%"
+              src={images['Library/Library(5).jpg']}
+              alt="green iguana"
+            />
+            <Box sx={{ width: "55%", position: "absolute", bottom: 50, left: "0", backgroundColor: "white", padding: "20px 25px 25px 35px", display: "flex", flexDirection: "column" }}>
+              <Typography sx={{ fontSize: "xx-large", fontWeight: "600", paddingBottom: "10px" }}>
+                Search in Primo for books & articles
+              </Typography>
+              <Box sx={{ display: "flex", border: "1px solid #d6d6d6", backgroundColor: "#f6f6f6", padding: "6px 10px" }}>
+                <input type={"text"} style={{ width: "100%", border: "none", backgroundColor: "inherit" }}></input>
+                <SearchIcon sx={{ fontSize: "xx-large", color: "#2877b2" }} />
+              </Box>
+              <Typography style={{ textAlign: "right", paddingTop: "10px", color: "#006cb7" }} >
+                <Link href={"google.com"} sx={{ fontSize: { xs: "", lg: "large" } }} underline="hover">More databases and search tools</Link>
+              </Typography>
+            </Box>
+          </Box>
+        </Box>
+      </Container>
+    </Box>
+  );
+};
+
+export default LibrarySearch;

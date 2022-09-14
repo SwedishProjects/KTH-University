@@ -1,7 +1,6 @@
 import { Box, Container } from "@mui/material";
 import {ContainerStyle } from '../../Styles/Container/Container'
-import AboutLinks
- from "./Components/AboutLinks/AboutLinks";
+import AboutLinks from "./Components/AboutLinks/AboutLinks";
  import AboutCart from "./Components/AboutCart/AboutCart";
  import  ArticleFooter from '../ArticleFooter/ArticleFooter';
 
