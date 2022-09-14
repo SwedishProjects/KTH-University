@@ -53,3 +53,12 @@ export const CoOperationText={
 
     margin: "0 0 14px",
 }
+
+
+export const RoundedIconStyle={
+ color: "#fab919",
+ dispaly: "inline-block",
+  float: "left", 
+  marginRight: "6px", 
+  fontSize: "xx-large",
+ }

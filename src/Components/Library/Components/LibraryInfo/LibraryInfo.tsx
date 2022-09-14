@@ -1,34 +1,23 @@
 import { Typography,Box } from '@mui/material';
-
-import { Container } from '@mui/system';
-import { ContainerStyle } from '../../../../Styles/Container/Container';
 import ErrorRoundedIcon from '@mui/icons-material/ErrorRounded';
+import {RoundedIconStyle,}from "../../../../Styles/Library"
 
 const LibraryInfo = () => {
     return (
         <>
-            <Box sx={{ margin: { xs: "0 -20px", lg: "0 -10px" } }}>
-                <Container sx={{    display: "flex",
-    flexDirection: "column",
-    justifyContent: "flex-end",
-    bgcolor: "#ffffff",
-    
-    maxWidth: "100%",
-   
-    padding: {xs:"25px",lg:"0 30px"}}} >
-                    <Box sx={{ backgroundColor: "#fcf8e3", padding: "30px 10px 30px 20px", }}>
-                        <div style={{backgroundColor: "white", }}>
-                            <ErrorRoundedIcon sx={{ color: "#fab919", dispaly: "inline-block", float: "left", marginRight: "6px", fontSize: "xx-large" }} />
+    <Box sx={{ backgroundColor: "#fcf8e3", padding: "30px 10px 30px 20px", }}>
+    <div style={{backgroundColor: "white", }}>
+    <ErrorRoundedIcon sx={RoundedIconStyle} />
                         </div>
                         
-                        <Typography variant='subtitle1'>Please note that we currently 
+ <Typography variant='subtitle1'>Please note that we currently 
                         have irregular manned hours in Södertälje, and sometimes Kista, 
                         due to a lack of staff. Contact us through our chat before you visit
                          the libraries to make sure there is staff on site. Read more at 
                          Opening hours and contact .</Typography>
-                    </Box>
-                </Container>
-            </Box>
+</Box>
+            
+           
         </>
     )
 }
