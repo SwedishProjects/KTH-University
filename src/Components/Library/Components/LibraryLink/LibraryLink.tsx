@@ -1,5 +1,4 @@
-import * as React from 'react';
-import Button from '@mui/material/Button';
+
 import { Grid, Container, Box } from '@mui/material';
 import LinkList from '../../../LinkList/LinkList'
 
@@ -52,53 +51,56 @@ const LibraryLink = () => {
   return (
     <>
       <Container
-        sx={{
-          minHeight: "560px",
+         sx={{
+          overflowX:"hidden",
+          marginBottom: "20px",
           display: "flex",
           flexDirection: "column",
           justifyContent: "flex-end",
-          bgcolor: "#ffffff",
-
+          // bgcolor: "#000",
+          width:"100%",
           maxWidth: "100%",
-
-          padding: "15px"
+          paddingLeft:"0",
+          paddingRight:"0",
+          padding:"0",
         }}
       >
         <Grid
-          container
-          height="100%"
-          display="flex"
-          justifyContent="space-around"
-          alignItems="flex-start"
-          sx={{
+        container
+        height="100%"
+        display="flex"
+        justifyContent="space-between"
+        alignItems="flex-start"
+             sx={{
             flexWrap: "wrap",
             flexGrow: "1",
-            marginRight: "-15px",
-            marginLeft: "-15px",
-          }}
+            marginLeft: {xs:"-10px",sm:"-32px",md:"-35px",lg:"-35px"},
+            width:{xs:"100%",sm:"100%",lg:"1228px",md:"100%"},
+          margin:"0 ",
+       
+        }}
         >
           <Box
             sx={{
-
+              marginLeft: {xs:"0",sm:"0",md:"0",lg:"0"},
+              // bgcolor: "#ffc107",
+              width:{xs:"100%",sm:"100%",md:"1200px",lg:"1141px"},
               display: "flex",
-
-
-              flexDirection: { xs: "column", sm: "row", md: "row", lg: "row", },
-              justifyContent: { xs: "center", sm: "center", md: "flex-start", lg: "flex-start", },
-
-
+              flexWrap:{sm:"wrap"},
+                flexDirection: {xs:"column",sm:"row",md:"row",lg:"row",},
+                justifyContent: {xs:"center",sm:"center",md: "flex-start",lg: "flex-start",},
             }}
           >
-            <Grid item xs={12} sm={12} md={3} lg={3}>
+            <Grid item xs={12} sm={6} md={6} lg={3}>
               <LinkList title={"Use the library"} links={UsetheLibrary} />
             </Grid>
-            <Grid item xs={12} sm={12} md={3} lg={3}>
+            <Grid item xs={12} sm={6} md={6} lg={3}>
               <LinkList title={"Search & evaluate"} links={SearchEvaluate} />
             </Grid>
-            <Grid item xs={12} sm={12} md={3} lg={3}>
+            <Grid item xs={12} sm={6} md={6} lg={3}>
               <LinkList title={" Write & cite"} links={WriteCite} />
             </Grid>
-            <Grid item xs={12} sm={12} md={3} lg={3}>
+            <Grid item xs={12} sm={6} md={6} lg={3}>
               <LinkList title={"Publish & analyse"} links={PublishAnalyse} />
 
             </Grid>
