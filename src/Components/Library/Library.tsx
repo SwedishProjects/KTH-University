@@ -1,20 +1,20 @@
-import * as React from 'react';
-import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
+
+
 import { Container } from '@mui/system';
 import LibraryLink from './Components/LibraryLink/LibraryLink';
 import LibraryInfo from './Components/LibraryInfo/LibraryInfo';
 import CustomBreadcrumbs from '../CustomBreadcrumbs/CustomBreadcrumbs';
-import LibrarySearch from './Components/LibrarySearch/LibrarySearch';
+import LibraryTeaser from './Components/LibraryTeaser/LibraryTeaser';
+import {ContainerStyle } from '../../Styles/Container/Container'
 
 const links = [
   "KTH Library"
 ]
 const Library = () => {
   return (
-    <Container>
+    <Container sx={ContainerStyle} >
       <CustomBreadcrumbs links={links} text={" "} />
-      <LibrarySearch />
+      <LibraryTeaser />
       <LibraryInfo />
       <LibraryLink />
 
