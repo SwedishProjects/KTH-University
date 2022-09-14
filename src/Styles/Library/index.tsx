@@ -62,3 +62,28 @@ export const RoundedIconStyle={
   marginRight: "6px", 
   fontSize: "xx-large",
  }
+//  ---------------------------Buttons .......................
+
+export const ButtonStyle={
+    color: "#fff",
+    backgroundColor: "#007fae",
+    borderColor:"#007fae",
+    fontWeight:" 600",
+    // height:" auto",
+    minHeight: "44px",
+    cursor: "pointer",
+    fontSize: "1rem",
+    lineHeight: "1.5",
+    marginTop:" 0",
+    // display:"block",
+    marginBottom: "30px",
+    // width:"200px",
+    padding:"1rem 2rem",
+   width:"300px",
+    borderRadius:" 0.25rem",
+    border: "1px solid transparent",
+    textAlign: "center",
+    // verticalAlign: "middle",
+    transition:"color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out",
+
+}
