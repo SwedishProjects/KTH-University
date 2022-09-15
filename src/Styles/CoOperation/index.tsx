@@ -14,6 +14,7 @@ export const EventsCardContentBox={
      
      flexDirection: 'column' ,
      width:{xs:"100%",sm:"50%",lg:"70%"}
+    
 
 
 
@@ -35,3 +36,28 @@ export const CollaborateBox={
     flexDirection: 'column' ,
     padding:"30px"
   }
+
+
+  //-----------------------------------------Collaboration projects
+  export const projectsCardBox={
+     display: 'flex' ,
+width:"100%",
+flexDirection:{xs:'column-reverse',sm:"row",md:"row",lg:"row"},
+justifyContent:{xs:"flex-start",sm:"space-between",md:"space-between",lg:"space-between",},
+
+
+
+border:"1px solid #c1c1c1",
+height:{xs:'auto',sm:"1050px",md:"700px",lg:"600px"},
+}
+
+export const projectsImage={
+     // width:"auto",
+     width:{xs:"100%",sm:"50%",lg:"auto"},
+     height:"300px",
+     overflow: "auto",
+     // width: auto;
+     float: "right",
+     margin: {lg:"0 0 0 30px",}
+ 
+ }
