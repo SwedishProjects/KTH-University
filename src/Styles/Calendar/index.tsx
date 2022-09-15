@@ -55,6 +55,9 @@ export const linkStyle={
     lineHeight: "1.5",
     
     display: "block",
+    "&.PhDLink":{
+        marginTop:"-4px"
+    }
   
 }
 

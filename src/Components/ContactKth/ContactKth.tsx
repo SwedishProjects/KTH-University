@@ -5,7 +5,7 @@ import ContactNav from "./Components/ContactNav/ContactNav"
 import {ContainerStyle } from '../../Styles/Container/Container'
 import ArticleFooter from "../ArticleFooter/ArticleFooter"
 import ContactText from "./Components/ContactText/ContactText"
-
+import MobileMenuList from "./Components/MobileMenuList/MobileMenuList";
 const    links = [
     "About KTH",
     "Contact",
@@ -15,6 +15,7 @@ const    links = [
 function ContactKth(){
     return (
         <>
+          <MobileMenuList />
               <Container sx={ContainerStyle} >
               <CustomBreadcrumbs   links={links} text={"Denna sida på svenska"}/>
          
@@ -45,8 +46,9 @@ function ContactKth(){
 
          
 
-
+        
         </Grid>
+
         </Container>
         </>
 
