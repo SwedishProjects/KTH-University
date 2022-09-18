@@ -1,15 +1,8 @@
 import { useState } from "react";
 import {ResearchNewsData} from "../../../../Services/Utils/Data/data";
-<<<<<<< HEAD
 import { Typography,} from "@mui/material";
 import {NameStyle} from '../../../../Styles/BulletinLink/index'
 import BulletinLink from "../BulletinLink/BulletinLink";
-=======
-import { Typography, Link,Divider ,Box} from "@mui/material";
-import {NameStyle} from '../../../../Styles/BulletinLink/index'
-import BulletinLink from "../BulletinLink/BulletinLink";
-
->>>>>>> library
 const ResearchNews = () => {
   const [LinkCart] = useState(ResearchNewsData);
     return (

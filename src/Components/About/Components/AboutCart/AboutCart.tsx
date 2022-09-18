@@ -3,13 +3,7 @@ import * as React from 'react';
 
 import {
    CardMedia,
-<<<<<<< HEAD
  
-=======
-    CardActionArea,
-  Card ,
-  CardContent,
->>>>>>> library
   Typography,
    Box ,
   } from '@mui/material';
