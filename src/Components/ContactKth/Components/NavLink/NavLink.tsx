@@ -11,10 +11,21 @@ interface NavLinkProps {
   }
 
 function NavLink ( NavLinkProps){
-  const LinkArrow1 = ((NavLinkProps.text==="Our campuses"  ) )? true : false ;
-  const LinkArrow2 = ((NavLinkProps.text==="KTH Entré"  ) )? true : false ;
-  const LinkArrow = (LinkArrow1 || LinkArrow2)? true : false ;
+ 
 
+
+  const LinkArrowArray=["Our campuses","KTH Entré" ,"Being a doctoral student","Interviews"]
+  function CheckLinkArrow(){
+  for (let index = 0; index < LinkArrowArray.length; index++) {
+    const   element = ((NavLinkProps.text=== LinkArrowArray[index]  ) )? true : false ;
+    if (element===true){
+      return element;
+    }
+  }
+ 
+}
+
+const flag=CheckLinkArrow();
 
 
     return (
@@ -36,7 +47,7 @@ function NavLink ( NavLinkProps){
               
             <ArrowForwardIosIcon 
             sx={{
-              display:LinkArrow ? "block" : "none",
+              display:flag ? "block" : "none",
               fontSize:"1rem",
             }}
             /> 

@@ -317,6 +317,96 @@ export const HomeCalendar = [
   
 ];
 
+// -----------------------------------PhD Page ---------------
+
+export const PhDBlogs = [
+  {
+    id: 1,
+    title: "Why choose KTH?",
+    image: `${images['PhD/PhD1.jpg']}`,
+
+    Imagename:"Why choose KTH?" ,
+    text : " ",
+    links: ["The advantages of being a","doctoral student at KTH"],
+  },
+  {
+   
+    id: 2,
+    title: " ",
+    image: `${images['PhD/PhD2.png']}`,
+
+    Imagename:"PhD" ,
+    text : "'Meeting people in industry who are interested in what I'm doing motivates me'",
+    links: ["Student interviews"],
+  },
+  {
+    id: 3,
+    title: "KTH Relocation Service",
+    image: `${images['PhD/PhD3.jpg']}`,
+
+    Imagename:"KTH Relocation Service" ,
+    text : "...helps international doctoral students to settle in Sweden and at KTH.",
+    links: ["KTH Relocation Service"],
+  },
+  {
+    id: 3,
+    title: "KTH Relocation Service",
+    image: `${images['PhD/PhD3.jpg']}`,
+
+    Imagename:"KTH Relocation Service" ,
+    text : "...helps international doctoral students to settle in Sweden and at KTH.",
+    links: ["KTH Relocation Service"],
+  },
+ 
+  
+];
+
+
+
+export const PhDNavItem=[
+  {
+    id:1,
+    text:"Why choose KTH?",
+    href:"https://www.kth.se/en/studies/phd/why-1.521017"
+  },
+  {
+    id:2,
+    text:"Being a doctoral student",
+    href:"https://www.kth.se/en/studies/phd/student",
+  }, {
+    id:3,
+    text:"How to apply",
+    href:"https://www.kth.se/en/studies/phd/how-to-apply-1.520089",
+  }, {
+    id:4,
+    text:"Entry requirements",
+    href:"https://www.kth.se/en/studies/phd/entry-requirements-for-doctoral-studies-1.520175",
+  }, {
+    id:5,
+    text:"Courses",
+    href:"https://www.kth.se/en/studies/phd/nodvandig-ompekningsartikel-lat-vara-1.792712",
+  },
+  {
+    id:6,
+    text:"Joint programmes and scholarships",
+    href:"https://www.kth.se/en/studies/phd/partnerships-1.520098",
+  },
+  {
+    id:7,
+    text:"Virtual campus tour",
+    href:"https://www.kth.se/en/studies/phd/campus-tour/virtual-campus-tour-1.1014217",
+  },
+  {
+    id:8,
+    text:"Interviews",
+    href:"https://www.kth.se/en/studies/phd/interviews",
+  },
+  {
+    id:9,
+    text:"Contact",
+    href:"https://www.kth.se/en/studies/phd/contact-1.534316",
+  },
+]
 // --------------------------------- Alumni Page ---------------------------
 
 // --------------------------------- Alumni Page ---------------------------
