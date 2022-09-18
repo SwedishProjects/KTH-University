@@ -1,29 +1,37 @@
 
-
+export const teaserBox={
+     position: {lg:"absolute",md:"relative"},
+     height:{xs:"auto",lg:"150px"},
+     top: {xs:"0px",sm:"0px",md:"0px",lg:"200px"},
+   
+  
+ 
+     bottom:"50px",
+     left: {xs:"0",lg:"100px"},
+     width: {xs:"100%",md:"100%",sm:"100%",lg:"50%"},
+     backgroundColor: "#fff",
+     paddingTop: {xs:"20px",sm:"20px",md:"20px",lg:"20px"},
+     paddingLeft:  {xs:"0px",sm:"0px",md:"0px",lg:"36px"},
+     paddingRight:  {xs:"0px",sm:"0px",md:"0px",lg:"25px"},
+     paddingBottom:  {xs:"0px",sm:"0px",md:"0px",lg:"25px"}, 
+ }
 export const EventsCardBox={
      display: 'flex' ,
 width:"100%",
 flexDirection:{xs:'column-reverse',sm:"row",md:"row",lg:"row"},
 justifyContent:{xs:"flex-start",sm:"space-between",md:"space-between",lg:"space-between",},
-// alignContent:{xs:"start",sm:"start",md:"start",lg:"start",},
+
 border:"1px solid #c1c1c1",
 }
 
 export const EventsCardContentBox={
      display: 'flex',
-     
      flexDirection: 'column' ,
      width:{xs:"100%",sm:"50%",lg:"70%"}
-    
-
-
-
-
 }
 
 export const EventsImage={
     width:{xs:"100%",sm:"50%",lg:"30%"}
-
 }
 // --------------------------------CollaborateKTH ---------------
 

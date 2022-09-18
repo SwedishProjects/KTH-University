@@ -1,8 +1,9 @@
 
 import { Typography, Box,} from "@mui/material";
-import {CoOperationText,teaserBoxHeaderWrap,teaserBox,
+import {CoOperationText,teaserBoxHeaderWrap,
     teaserBoxHeader,teaserBoxHeading
-} from "../../../../Styles/Study"
+} from "../../../../Styles/Study";
+import {teaserBox,} from "../../../../Styles/CoOperation"
 function TeaserBox(){
     return (
         <>
