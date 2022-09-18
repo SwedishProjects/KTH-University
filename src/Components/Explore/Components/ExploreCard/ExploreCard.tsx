@@ -24,7 +24,7 @@ function ExploreCard(props: ExploreCardProps) {
      flexDirection: {xs:"column",sm:"row",md:"row",lg:"row",},
      backgroundColor: "#f6f6f6",
     
-     width:{xs:"100%",sm:"100%",md:"970px",lg:"831px",},
+     width:(props.title==="Summer time at the library") ? "100%":{xs:"100%",sm:"100%",md:"970px",lg:"831px",},
      marginTop:(props.title==="Summer time at the library") ? "0px":"30px",
      height:(props.title==="Summer time at the library") ? {xs:"auto",sm:"auto",md:"auto",lg:"320px",} :  {xs:"auto",sm:"auto",md:"auto",lg:"300px",},
      marginLeft:{xs:"0",sm:"auto",md:"-20px",lg:"-22px",},
@@ -35,7 +35,7 @@ function ExploreCard(props: ExploreCardProps) {
       <CardMedia 
       sx={{
         height:(props.title==="Summer time at the library") ? {xs:"auto",sm:"auto",md:"auto",lg:"320px",} :  {xs:"auto",sm:"auto",md:"auto",lg:"300px",},
-        width:(props.title==="Summer time at the library") ? {sm:"auto",md:"auto",lg:"300px",}:{sm:"auto",md:"auto",lg:"434px",},
+        width:(props.title==="Summer time at the library") ? {sm:"150px",md:"auto",lg:"300px",}:{sm:"auto",md:"auto",lg:"434px",},
         display: "block",
       }}
         component="img"

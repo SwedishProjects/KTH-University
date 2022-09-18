@@ -46,7 +46,7 @@ export const CalendarDateBox={
 }
 
 export const linkStyle={
-    fontSize: "1rem",
+    fontSize: {xs:"1.3rem" ,sm:"1.3rem", lg:"1rem",},
     fontHeight: "400",
     color: "#006cb7",
     textDecoration: "none",

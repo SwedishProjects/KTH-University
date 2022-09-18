@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import Buttons from "../Buttons/Buttons";
-import { Grid, CardActionArea, Container, Box } from '@mui/material';
+import { Grid } from '@mui/material';
 
 const ButtonTitle = [
  { 
@@ -33,21 +33,10 @@ const LibraryButton = () => {
   const [title] = useState(ButtonTitle);
   return (
     <>
-    <Grid
-            container
-            height="100%"
-            display="flex"
-            justifyContent="space-around"
-            alignItems="flex-start"
-            sx={{
-              flexWrap: "wrap",
-              flexGrow: "1",
-           margin:"40px 0"
-
-            }}
-          >
+  
+          <Grid container spacing={2} sx={{marginTop:"20px" , marginBottom:"20px,"}}>
  {title.map((button) => (
-   <Grid item xs={12} sm={12} md={3} lg={3}>
+   <Grid item xs={12} sm={6} md={3} lg={3}>
               <Buttons
               href= {button.href}
     title ={button.title}

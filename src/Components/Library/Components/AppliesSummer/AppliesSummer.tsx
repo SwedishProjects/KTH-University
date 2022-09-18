@@ -8,7 +8,7 @@ function AppliesSummer(){
 
 <Grid container spacing={2}>
    
-   <Grid item xs={12} sm={6} md={6} lg={9}>
+   <Grid item xs={12} sm={9} md={9} lg={9}>
    <Container
       sx={{
        
@@ -34,7 +34,7 @@ function AppliesSummer(){
        
     </Container>
     </Grid>
-    <Grid item xs={12} sm={6} md={6} lg={3}>
+    <Grid item xs={12} sm={3} md={3} lg={3}>
     <OpeningHours />
     </Grid>
     </Grid>

@@ -283,22 +283,22 @@ export const ButtonStyle={
     backgroundColor: "#007fae",
     borderColor:"#007fae",
     fontWeight:" 600",
-    // height:" auto",
-    minHeight: "44px",
+   
     cursor: "pointer",
-    fontSize: "1rem",
+    fontSize: "0.75rem",
     lineHeight: "1.5",
     marginTop:" 0",
-    // display:"block",
+ 
     marginBottom: "30px",
-    // width:"200px",
+   
     padding:"1rem 2rem",
-   width:"300px",
+   width:"100%",
     borderRadius:" 0.25rem",
     border: "1px solid transparent",
+    boxSizing:"border-box",
     textAlign: "center",
-    // verticalAlign: "middle",
-    transition:"color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out",
+
+    
 
 }
 

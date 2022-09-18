@@ -1,4 +1,4 @@
-import {  Link, } from "@mui/material";
+import {  Link,Button } from "@mui/material";
 import {ButtonStyle} from "../../../../Styles/Library"
 type props = {
     href: string;
@@ -8,18 +8,14 @@ type props = {
 const Buttons = ({href ,title }: props) => {
   return (
     <>
-      <Link
+      <Button
           sx={ButtonStyle}
           
-          href={href}
-         
-          underline="none"
-          mb={1.5}
-         
-          variant="subtitle1"
+     
+          
         >
            {title}
-        </Link>
+        </Button>
     </>
   );
 };
