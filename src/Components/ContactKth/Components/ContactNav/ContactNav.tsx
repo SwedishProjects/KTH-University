@@ -2,7 +2,7 @@ import {linkStyle} from "../../../../Styles/Calendar"
 import { useState } from "react";
 import {ContactNavItem} from "../../../../Services/Utils/Data/data"
 import NavLink from '../NavLink/NavLink';
-
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import{ Box,
    Link,
     Typography,}  from '@mui/material';
@@ -16,14 +16,19 @@ function ContactNav(){
     return (
         <>
          <Box sx={mainMenu} >
+         <Typography sx={{display:"flex",marginTop:"5px"}}>
+         <ArrowBackIosIcon sx={{fontSize:"1rem",}}/>
          <Link
          sx={linkStyle}
+         className="PhDLink"
           href=""
           underline="hover"
           variant="subtitle1"
         >
               About KTH     
         </Link>
+        </Typography>
+       
 
          <Typography sx={{
                
