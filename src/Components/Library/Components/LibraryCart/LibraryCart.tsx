@@ -1,16 +1,54 @@
-import * as React from 'react';
-import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
-
-import SearchIcon from '@mui/icons-material/Search';
-import InfoIcon from '@mui/icons-material/Info';
+import ReadArticleCard from "../../../ReadArticle/Components/ReadArticleCard/ReadArticleCard";
+import {LibrartCardData} from "../../../../Services/Utils/Data/data"
+import { useState } from "react";
+import { 
+  Typography,
+      Box,
+    
+     } from '@mui/material';
+ import {teaserBoxHeading,} from "../../../../Styles/Study";
 const LibraryCart = () => {
-    return (
-    <>
-      <Button variant="contained">Contained</Button>
-      <Divider variant="inset" component="li" />
-    </>
-    );
+  const [Info] = useState(LibrartCardData);
+  return(
+      <>
+    
+      <Box sx={{
+          margin: "15px 0",
+          width:" 100%",
+         
+          overflow: "hidden",
+          display: "flex",
+          flexWrap:{xs:"wrap",md:"no-wrap",sm:"no-wrap",lg:"no-wrap"},
+         alignItems:"stretch",
+         
+          justifyContent: "space-between",
+         
+          
+          maxWidth: "100%",
+      }}>
+
+
+{Info.map((article) => (
+            <ReadArticleCard
+            use="LibraryCart"
+            title= {article.title}
+            image= {article.image}
+            Imagename= {article.Imagename}
+            text = {article.text}
+            ReadLink={article.ReadLink}
+            />
+          ))}
+
+
+
+
+          </Box>
+
+
+
+      
+      </>
+  )
   };
   
   export default LibraryCart;

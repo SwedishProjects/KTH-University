@@ -717,6 +717,49 @@ export const  LibraryCalendarDate = [
 ];
 
 
+export const LibrartCardData = [
+  {
+    id: 1,
+    title: "Introduction for new students",
+    image: `${images['Library/Library(3).jpg']}`,
+
+    Imagename:"Introduction for new students" ,
+    text : "In the beginning of the semester, the library invites all new students to an introductory event.",
+    ReadLink: "Register for the introduction 7 or 8 of September ",
+  },
+  {
+   
+    id: 2,
+    title: "Do you need talking books?",
+    image: `${images['Library/Library(2).jpg']}`,
+
+    Imagename:"Do you need talking books?" ,
+    text : "If you have reading difficulties, contact the library to get access to talking books.",
+    ReadLink: "About talking books",
+  },
+  {
+    id: 3,
+    title: "We're upgrading our support area!",
+    image: `${images['Library/Library(1).jpg']}`,
+
+    Imagename:"We're upgrading our support area!" ,
+    text : "8 June we start rebuilding our support area, which might cause some disturbances.",
+    ReadLink: "Read more here",
+  },
+  {
+    id: 4,
+    title: "New books at KTH Library",
+    image: `${images['Library/index.png']}`,
+
+    Imagename:"New books at KTH Library" ,
+    text : "Want to know what books the library purchased recently? Here you can see the library's new books, both print and online.",
+    ReadLink: "New books",
+  },
+  
+  
+];
+
+
 
 
 

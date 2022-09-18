@@ -1,7 +1,7 @@
 
 
 import {  Container,Grid , } from "@mui/material";
-
+import LibraryCart from "./Components/LibraryCart/LibraryCart";
 import LibraryLink from './Components/LibraryLink/LibraryLink';
 import LibraryInfo from './Components/LibraryInfo/LibraryInfo';
 import CustomBreadcrumbs from '../CustomBreadcrumbs/CustomBreadcrumbs';
@@ -22,6 +22,7 @@ const Library = () => {
       <LibraryInfo />
       <LibraryButton />
       <AppliesSummer />
+      <LibraryCart />
       <Grid container spacing={2}>
    
        <Grid item xs={12} sm={6} md={6} lg={6}>
