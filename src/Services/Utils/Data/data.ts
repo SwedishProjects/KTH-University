@@ -820,3 +820,94 @@ export const LibrartCardData = [
 
 
 
+// ---------------------------------Studen Page -----------------------
+
+export const newsList = [
+  {
+     id: 1,
+      title: 'Zoom client',
+      date: '1 Sep 2022'
+  }, {
+     id: 2,
+      title: 'Anders Söderholm appointed President of KTH',
+      date: '19 Aug 2022'
+  }, {
+     id: 3,
+      title: 'Ask your questions to Anders Söderholm, proposed as the next President of KTH',
+      date: '3 May 2022'
+  }, {
+     id: 4,
+      title: 'Anders Söderholm proposed as new President of KTH',
+      date: '20 Apr 2022'
+  }, {
+     id: 5,
+      title: 'Apply to International Internship Programme in informatics at NII in Tokyo',
+      date: '20 Apr 2022'
+  }, {
+     id: 6,
+      title: 'Mentor provides valuable insight into future career',
+      date: '19 Apr 2022'
+  }, {
+     id: 7,
+      title: 'Share your degree certificate digitally via a new function',
+      date: '13 Apr 2022'
+  }
+  , {
+     id: 8,
+      title: 'Give feedback on hybrid education',
+      date: '13 Apr 2022'
+  }
+  , {
+    id: 9,
+      title: 'More news',
+      date: ''
+  }
+]
+
+export const calendarList = [
+  {
+      id: 1,
+      link: 'Lunch lecture with Effective Altruism KTH - STUDENT EVENT',
+      head: 'Sustainability',
+      date: 'Tuesday 2022-09-06, 12:00',
+      location: 'KTH Campus, V1 (Teknikringen)',
+      lecturer: '',
+      image: images['dates/date.png']
+  },
+  {
+      id: 2,
+      link: 'Lunch lecture with Effective Altruism KTH - STUDENT EVENT',
+      head: 'Sustainability',
+      date: 'Tuesday 2022-09-06, 12:00',
+      location: 'KTH Campus, V1 (Teknikringen)',
+      lecturer: '',
+      image: images['dates/date.png']
+  },
+  {
+      id: 3,
+      link: 'Lunch lecture with Effective Altruism KTH - STUDENT EVENT',
+      head: 'Sustainability',
+      date: 'Tuesday 2022-09-06, 12:00',
+      location: 'KTH Campus, V1 (Teknikringen)',
+      lecturer: '',
+      image: images['dates/date.png']
+  },
+  {
+    id: 4,
+      link: 'Lunch lecture with Effective Altruism KTH - STUDENT EVENT',
+      head: 'Sustainability',
+      date: 'Tuesday 2022-09-06, 12:00',
+      location: 'KTH Campus, V1 (Teknikringen)',
+      lecturer: '',
+      image: images['dates/date.png']
+  },
+  {
+    id: 5,
+      link: 'Lunch lecture with Effective Altruism KTH - STUDENT EVENT',
+      head: 'Sustainability',
+      date: 'Tuesday 2022-09-06, 12:00',
+      location: 'KTH Campus, V1 (Teknikringen)',
+      lecturer: '',
+      image: images['dates/date.png']
+  }
+]
