@@ -5,13 +5,23 @@ import {ArticleImageStyle} from "../../../../Styles/ReadArticle"
 type props = {
     title: string;
     image: string;
+    use:string;
   };
   
-function  ArticleImage ({ image, title }: props){
+function  ArticleImage ( props){
     return (
         <>
-        <CardMedia component='img' image={`${image}`} alt={`${title}`} 
-         sx={ArticleImageStyle}/>
+        <CardMedia component='img' image={`${props.image}`} alt={`${props.title}`} 
+         sx={{
+            maxWidth: "100%",
+    //    width:props.use==="LibraryCart"?{xs:"100%",sm:"240px",md:"230px",lg:"350px",}:"100%",
+            lineHeight: "1",
+            // width:{xs:"auto",sm:"250px"},
+            overflow:"hidden",
+            width:"100%",
+            height:{xs:"auto",sm:"150px"},
+        marginBottom:" 0",
+         }}/>
         </>
     )
 }

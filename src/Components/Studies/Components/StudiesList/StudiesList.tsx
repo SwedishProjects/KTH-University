@@ -3,7 +3,6 @@
 
 
 
-
 import StudiesListChild from '../StudiesListChild/StudiesListChild';
 
 

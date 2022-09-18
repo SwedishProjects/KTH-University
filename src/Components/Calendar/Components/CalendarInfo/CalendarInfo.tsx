@@ -17,7 +17,7 @@ function  CalendarInfo(props: CalendarInfoProps ){
     return (
         <Box
         sx={{
-       
+        // marginLeft:(props.title==="Public defences of doctoral theses") ?{xs:"-20px",lg:"0"} : "0",
         width:(props.title==="Public defences of doctoral theses") ?{xs:"60%",lg:"100%"} : "100"
      
        }}
@@ -64,10 +64,10 @@ function  CalendarInfo(props: CalendarInfoProps ){
      
      <Box
      sx={{display:(props.title==="Public defences of doctoral theses") ? "flex" :"none",
-   
+    
      marginLeft:{xs:"-30px",sm:"0",md:"0",lg:"0"},
     
-
+  
   
     }}
      >
@@ -107,6 +107,48 @@ function  CalendarInfo(props: CalendarInfoProps ){
      , Egenskaper, Materials Characterization
      </Typography>
      </Box>
+
+
+     <Box
+     sx={{display:(props.title==="Events for PhD students and researchers") ? "flex" :"none",
+    
+     marginLeft:{xs:"-30px",sm:"0",md:"0",lg:"0"},
+    
+  
+  
+    }}
+     >
+       
+     <Typography
+       variant="body2"
+       
+       sx={{ float: "left",
+       fontWeight: "600",
+       fontSize:" 1rem",
+       color: "#000",
+       lineHeight:" 1.5",
+       paddingRight:"0.3rem"
+       
+      }}
+       >
+         Video link:
+     
+     </Typography>
+     <Link
+          sx={linkStyle}
+        
+          href="#"
+         
+          underline="hover"
+          mb={1.5}
+         
+          variant="subtitle1"
+        >
+        Zoom - Registration is required
+        </Link>
+     
+     </Box>
+
 
             </Box>
         

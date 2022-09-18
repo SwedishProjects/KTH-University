@@ -60,7 +60,11 @@ const  Network = [
         display: "flex",
         flexDirection: "column",
         justifyContent: "flex-end",
+<<<<<<< HEAD
 
+=======
+        // bgcolor: "#000",
+>>>>>>> library
         width:"100%",
         maxWidth: "100%",
         paddingLeft:"0",
@@ -94,7 +98,11 @@ const  Network = [
         
       
         marginLeft: {xs:"0",sm:"0",md:"0",lg:"0"},
+<<<<<<< HEAD
        
+=======
+        // bgcolor: "#ffc107",
+>>>>>>> library
         width:{xs:"100%",sm:"100%",md:"1200px",lg:"1141px"},
        
        

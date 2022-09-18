@@ -705,3 +705,451 @@ export const ContactNavItem=[
 
   },
 ]
+
+
+ 
+export const AlumniCalendar = [
+  {
+    id: 1,
+    links:"KTH Alumni Germany Chapter lunch",
+    day:"23",
+    month:"Jul",
+    
+    date:"Saturday 2022-07-23, 13:00",
+    location:"Arnulfstr. 52, 80335 Munich",
+  },
+  {
+   
+    id: 2,
+    links:"Reunion A-60",
+    day:"1",
+    month:"Sep",
+   
+    date:"Thursday 2022-09-01",
+    location:"KTH Campus",
+  },
+  {
+    id: 3,
+    links:"Reunion B-62",
+    day:"4",
+    month:"Oct",
+   
+    date:"Tuesday 2022-10-04",
+    location:"KTH Campus",
+  },
+  {
+    id: 4,
+    links:"Reunion M-62",
+    day:"17",
+    month:"Oct",
+   
+    date:"Monday 2022-10-17, 11:00",
+    location:"KTH Campus",
+  },
+  
+];
+
+
+export const AlumniCarteData = [
+  {
+    id: 1,
+    title: "KTH Alumni Mentor Programme",
+    image: `${images['Alumni/Mentorpar-2022 Nicky Rosenberg.jpg']}`,
+
+    Imagename:"KTH Alumni Mentor Programme" ,
+    text : "Join the KTH Alumni Mentor Programme 2022/23:",
+    links: ["Students/Mentees","Alumni/Mentors"],
+  },
+  {
+   
+    id: 2,
+    title: "Meet the Alum of the Year 2022: Sophia Hober",
+    image: `${images['Alumni/hoberbildhöjdare.jpg']}`,
+
+    Imagename:"Meet the Alum of the Year 2022: Sophia Hober" ,
+    text : "When the pandemic was upon us, her research group quickly developed a high quality rapid test to measure antibodies against Covid-19. Professor Sophia Hober has now been named the 2022 KTH Alum of the Year",
+    links: ["Read the interview with Prof. Sophia Hober"],
+  },
+  {
+    id: 3,
+    title: "Become a mentor to an exchange student",
+    image: `${images['Alumni/Mentor Jackie and 3 Mentee_reviderad 2.jpg']}`,
+
+    Imagename:"Become a mentor to an exchange student" ,
+    text : "Get involved by mentoring a student via the KTH International Buddy Programme. Through sharing your knowledge and experience, in matters great and small, both the student and you will gain new perspectives.",
+    links: ["Apply and learn more about KTH International Buddy Program"],
+  },
+  
+];
+//---------------------About Page -------------------
+
+
+export const CardsInfo1 = [
+  {
+    id: 1,
+    title: "Meet KTH",
+    image: `${images['About/About(3).jpg']}`,
+
+    Imagename:"Meet KTH" ,
+    text : "KTH offers many opportunities throughout the year that invites you to meet us, collaborate with us and participate in our activities. Everything from music to popular science lectures, academic festivals and scientific conferences can be found here.",
+    links: ["See upcoming events at KTH"],
+  },
+  {
+   
+    id: 2,
+    title: "Discover KTH",
+    image: `${images['About/About(5).jpg']}`,
+
+    Imagename:"Discover KTH" ,
+    text : "Since its founding in 1827, KTH Royal Institute of Technology in Stockholm has grown to become one of Europe’s leading technical and engineering universities.' Levi Prize, writes in this week's post about how digitalization as a work environment issue has become increasingly relevant, accepted and taken seriously.",
+    links: ["Study at KTH","Research","Business and Community",],
+  },
+
+  
+];
+
+
+
+export const CardsInfo2 = [
+  
+  {
+    id: 1,
+    title: "Work at KTH",
+    image: `${images['About/About(2).jpg']}`,
+
+    Imagename:"Work at KTH" ,
+    text : "At KTH you will have the opportunity of bringing life to your ideas and, at the same time, contributing to tomorrow's society.",
+    links: ["KTH - Your future workplace","Vacancies"],
+  },
+  {
+    id: 2,
+    title: "Exchange opportunities",
+    image: `${images['About/About(4).jpg']}`,
+
+    Imagename:"Exchange opportunities" ,
+    text : "KTH has an active student and staff exchange with over 200 prominent technical universities worldwide.",
+    links: ["Exchange universities"],
+  },
+  
+];
+
+
+
+export const CardsInfo3 = [
+  
+  {
+    id: 1,
+    title: "KTH's Annual Report 2021",
+    image: `${images['About/About(1).jpeg']}`,
+
+    Imagename:"KTH's Annual Report 2021" ,
+    text : "The Annual Report gives you a good oversight of KTH operations and virtually all our official statistics for 2021.",
+    links: ["Find KTH's Annual Reports"],
+  },
+  {
+    id: 2,
+    title: "KTH has gained HR Excellence in Research accreditation",
+    image: `${images['About/About(2).jpeg']}`,
+
+    Imagename:"KTH has gained HR Excellence in Research accreditation" ,
+    text : "KTH has now signed up to the EU Charter & Code following EU Commission approval of our application. ",
+    links: ["KTH in line with EU Charter & Code" ,"About the EU C&C on the Euraxess website"],
+  },
+  
+];
+
+
+
+//----------------------------------Research Page ------------------------------------------
+
+export const CurrentActivitiesData = [
+  {
+    id: 1,
+    title: "Ink coating could enable devices powered by heat",
+    image: `${images['Research/Research(2).jpg']}`,
+
+    Imagename:"Ink coating could enable devices powered by heat" ,
+    text : "Researchers at KTH report that they are closing in on a way to replace batteries for wearables and low-power applications in the internet of things (IoT). The answer lies in an ink coating that enable...",
+    ReadLink: "Read the article ",
+  },
+  {
+   
+    id: 2,
+    title: "Boats that fly like the wind",
+    image: `${images['Research/Research(4).jpg']}`,
+
+    Imagename:"Boats that fly like the wind" ,
+    text : "Silent zero-emission vessels that swiftly float past the cobs and skerries – is this the future of coastal and open-water boating? We paid a visit to the KTH Värmdö field station, where researchers ar...",
+    ReadLink: "Read the article",
+  },
+  {
+    id: 3,
+    title: "100 students behind advanced new racing car",
+    image: `${images['Research/Research(1).jpg']}`,
+
+    Imagename:"100 students behind advanced new racing car" ,
+    text : "Since 2004, students at KTH have built no fewer than 15 racing cars. And now, number 16 is here. A brand new driverless vehicle, designed and built from scratch, with electrical and four-wheel drive a...",
+    ReadLink: "Read the article",
+  },
+  
+];
+
+
+export const ResearchNewsData = [
+  {
+    id: 1,
+    date: "15 Jun 2022",
+    links :"Ink coating could enable devices powered by heat"
+    
+  },
+  {
+    id: 2,
+    date: "8 Jun 2022",
+    links :"Boats that fly like the wind"
+    
+  },
+  {
+    id: 3,
+    date: "7 Jun 2022",
+    links :"100 students behind advanced new racing car"
+    
+  },
+  {
+    id: 4,
+    date: "7 Jun 2022",
+    links :"Insulation from wood research proves better than plastic-based materials"
+    
+  },
+  {
+    id: 5,
+    date: "11 May 2022",
+    links :"KTH Climate Action Centre mobilises forces"
+    
+  },
+  
+];
+
+
+
+export const ResearchBulletinData = [
+  {
+    id: 1,
+    date: "7 Jun 2022",
+    links :"Energy research helps boost heat pumps in the U.S."
+    
+  },
+  {
+    id: 2,
+    date: "17 May 2022",
+    links :"Adjustable visors with 4D printing method"
+    
+  },
+  {
+    id: 3,
+    date: "4 May 2022",
+    links :"Unexpected bonds between covid and inorganic surfaces"
+    
+  },
+  {
+    id: 4,
+    date: "21 Apr 2022",
+    links :"Knots that can solve the problems of the future"
+    
+  },
+  {
+    id: 5,
+    date: "19 Apr 2022  ",
+    links :"New glasses can pave way for new battery standard"
+    
+  },
+  
+];
+// -----------------------------------Research /ResearchCalendar
+
+export const  ResearchCalendarDate = [
+  {
+    id: 1,
+    links:"PDC Summer School 2022: 'Introduction to High Performance Computing'",
+    day:"15",
+    month:"Aug",
+    title:"Conferences and events",
+    date:"Mon 2022-08-15, 09:00 - Fri 2022-08-26, 12:30",
+    location:"Location: KTH Main Campus",
+  },
+  {
+   
+    id: 2,
+    links:"Formation of Bainite Studied by In-situ High-energy X-ray Diffraction",
+    day:"19",
+    month:"Aug",
+    title:"Public defences of doctoral theses",
+    date:"Friday 2022-08-19, 10:00",
+    location:" Kollegiesalen, Brinellvägen 8, Stockholm",
+  },
+  {
+    id: 3,
+    links:"Ragnar Holm lecture: A dive into the wonders of solid-state hydrogen storage systems with in situ neutron scattering methods",
+    day:"19",
+    month:"Aug",
+    title:"Lectures and seminars",
+    date:"Friday 2022-08-19, 14:15",
+    location:" FB53, Roslagstullsbacken 21",
+  },
+  
+  
+];
+
+// --------------------------Research /RecentPublications ----------
+
+
+export const RecentPublicationsDate=[
+  {
+    id:"1",
+    author:"K. Lindvalll and J. Scheffel,",
+    links : " '2D continuous Chebyshev-Galerkin time-spectral method,' ",
+    title:"Computer Physics Communications, vol. 271, pp. ",
+    date :"108217-108217, 2022.",
+
+  },
+  {
+    id:"2",
+    author:"S. Caron et al.,",
+    links : "'A comparative analysis of opto-thermal figures of merit for high temperature solar thermal absorber coatings,'",
+    title:"Renewable & sustainable energy reviews, vol. ",
+    date :"154, 2022.",
+
+  },
+  {
+    id:"3",
+    author:"S. Mravinacová et al.,",
+    links : "'A cell-free high throughput assay for assessment of SARS-CoV-2 neutralizing antibodies,'",
+    title:"Biotechnology, vol. 66, pp. ",
+    date :"46-52, 2022.",
+
+  },
+  {
+    id:"4",
+    author:"M. Alibakhshikenari et al.,",
+    links : " 'A Comprehensive Survey on Antennas On-Chip Based on Metamaterial, Metasurface, and Substrate Integrated Waveguide Principles for Millimeter-Waves and Terahertz Integrated Circuits and Systems,'",
+    title:"IEEE Access, vol. 10, pp.",
+    date :" 3668-3692, 2022.",
+
+  },
+  {
+    id:"5",
+    author:"C. Fei et al.,",
+    links : " '100-m/3-Gbps underwater wireless optical transmission using a wideband photomultiplier tube (PMT),'",
+    title:"Optics Express, vol. 30, no. 2, pp.",
+    date :"2326-2337, 2022.",
+
+  },
+]
+
+// ------------------------------------Library page 
+
+
+export const LibraryNewsData = [
+  {
+    id: 1,
+    date: "3 Jun 2022",
+    links :"Request a literature search – an easy way to increase the quality of research"
+    
+  },
+  {
+    id: 2,
+    date: "2 Jun 2022",
+    links :"We're rebuilding our information desk"
+    
+  },
+  {
+    id: 3,
+    date: "23 May 2022",
+    links :"Library services during summer 2022"
+    
+  },
+  {
+    id: 4,
+    date: "28 Mar 2022",
+    links :"ERIC, a + t online library and other new online resources"
+    
+  },
+];
+
+
+
+export const  LibraryCalendarDate = [
+  {
+    id: 1,
+    links:"Ny student? Välkommen på introduktion på biblioteket!",
+    day:"7",
+    month:"Sep",
+    title:"Events for students",
+    date:"Wednesday 2022-09-07, 16:00 - 17:00",
+    location:"KTH Biblioteket, Osquars backe 31",
+  
+  },
+  {
+   
+    id: 2,
+    links:"Introduction to KTH Library for new students",
+    day:"8",
+    month:"Sep",
+    title:"Events for students",
+    date:"Thursday 2022-09-08, 16:00 - 17:00",
+    location:" KTH Library, Osquars backe 31",
+  },
+  {
+    id: 3,
+    links:"Literature search with smart tools",
+    day:"9",
+    month:"Sep",
+    title:"Events for PhD students and researchers",
+    date:"Friday 2022-09-09, 10:00 - 12:00",
+    location:" Magdalena Svanberg and Gaël Dubus, KTH Library",
+  },
+  
+  
+];
+
+
+export const LibrartCardData = [
+  {
+    id: 1,
+    title: "Introduction for new students",
+    image: `${images['Library/Library(3).jpg']}`,
+
+    Imagename:"Introduction for new students" ,
+    text : "In the beginning of the semester, the library invites all new students to an introductory event.",
+    ReadLink: "Register for the introduction 7 or 8 of September ",
+  },
+  {
+   
+    id: 2,
+    title: "Do you need talking books?",
+    image: `${images['Library/Library(2).jpg']}`,
+
+    Imagename:"Do you need talking books?" ,
+    text : "If you have reading difficulties, contact the library to get access to talking books.",
+    ReadLink: "About talking books",
+  },
+  {
+    id: 3,
+    title: "We're upgrading our support area!",
+    image: `${images['Library/Library(1).jpg']}`,
+
+    Imagename:"We're upgrading our support area!" ,
+    text : "8 June we start rebuilding our support area, which might cause some disturbances.",
+    ReadLink: "Read more here",
+  },
+  {
+    id: 4,
+    title: "New books at KTH Library",
+    image: `${images['Library/index.png']}`,
+
+    Imagename:"New books at KTH Library" ,
+    text : "Want to know what books the library purchased recently? Here you can see the library's new books, both print and online.",
+    ReadLink: "New books",
+  },
+  
+  
+]
