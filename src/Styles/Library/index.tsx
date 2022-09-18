@@ -301,3 +301,13 @@ export const ButtonStyle={
     transition:"color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out",
 
 }
+
+export const OpeningHoursTitle={
+    fontFamily: "'Open Sans',Arial,'Helvetica Neue',helvetica,sans-serif",
+    fontSize: "1.25rem",
+    fontWeight: "600",
+    color:" #000",
+    lineHeight: "1.375",
+    marginTop: "0",
+    marginBottom: "14px",
+}

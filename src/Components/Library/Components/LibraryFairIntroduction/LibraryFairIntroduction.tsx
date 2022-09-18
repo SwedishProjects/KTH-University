@@ -13,7 +13,7 @@ import {
 const LibraryFairIntroduction = () => {
   return (
       <Box sx={ LibraryFairIntroductionBox }>
-          <Box sx={LibraryFairIntroductionImage}>
+          {/* <Box sx={LibraryFairIntroductionImage}>
           <img
               height="100%"
               width="100%"
@@ -32,7 +32,7 @@ const LibraryFairIntroduction = () => {
               <Typography>
                  <Link href={"#"} underline="hover"> Read more about being a new student at the library</Link>
               </Typography>
-          </Box>    
+          </Box>     */}
     </Box>
   )
 }

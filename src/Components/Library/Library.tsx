@@ -7,6 +7,7 @@ import CustomBreadcrumbs from '../CustomBreadcrumbs/CustomBreadcrumbs';
 import LibraryTeaser from './Components/LibraryTeaser/LibraryTeaser';
 import {ContainerStyle } from '../../Styles/Container/Container'
 import LibraryButton from './Components/LibraryButtons/LibraryButtons';
+import AppliesSummer from "./Components/AppliesSummer/AppliesSummer"
 const links = [
   "KTH Library"
 ]
@@ -17,6 +18,7 @@ const Library = () => {
       <LibraryTeaser />
       <LibraryInfo />
       <LibraryButton />
+      <AppliesSummer />
       <LibraryLink />
 
     </Container>
