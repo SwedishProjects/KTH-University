@@ -4,7 +4,7 @@ import { useState } from "react";
 import { 
   Typography,
       Box,
-    
+    Grid
      } from '@mui/material';
  import {teaserBoxHeading,} from "../../../../Styles/Study";
 const LibraryCart = () => {
@@ -12,7 +12,7 @@ const LibraryCart = () => {
   return(
       <>
     
-      <Box sx={{
+      {/* <Box sx={{
           margin: "15px 0",
           width:" 100%",
          
@@ -25,10 +25,11 @@ const LibraryCart = () => {
          
           
           maxWidth: "100%",
-      }}>
+      }}> */}
 
-
+ <Grid container spacing={2} sx={{marginTop:"20px" , marginBottom:"20px,"}}>
 {Info.map((article) => (
+  <Grid item xs={12} sm={6} md={3} lg={3}>
             <ReadArticleCard
             use="LibraryCart"
             title= {article.title}
@@ -37,12 +38,13 @@ const LibraryCart = () => {
             text = {article.text}
             ReadLink={article.ReadLink}
             />
+            </Grid>
           ))}
 
+</Grid>
 
 
-
-          </Box>
+          {/* </Box> */}
 
 
 

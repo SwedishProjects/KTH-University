@@ -25,7 +25,7 @@ function ReadArticleCard(props: info) {
       
 display: "flex",
 
-
+oderflow:"hidden",
 flexDirection: "column",
 justifyContent: "flex-start",
 // width:{xs:"100%",sm:"200px",md:"250px",lg:"250px",},
@@ -38,7 +38,7 @@ width:props.use==="Current activities"?{xs:"100%",sm:"220px",md:"300px",lg:"350p
    
    
      <Box>
-        <ArticleImage title={props.Imagename} image={props.image}></ArticleImage>
+        <ArticleImage title={props.Imagename} image={props.image} use={props.use} ></ArticleImage>
        
         <ArticleText title={props.title}   text={props.text}></ArticleText>
       
