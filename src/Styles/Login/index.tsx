@@ -57,7 +57,7 @@ export const contentWrapper= {
 }
 
 export const content  ={
-    position:{xs:"relativ",lg:"fixed"},
+    position:{xs:"relativ", sm:"relativ",lg:"fixed"},
     top: {xs:"0",lg:"50%"},
     left:  {xs:"0",lg:"50%"},
     transform:{xs:"none",lg:" translate(-50%, -50%)"},

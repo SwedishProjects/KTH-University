@@ -3,7 +3,7 @@ import {CurrentActivitiesData} from "../../../../Services/Utils/Data/data"
 import { useState } from "react";
 import { 
   Typography,
-      Box,
+      Grid,
     
      } from '@mui/material';
  import {teaserBoxHeading,} from "../../../../Styles/Study";
@@ -12,23 +12,10 @@ const CurrentActivities = () => {
   return(
       <>
       <Typography sx={teaserBoxHeading}>Current activities</Typography>
-      <Box sx={{
-          margin: "15px 0",
-          width:" 100%",
-         
-          overflow: "hidden",
-          display: "flex",
-          flexWrap:{xs:"wrap",md:"no-wrap",sm:"no-wrap",lg:"no-wrap"},
-         alignItems:"stretch",
-         
-          justifyContent: "space-between",
-         
-          
-          maxWidth: "100%",
-      }}>
-
-
+  
+      <Grid container spacing={2} sx={{marginTop:"20px" , marginBottom:"20px,"}}>
 {Info.map((article) => (
+      <Grid item xs={12} sm={4} md={4} lg={4}>
             <ReadArticleCard
             use="Current activities"
             title= {article.title}
@@ -37,12 +24,14 @@ const CurrentActivities = () => {
             text = {article.text}
             ReadLink={article.ReadLink}
             />
+            </Grid>
           ))}
+          </Grid>
 
 
 
 
-          </Box>
+     
 
 
 

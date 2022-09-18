@@ -71,21 +71,21 @@ import {  Grid, Container ,Box} from '@mui/material';
  
       }}
       >
-       <Grid item xs={12} sm={6} md={6} lg={3}>
+       <Grid item xs={12} sm={6} md={3} lg={3}>
           <StudiesListChild title={"Master’s studies"} text={"We offer 60 two-year master's degree programmes in English to students with a bachelor's degree or equivalent. "}
            StudiesLink={"Master's degree studies"} />
 
         </Grid>
-        <Grid item xs={12} sm={6} md={6} lg={3}>
+        <Grid item xs={12} sm={6} md={3} lg={3}>
           <StudiesListChild title={"Bachelor’s studies"} text={"We offer one three-year bachelor's degree programme in English within the subject Information and Communication Technology."}
            StudiesLink={"Bachelor's degree studies"} />
          
         </Grid>
-        <Grid item xs={12} sm={6} md={6} lg={3}>
+        <Grid item xs={12} sm={6} md={3} lg={3}>
           <StudiesListChild title={"Exchange studies"} text={"We welcome students from around 200 exchange partner universities worldwide to study over 1,000 master's level courses in English."}
            StudiesLink={"Exchange studies"} />
         </Grid>
-        <Grid item xs={12} sm={6} md={6} lg={3}>
+        <Grid item xs={12} sm={6} md={3} lg={3}>
         <StudiesListChild title={"Doctoral studies (PhD)"} text={"We offer four-year PhD degree positions to students with master's degrees or equivalent."}
          StudiesLink={"Doctoral studies (PhD)"} />
         <StudiesListChild title={"Massive open online courses (MOOCs)"} text={"We offer several online courses completely free of charge"}
