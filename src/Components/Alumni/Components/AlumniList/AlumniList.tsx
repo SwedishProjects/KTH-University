@@ -105,18 +105,18 @@ const  Network = [
           justifyContent: {xs:"center",sm:"center",md: "flex-start",lg: "flex-start",},
       }}
       >
-       <Grid item xs={12} sm={6} md={6} lg={3}>
+       <Grid item xs={12} sm={6} md={3} lg={3}>
           <LinkList title={"Get involved"} links={GetInvolved} />
           <LinkList title={"KTH Opportunities Fund"} links={KTHOpportunitiesFund} />
         </Grid>
-        <Grid item xs={12} sm={6} md={6} lg={3}>
+        <Grid item xs={12} sm={6} md={3} lg={3}>
           <LinkList title={"Network"} links={Network} />
           <LinkList title={"Our alumni"} links={OurAlumni} />
         </Grid>
-        <Grid item xs={12} sm={6} md={6} lg={3}>
+        <Grid item xs={12} sm={6} md={3} lg={3}>
           <LinkList title={"Calendar"} links={Calendar} />
         </Grid>
-        <Grid item xs={12} sm={6} md={6} lg={3}>
+        <Grid item xs={12} sm={6} md={3} lg={3}>
         <LinkList title={"Contact"} links={Contact} />
         <LinkList title={"Support KTH"} links={SupportKTH} />
 
