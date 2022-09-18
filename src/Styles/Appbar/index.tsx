@@ -1,5 +1,5 @@
 import { styled } from "@mui/material/styles";
-import { Tab, Tabs, Box, Typography, Button } from "@mui/material";
+import { Tab, Tabs, Box } from "@mui/material";
 
 interface StyledTabProps {
   label: string;
@@ -68,10 +68,27 @@ export const menuIconStyles = {
     sx: "block",
     md: "none",
   },
-  fontSize: "35px",
-  color: "common.digitaBlack",
+  zIndex: "25",
+ float:"right",
+  // padding: "5px 15px 15px",
+  backgroundColor: "#fff",
+  border:" 5px solid #fff",
+  borderLeft: "0",
+  borderRight: "0",
+  transform: "rotate(0)",
+  transition:" .3s ease-in-out",
   cursor: "pointer",
-  // "&:hover": { color: "#f03637" },
+ 
+  // marginTop: "calc(var(--kpm-bar-height,2em) + 1px)",
+  fontSize:" 2.25rem",
+  lineHeight: "1",
+  color:"#007fae",
+  "& .focus":{
+    border:" 5px solid  #ffc107",
+  borderRadius: "0.25rem",
+ 
+
+}
 };
 
 export const IconWrapper = styled(Box)(({ theme }) => ({
@@ -83,8 +100,7 @@ export const IconWrapper = styled(Box)(({ theme }) => ({
 
 export const appBarStyles = {
   width: "100%",
-  // paddingRight:"15px",
-  // paddingLeft:" 15px",
+
   marginRight:" auto",
   marginLeft:" auto",
   padding: "0 15px",
@@ -92,9 +108,11 @@ export const appBarStyles = {
   boxSizing: "border-box",
 };
 export const container ={
-  margin: "0 auto",
+  width: "100%",
+  margin: {sm:"0",lg:"0 auto"},
     maxWidth: "1228px",
-    padding: "15px 0 20px",
+    padding: {xs:"85px 0 30px",sm:"70px 0 30px" ,md:"100px 0 30px",lg:"200px 0 30px"},
+    // padding:"15px 0 20px ",
 }
 
 // =============================  SecondaryMenu   ================================
@@ -113,6 +131,8 @@ export const secondaryMenu ={
 
 
 export const listStyle ={
+  // display:{sm:"none",md:"none",lg:"block"},
+  display:"none",
   "& .UlStyle ": {
     listStyleType:" none",
     // position:" relative",
@@ -132,84 +152,14 @@ export const listStyle ={
 }
 
 
-
-
-
-
-
-// =======================TopNavbar ==========================
-export const   kpmbar={
-  margin: "0 auto",
-  maxWidth: "1228px",
-  position: "relative",
-}
-export const fault ={
-  color: "#fff",
-  display: "block",
-  lineHeight: "2em",
-  margin: "0 10px",
-  textDecoration: "underline",
-}
-export const barsection ={
-  verticalAlign: "middle",
-  float: "right",
-}
-export const right ={
-  float: "right",
-}
-export const LinkStyle ={
-  background: "transparent",
-  color: "#fff",
-  display: "block",
-  height: "2rem",
-  lineHeight: "2rem",
-  padding: "0 10px",
-  // -webkit-transition: background 400ms",
-  transition: "background 400ms",
-  textDecoration: "none",
-  '&:hover': {
-    background: "#007fae",
-  }
-}
-
-export const menuPanelInner ={
-  position: "relative",
-  maxWidth: "calc(1228px + 3em)",
-  margin: "0 auto 2em",
-  padding: "0 0.6em 1em 0",
-}
-export const LinkStylehelp ={
-  color: "#fff",
-  backgroundColor: "#65656c",
-  padding: "15px",
-  margin: "15px 0 0 0",
-}
-export const loginContent={
-  position: "absolute",
-  right: "0",
-}
-export const hide ={
-  display: "none"
-}
-export const kthPmenu ={
-
-  fontSize: "16px",
-  lineHeight: "1.231",
-  position: "fixed",
-  top: "0",
-  left: "0",
-  width: "100%",
-  zIndex: "9999",
-}
-export const kthpmWrapper= {
-  backgroundColor: "#65656c",
-  overflow: "hidden",
-  width: "100%",
-  padding: "0 5px",
-}
-
 export const gradientBorder ={
   height: "3px",
   backgroundImage: "linear-gradient(to left,#005ea4,#5c98c4)",
 }
+
+
+
+
+
+
 

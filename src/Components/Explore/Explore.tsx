@@ -12,15 +12,13 @@ import {  Container
 import ExploreCard from './Components/ExploreCard/ExploreCard';
 
 
-
-
 const Explore = () => {
 
   const [Cards] = useState(ExploreCardData);
 
     return (
     <>
-  
+   
           <Container
       sx={{
        
@@ -46,7 +44,9 @@ const Explore = () => {
               link={card.link}
               />
             ))}
+            
     </Container>
+  
     </>
       );
     };

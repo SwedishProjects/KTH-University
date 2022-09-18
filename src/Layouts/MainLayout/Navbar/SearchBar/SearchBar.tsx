@@ -34,7 +34,7 @@ const StyledInputElement = styled('input')(
   height: auto;
   box-sizing: border-box;
 padding:8px 10px;
-
+flex-grow:1 ;
   
   overflow: visible;
   line-height: inherit;
@@ -64,10 +64,32 @@ function SearchBar() {
     <Box id="widget_ouhxhrra" sx={searchWidgetContainer }>
       <Box sx={searchWidget}>
      
-        <Box className="searchInputBar">
+        <Box className="searchInputBar"
+           sx={{
+              
+            display:"flex",
+            flexDirection:"row",
+            justifyContent:"flex-start",
+            alignItems:"flex-start",
+            width:"100%",
+            marginTop: "8px"
+            
+          }}
+        >
        
-    <Box className="searchAutoCompleteField">
-      <Box className="label-container">
+    <Box className="searchAutoCompleteField"
+     sx={{
+              
+      display:"flex",
+      flexDirection:"column",
+      justifyContent:"flex-start",
+      alignItems:"flex-start",
+      width:"100%",
+     
+      
+    }}
+    >
+      <Box >
        
         <Typography variant="body2" component="p" sx={labelText}> Search the KTH website</Typography>
         </Box>
@@ -81,12 +103,7 @@ function SearchBar() {
     </Box>
     </Box>
     </Box>
-    {/* <input type="hidden" value="" name="urlFilter">
-    <input type="hidden" value="" name="entityFilter">
-    <input type="hidden" value="" name="documentFilter">
-    <input type="hidden" value="" name="filterLabel">
-    <input type="hidden" value="sv" name="l">
-     <input type="hidden" name="noscript" className="noscriptInput" value="false"> */}
+  
             
             </Box>
            

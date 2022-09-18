@@ -45,9 +45,9 @@ function SiteName (){
                       
           
           
-            <Typography sx={siteName} data-cid="1.260060" variant="body2" component="p">
+            <Typography data-cid="1.260060" variant="body2" component="p">
               
-              <Link underline="none"   href="https://www.kth.se/en">KTH Royal Institute of Technology</Link>
+              <Link underline="hover" sx={siteName}  href="https://www.kth.se/en">KTH Royal Institute of Technology</Link>
             </Typography>
             
           

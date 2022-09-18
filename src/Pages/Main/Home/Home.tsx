@@ -1,6 +1,7 @@
 import {
   Explore, Blogs, MoreNews, Calendar
 } from "../../../Components";
+import MobileMenuList from "src/Layouts/MainLayout/MobileMenuList/MobileMenuList";
 
 import { Grid, Container } from '@mui/material';
 
@@ -23,7 +24,7 @@ function Home() {
         }}
       >
 
-
+<MobileMenuList />
 
         <Grid container spacing={2}>
           <Grid item xs={12} sm={12} lg={8} md={12}>

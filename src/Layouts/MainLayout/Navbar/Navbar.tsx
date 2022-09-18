@@ -10,6 +10,7 @@ import {
   Modal,
 } from "@mui/material";
 
+
 import { navbarItems } from "../../../Services/Utils/Data/data";
 import { useTheme } from "@mui/material/styles";
 
@@ -33,15 +34,15 @@ import SiteName from "./SiteName/SiteName";
 
 function Navbar() {
   const [openSearchBar, setOpenSearchBar] = useState(false);
-  const [openLoginModal, setOpenLoginModal] = useState(false);
+ 
   const [collapse, setCollapse] = useState(true);
-  const [modalType, setModalType] = useState("login");
+  
 
   const [displayDrawer, setDisplayDrawer] = useState({
     left: false,
     right: false,
   });
-  const [selectedCategory, setSelectedCategory] = useState("");
+
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("md"));
   const { pathname } = useLocation();
@@ -55,20 +56,11 @@ function Navbar() {
       setDisplayDrawer({ ...displayDrawer, [anchor]: open });
     }
   };
-  const loginModalHandler = (open: boolean) => () => {
-    setOpenLoginModal(open);
-  };
 
 
-  const closeLoginModal = () => {
-    setOpenLoginModal(false);
-  };
+ 
 
-  type Modal = "login" | "register" | "reset";
-
-  const modalTypeToggle = (type: Modal) => {
-    setModalType(type);
-  };
+  
 
   useEffect(() => {
     let lastScroll = window.scrollY;
@@ -86,32 +78,46 @@ function Navbar() {
   }, []);
 
   return (
-    <Fragment >
-      <AppBar sx={appBarStyles}>
+    <Box >
+       
+      <Box sx={appBarStyles}>
         <Box sx={container} >
+     
         <Collapse in={collapse} timeout={600}>
-          {/* <Container maxWidth={"xl"} sx={{ position: "relative" }}> */}
+         
             <Toolbar sx={{ justifyContent: "space-between" }} disableGutters>
-              <Box>
-                <Box onClick={toggleDrawer("left", true)}>
-                  <MenuRounded sx={menuIconStyles} />
-                </Box>
-              </Box>
-              <Grid item xs={12} md={12} lg={12}>
+            
+           <Box
+           sx={{
+            width:"100%", 
+            diplay:"flex",
+           flexDirection:"column",
+           justifyContent:"space-between",
+           alignItems:"space-between",
+           flexWrap:"wrap",
+           }}>
+          
             <Box
             sx={{
               
               display:"flex",
+              flexDirection:"row",
               justifyContent:"space-between",
+              alignItems:"flex-start",
               width:"100%",
+              marginTop: "8px"
               
             }}
             >
             <SiteName />
               <SecondaryMenu />
+              <Box onClick={toggleDrawer("left", true)}
+              sx={{float:"right"}}
+              >
+                  <MenuRounded sx={menuIconStyles} />
+                </Box>
             </Box>
-            </Grid>
-            <Grid item xs={12} md={12} lg={12}>
+           
             <Box sx={{
                float:"right",
                   display:"flex",
@@ -123,7 +129,7 @@ function Navbar() {
              
 
               {!openSearchBar && (
-                <Fragment >
+                <Box >
                   <AntTabs value={pathname}>
                     {navbarItems.map((item) => (
                       <AntTab
@@ -167,11 +173,12 @@ function Navbar() {
                     ))}
                   </AntTabs>
                  
-                </Fragment>
+                </Box>
               )}
                 <SearchBar />
           </Box>
-          </Grid>
+        
+          </Box>
           <Box sx={gradientBorder}></Box>
    
             </Toolbar>
@@ -191,11 +198,11 @@ function Navbar() {
          </Box>
         </Collapse>
         </Box>
-      </AppBar>
+      </Box>
      
-      <Box sx={{ marginTop: { xs: "64px", md: "90px" } }}></Box>
+ 
      
-      </Fragment>
+      </Box>
    
   );
 }
