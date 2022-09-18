@@ -52,11 +52,15 @@ export const ArticleTextStyle={
         maxWidth: "100%",
        
         lineHeight: "1",
-        width:{xs:"auto",sm:"250px"},
+        // width:{xs:"auto",sm:"250px"},
+        width:"100%",
         height:{xs:"auto",sm:"150px"},
     marginBottom:" 0",
 
     }
+
+
+   
 
 
 

@@ -1,11 +1,8 @@
 
 
 import {CalendarEventInfo , linkStyle,CalendarInfoText} from "../../../../Styles/Calendar"
-import { CardContent,
-    Grid,
-     Divider,
-      Container ,
-      Box,CardMedia,Typography,
+import { 
+      Box,Typography,
       Link,
      } from '@mui/material';
 
@@ -18,7 +15,13 @@ import { CardContent,
       }
 function  CalendarInfo(props: CalendarInfoProps ){
     return (
-        <Box >
+        <Box
+        sx={{
+        // marginLeft:(props.title==="Public defences of doctoral theses") ?{xs:"-20px",lg:"0"} : "0",
+        width:(props.title==="Public defences of doctoral theses") ?{xs:"60%",lg:"100%"} : "100"
+     
+       }}
+        >
               <Typography
        sx={CalendarEventInfo}
            variant="body2"
@@ -61,7 +64,12 @@ function  CalendarInfo(props: CalendarInfoProps ){
      
      <Box
      sx={{display:(props.title==="Public defences of doctoral theses") ? "flex" :"none",
-     justifyContent:"flex-start",alignItems:"start",}}
+    //  justifyContent:"flex-start",alignItems:"start",
+     marginLeft:{xs:"-30px",sm:"0",md:"0",lg:"0"},
+    
+    //  paddingRight:{xs:"0px",lg:"0"}
+  
+    }}
      >
        
      <Typography
@@ -73,6 +81,7 @@ function  CalendarInfo(props: CalendarInfoProps ){
        color: "#000",
        lineHeight:" 1.5",
        paddingRight:"0.3rem"
+       
       }}
        >
          Doctoral student: 

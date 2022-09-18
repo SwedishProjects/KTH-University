@@ -4,12 +4,10 @@ import CalendarDate from "../CalendarDate/CalendarDate";
 import CalendarInfo from "../CalendarInfo/CalendarInfo";
 
 
-import { CardContent,
-    Grid,
+import { 
      Divider,
-      Container ,
-      Box,CardMedia,Typography,
-      Link,
+      Box,
+  
      } from '@mui/material';
 
 
@@ -34,7 +32,10 @@ function CalendarBox(props: info){
      sx={{display:"flex",justifyContent:"flex-start",alignItems:"start",}}
      >
     <CalendarDate  day={props.day} month={props.month}/>
-    <CalendarInfo title={props.title} date={props.date} location={props.location} />
+  
+          <CalendarInfo title={props.title} date={props.date} location={props.location} />
+   
+  
     
 
 </Box>

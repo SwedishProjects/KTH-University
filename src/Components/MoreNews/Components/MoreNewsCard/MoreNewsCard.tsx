@@ -1,7 +1,7 @@
 
 import {
-  Typography, Link, Grid, Box, CardMedia, CardContent,
-  CardActions, Card, Container
+  Typography, Link, Box, CardMedia, CardContent,
+ 
 } from "@mui/material";
 import { ImageStyle, TitleStyle, TextStyle, linkStyle } from '../../../../Styles/Explore/index';
 
@@ -25,7 +25,7 @@ function MoreNewsCard(props: MoreNewsCardProps) {
       display: 'flex',
       flexDirection: { xs: "column", sm: "row", md: "row", lg: "row", },
       backgroundColor: "#f6f6f6", marginTop: "30px",
-      width: { sm: "100%", md: "800px", lg: "800px", }, marginLeft: "-22px",
+      width: { sm: "100%", md: "100%", lg: "800px", }, marginLeft: "-22px",
     }}>
 
       <Box sx={{

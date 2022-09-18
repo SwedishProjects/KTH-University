@@ -6,7 +6,7 @@ import * as React from 'react';
 
 import { useState } from "react";
 import  {ExploreCardData}  from '../../Services/Utils/Data/data';
-import { Typography, Link, Grid ,Box ,Container
+import {  Container
 } from "@mui/material";
 
 
@@ -30,9 +30,11 @@ const Explore = () => {
         justifyContent: "flex-end",
         bgcolor: "#ffffff",
         maxWidth: "100%",
-        marginLeft:"-18px",
-  
-       
+      
+ 
+       width:"100%",
+      
+      padding:"0",
         
       }}
     >

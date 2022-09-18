@@ -3,7 +3,7 @@ import ClusterNetwork from "../../Assets/Images/About/clusterNetwork.jpg";
 import { useState } from "react";
 import { articlesBlogsThree , articlesBlogsTwo , articlesBlogsOne } from "../../Services/Utils/Data/data";
 import { CardContent,
-   Grid,
+ 
     Divider,
      Container ,
      Box,CardMedia,Typography,
@@ -28,14 +28,17 @@ const Blogs = () => {
         <Box sx={{
               padding: "30px 0 ",
               maxWidth: "100%",
-              marginLeft: {xs:"-80px",md:"0",lg:"0"},
+           
         }}>
  <Container sx={{
+    width:{xs:"100%",sm:"100%",md:"100%",lg:"280px",},
                     maxWidth: "100%",
                     backgroundColor: "inherit",
-                    marginRight:"-65px",
-                    
-                    marginLeft: "auto",
+                    // backgroundColor: "#c1c1c1",
+                  padding:"0",
+                  paddingLeft:"0",
+                 
+                    marginLeft: {xs:"0",sm:"0",md:"0",lg:"85px",},
           }}>
 
 
@@ -49,7 +52,7 @@ const Blogs = () => {
               />
             ))}
               <Divider sx={{    margin: "15px 0", paddingBottom:"6px",
-              width:{xs:"100%",sm:"100%",md:"270px",lg:"270px",}, marginBottom:"25px"
+              width:{xs:"100%",sm:"100%",md:"100%",lg:"270px",}, marginBottom:"25px"
             }} />
         
      
@@ -63,7 +66,7 @@ const Blogs = () => {
               />
             ))}
              <Divider sx={{    margin: "15px 0", paddingBottom:"6px",marginBottom:"25px",
-              width:{xs:"100%",sm:"100%",md:"270px",lg:"270px",},
+              width:{xs:"100%",sm:"100%",md:"100%px",lg:"270px",},
             }} />
       
        
@@ -85,7 +88,7 @@ const Blogs = () => {
          
         </CardContent>
         <Box sx={{ display: 'flex', alignItems: 'center', pl: 1, pb: 1 ,
-          width:{xs:"100%",sm:"100%",md:"280px",lg:"280px",},
+          width:{xs:"100%",sm:"100%",md:"100%",lg:"280px",},
       }}>
         <CardMedia component='img' image={ClusterNetwork} alt="A part of the Cluster network" sx={{
         width:"100px",height:"100px", marginRight:"10px"

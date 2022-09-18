@@ -4,7 +4,7 @@ import { useState } from "react";
 import { MoreNewsData } from '../../Services/Utils/Data/data';
 import ReadArticle from "../ReadArticle/ReadArticle";
 import {
-  Typography, Link, Grid, Box, Container, Divider
+  Typography, Link, Box, Container, Divider
 } from "@mui/material";
 
 import { useTheme } from '@mui/material/styles';
@@ -23,7 +23,7 @@ const MoreNews = () => {
           justifyContent: "flex-end",
 
           backgroundColor: "#f6f6f6", marginTop: "30px",
-          width: { sm: "100%", md: "831px", lg: "831px", },
+          width: { sm: "100%", md: "100%", lg: "831px", },
 
           maxWidth: "100%",
 
@@ -64,7 +64,7 @@ const MoreNews = () => {
         </Box>
         <Divider color="#fff" sx={{
           margin: "15px 0", paddingBottom: "3px", marginBottom: "25px",
-          width: { xs: "100%", sm: "100%", md: "800px", lg: "800px", },
+          width: { xs: "100%", sm: "100%", md: "100%", lg: "800px", },
         }} />
         {Cards.map((card) => (
           <MoreNewsCard

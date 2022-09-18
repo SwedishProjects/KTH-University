@@ -8,6 +8,7 @@ import {ArticleCartStyle} from "../../../../Styles/ReadArticle"
 
 import { Box} from '@mui/material';
 interface info {
+  use:string;
   title: string;
   image: string;
   Imagename: string;
@@ -27,7 +28,9 @@ display: "flex",
 
 flexDirection: "column",
 justifyContent: "flex-start",
-width:{xs:"100%",sm:"100%",md:"250px",lg:"250px",},
+// width:{xs:"100%",sm:"200px",md:"250px",lg:"250px",},
+width:props.use==="Current activities"?{xs:"100%",sm:"220px",md:"300px",lg:"350px",}:{xs:"100%",sm:"200px",md:"250px",lg:"250px",},
+
 
     }}
     >
