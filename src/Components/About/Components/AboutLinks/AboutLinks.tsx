@@ -107,16 +107,16 @@ flexWrap:{sm:"wrap"},
  
       }}
       >
-       <Grid item xs={12} sm={6} md={6} lg={3}>
+       <Grid item xs={12} sm={6} md={3} lg={3}>
           <LinkList title={"About KTH"} links={AboutKTH} />
         </Grid>
-        <Grid item xs={12} sm={6} md={6} lg={3}>
+        <Grid item xs={12} sm={6} md={3} lg={3}>
           <LinkList title={"KTH Schools"} links={KTHSchools} />
         </Grid>
-        <Grid item xs={12} sm={6} md={6} lg={3}>
+        <Grid item xs={12} sm={6} md={3} lg={3}>
           <LinkList title={"Cooperation"} links={Cooperation} />
         </Grid>
-        <Grid item xs={12} sm={6} md={6} lg={3}>
+        <Grid item xs={12} sm={6} md={3} lg={3}>
         <LinkList title={"Contact"} links={Contact} />
 
         </Grid>
