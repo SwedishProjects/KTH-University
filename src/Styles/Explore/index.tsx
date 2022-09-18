@@ -1,7 +1,7 @@
 export const ImageStyle={
     height:{sm:"auto",md:"auto",lg:"300px",},
-    width:{xs:"auto",sm:"150px",md:"200px",lg:"434px",},
-    marginRight:{xs:"0",sm:"-20px",md:"-60px",lg:"0"},
+    width:{sm:"auto",md:"200px",lg:"434px",},
+    marginRight:{xs:"0",md:"-50px",lg:"0"},
     display: "block",
 } 
 export const TitleStyle={

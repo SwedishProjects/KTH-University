@@ -1,7 +1,7 @@
 
 import CardMedia from '@mui/material/CardMedia';
 
-import {ArticleImageStyle} from "../../../../Styles/ReadArticle"
+
 type props = {
     title: string;
     image: string;
@@ -14,11 +14,11 @@ function  ArticleImage ( props){
         <CardMedia component='img' image={`${props.image}`} alt={`${props.title}`} 
          sx={{
             maxWidth: "100%",
-    //    width:props.use==="LibraryCart"?{xs:"100%",sm:"240px",md:"230px",lg:"350px",}:"100%",
-            lineHeight: "1",
+    //    width:props.use==="LibraryCart" ? {xs:"100%",sm:"240px",md:"400px",lg:"400px",}: "100%",
+        lineHeight: "1",
             // width:{xs:"auto",sm:"250px"},
             overflow:"hidden",
-            width:"100%",
+           
             height:{xs:"auto",sm:"150px"},
         marginBottom:" 0",
          }}/>

@@ -24,12 +24,15 @@ function ReadArticleCard(props: info) {
     sx={{
       
 display: "flex",
-
+height:"100%",
 oderflow:"hidden",
 flexDirection: "column",
 justifyContent: "flex-start",
 // width:{xs:"100%",sm:"200px",md:"250px",lg:"250px",},
-width:props.use==="Current activities"?{xs:"100%",sm:"220px",md:"300px",lg:"350px",}:{xs:"100%",sm:"200px",md:"180px",lg:"250px",},
+// width:props.use==="Current activities"?{xs:"100%",sm:"220px",md:"300px",lg:"350px",}:{xs:"100%",sm:"200px",md:"300px",lg:"270px",},
+width:"100%"
+// width:props.use==="Home"?{xs:"100%",sm:"220px",md:"300px",lg:"350px",}:{xs:"100%",sm:"200px",md:"300px",lg:"270px",},
+
 
 
     }}

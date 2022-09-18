@@ -90,16 +90,16 @@ const LibraryLink = () => {
                 justifyContent: {xs:"center",sm:"center",md: "flex-start",lg: "flex-start",},
             }}
           >
-            <Grid item xs={12} sm={6} md={6} lg={3}>
+            <Grid item xs={12} sm={6} md={3} lg={3}>
               <LinkList title={"Use the library"} links={UsetheLibrary} />
             </Grid>
-            <Grid item xs={12} sm={6} md={6} lg={3}>
+            <Grid item xs={12} sm={6} md={3} lg={3}>
               <LinkList title={"Search & evaluate"} links={SearchEvaluate} />
             </Grid>
-            <Grid item xs={12} sm={6} md={6} lg={3}>
+            <Grid item xs={12} sm={6} md={3} lg={3}>
               <LinkList title={" Write & cite"} links={WriteCite} />
             </Grid>
-            <Grid item xs={12} sm={6} md={6} lg={3}>
+            <Grid item xs={12} sm={6} md={3} lg={3}>
               <LinkList title={"Publish & analyse"} links={PublishAnalyse} />
 
             </Grid>
