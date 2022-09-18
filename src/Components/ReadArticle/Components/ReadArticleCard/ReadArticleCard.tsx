@@ -29,7 +29,7 @@ oderflow:"hidden",
 flexDirection: "column",
 justifyContent: "flex-start",
 // width:{xs:"100%",sm:"200px",md:"250px",lg:"250px",},
-width:props.use==="Current activities"?{xs:"100%",sm:"220px",md:"300px",lg:"350px",}:{xs:"100%",sm:"200px",md:"250px",lg:"250px",},
+width:props.use==="Current activities"?{xs:"100%",sm:"220px",md:"300px",lg:"350px",}:{xs:"100%",sm:"200px",md:"180px",lg:"250px",},
 
 
     }}

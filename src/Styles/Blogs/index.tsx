@@ -41,7 +41,7 @@ export const TextStyle={
   
 }
 export const imageStyle={
-    height:{xs:"202px",sm:"202px",md:"202px",lg:"100px"},
+    height:{xs:"202px",sm:"202px",md:"300px",lg:"100px"},
     width:{xs:"100%",sm:"100%",md:"100%",lg:"280px",},
     lineHeight: "1",
     display: "block",

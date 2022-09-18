@@ -27,13 +27,13 @@ function Home() {
 <MobileMenuList />
 
         <Grid container spacing={2}>
-          <Grid item xs={12} sm={12} lg={8} md={12}>
+          <Grid item xs={12} sm={12} md={8}  lg={8}>
             <Explore />
             <MoreNews />
             <Calendar />
           </Grid>
 
-          <Grid item xs={12} sm={12}  md={12}lg={4}>
+          <Grid item xs={12} sm={12}  md={4} lg={4}>
             <Blogs />
           </Grid>
 
