@@ -3,6 +3,7 @@ import {ResearchNewsData} from "../../../../Services/Utils/Data/data";
 import { Typography, Link,Divider ,Box} from "@mui/material";
 import {NameStyle} from '../../../../Styles/BulletinLink/index'
 import BulletinLink from "../BulletinLink/BulletinLink";
+
 const ResearchNews = () => {
   const [LinkCart] = useState(ResearchNewsData);
     return (
@@ -22,6 +23,7 @@ const ResearchNews = () => {
               links={LinkDate.links}
               />
             ))}
+         
     </>
     );
   };

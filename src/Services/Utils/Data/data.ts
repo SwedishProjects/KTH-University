@@ -650,5 +650,40 @@ export const RecentPublicationsDate=[
   },
 ]
 
+// ------------------------------------Library page 
+
+
+export const LibraryNewsData = [
+  {
+    id: 1,
+    date: "3 Jun 2022",
+    links :"Request a literature search – an easy way to increase the quality of research"
+    
+  },
+  {
+    id: 2,
+    date: "2 Jun 2022",
+    links :"We're rebuilding our information desk"
+    
+  },
+  {
+    id: 3,
+    date: "23 May 2022",
+    links :"Library services during summer 2022"
+    
+  },
+  {
+    id: 4,
+    date: "28 Mar 2022",
+    links :"ERIC, a + t online library and other new online resources"
+    
+  },
+
+  
+];
+
+
+
+
 
 
