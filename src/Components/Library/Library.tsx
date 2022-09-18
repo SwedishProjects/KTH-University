@@ -10,6 +10,7 @@ import {ContainerStyle } from '../../Styles/Container/Container'
 import LibraryButton from './Components/LibraryButtons/LibraryButtons';
 import AppliesSummer from "./Components/AppliesSummer/AppliesSummer"
 import LibraryNews from './Components/LibraryNews/LibraryNews';
+import LibraryCalendar from "./Components/LibraryCalendar/LibraryCalendar";
 const links = [
   "KTH Library"
 ]
@@ -27,7 +28,7 @@ const Library = () => {
          <LibraryNews />
         </Grid>
         <Grid item xs={12} sm={6} md={6} lg={6}>
-       
+       <LibraryCalendar />
         </Grid>
         </Grid>
       <LibraryLink />

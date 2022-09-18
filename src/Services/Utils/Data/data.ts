@@ -678,7 +678,41 @@ export const LibraryNewsData = [
     links :"ERIC, a + t online library and other new online resources"
     
   },
+];
 
+
+
+export const  LibraryCalendarDate = [
+  {
+    id: 1,
+    links:"Ny student? Välkommen på introduktion på biblioteket!",
+    day:"7",
+    month:"Sep",
+    title:"Events for students",
+    date:"Wednesday 2022-09-07, 16:00 - 17:00",
+    location:"KTH Biblioteket, Osquars backe 31",
+  
+  },
+  {
+   
+    id: 2,
+    links:"Introduction to KTH Library for new students",
+    day:"8",
+    month:"Sep",
+    title:"Events for students",
+    date:"Thursday 2022-09-08, 16:00 - 17:00",
+    location:" KTH Library, Osquars backe 31",
+  },
+  {
+    id: 3,
+    links:"Literature search with smart tools",
+    day:"9",
+    month:"Sep",
+    title:"Events for PhD students and researchers",
+    date:"Friday 2022-09-09, 10:00 - 12:00",
+    location:" Magdalena Svanberg and Gaël Dubus, KTH Library",
+  },
+  
   
 ];
 
