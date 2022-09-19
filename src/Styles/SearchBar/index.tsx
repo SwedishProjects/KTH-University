@@ -22,14 +22,14 @@ export const inputGroup = {
         display: "flex",
         flexWrap: "nowrap",
         alignItems: "stretch",
-        width: "100%",
+       
   
   
 }
 
 export const  searchWidgetButton = {
     lineHeight: "1.2",
-    padding: "0 1rem",
+    padding: {xs:"0 0.75rem",lg:"0 1rem"},
     backgroundColor: "#007fae",
     backgroundImage: "none",
     color: "#fff",

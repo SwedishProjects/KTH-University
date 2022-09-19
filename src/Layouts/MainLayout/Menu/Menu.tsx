@@ -11,7 +11,7 @@ import {
 
   import {  navbarItems } from "../../../Services/Utils/Data/data";
 
-  import {listStyle} from '../../../Styles/Appbar';
+
 
 function  Menu() {
 
@@ -38,7 +38,7 @@ function  Menu() {
             sx={{
                 height: "90px",
                 fontWeight: "500",
-                fontSize: {md:"18px",lg:"20px"},
+                fontSize: {md:"16px",lg:"20px"},
                 marginRight: "30px",
                 color: "rgba(0, 0, 0, 0.85)",
                 borderBottom: "3px solid white",
@@ -65,8 +65,9 @@ function  Menu() {
           </Link>
           
       <Typography sx={{
-        display: item.name==="Staff" ? "inline-block" : "none",
-        paddingLeft:"12px"
+        display: item.name==="Home" ? "inline-block" : "none",
+        paddingLeft:"3px",
+        paddingRight:"10px"
       }}> |</Typography>
         
             </Box>

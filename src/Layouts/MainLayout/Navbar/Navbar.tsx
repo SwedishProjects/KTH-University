@@ -3,7 +3,7 @@ import SiteName from './SiteName/SiteName';
 import SecondaryMenu from './SecondaryMenu/SecondaryMenu';
 import MobileMenuList from '../MobileMenuList/MobileMenuList';
 import {
-  Box,Link,Container
+  Box,Container
 } from "@mui/material";
 import SearchBar from './SearchBar/SearchBar';
 import Menu from '../Menu/Menu';
@@ -53,7 +53,9 @@ sx={{
 >
 <Menu />
 </Box>
-  <SearchBar />
+ <Box sx={{marginLeft:{xs:"0px",sm:"0px",md:"40px",lg:"50px"}}}>
+ <SearchBar />
+ </Box>
 </Box>
 
 

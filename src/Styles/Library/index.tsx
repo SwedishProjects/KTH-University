@@ -95,12 +95,12 @@ export const InfoIcon = {
 export const teaserBox={
     position: {lg:"absolute",md:"absolute",sm:"relative"},
     height:{xs:"auto",md:"150px",lg:"150px"},
-    top: {xs:"0px",sm:"0px",md:"200px",lg:"400px"},
+    top: {xs:"0px",sm:"0px",md:"350px",lg:"400px"},
   
  
 
     bottom:"50px",
-    left: {xs:"0",lg:"78px"},
+    left: {xs:"0",md:"25px",lg:"100px"},
     width: {xs:"100%",md:"50%",sm:"100%",lg:"50%"},
     backgroundColor: "#fff",
     paddingTop: {xs:"20px",sm:"20px",md:"20px",lg:"20px"},

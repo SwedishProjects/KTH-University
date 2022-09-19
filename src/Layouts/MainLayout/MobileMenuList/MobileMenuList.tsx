@@ -1,13 +1,12 @@
 import * as React from 'react';
 
-import{ List,
+import{ 
     Box,
     Drawer,
     Button,
-    ListItem,
-    ListItemButton,
-    Divider
+  
 } from '@mui/material';
+import { MenuRounded, } from "@mui/icons-material";
 
 
 import SecondaryMenuMobile from '../SecondaryMenuMobile/SecondaryMenuMobile';
@@ -43,7 +42,9 @@ export default function MobileMenuList() {
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
-      sx={{width:"100%"}}
+      sx={{width:"768px",
+      marginTop:{xs:"80px",sm:"35px",md:"0px",lg:"0px",}
+    }}
     >
       <MenuMobile />
         <SecondaryMenuMobile />
@@ -54,13 +55,13 @@ export default function MobileMenuList() {
   );
 
   return (
-    <div>
+    <Box sx={{width:"100%"}}>
       {(['left'] as const).map((anchor) => (
         <React.Fragment key={anchor}>
           <Button onClick={toggleDrawer(anchor, true)} sx={{
                 position: "fixed",
                 zIndex: "25",
-                top: {xs:"90px",sm:"50px",md:"25px",lg:"20px",},
+                top: {xs:"90px",sm:"50px",md:"0px",lg:"0px",},
                 right: "15px",
                 padding: "5px 15px 15px",
                 backgroundColor: "#fff",
@@ -71,17 +72,25 @@ export default function MobileMenuList() {
                 transition: ".3s ease-in-out",
                 cursor: "pointer",
             color:"#000"
-            }}>{anchor}</Button>
+            }}>
+              {/* {anchor} */}
+              <MenuRounded sx={{
+                   color: "#007fae",
+                   fontSize:{xs:"35px",sm:"35px",md:"0px",lg:"0px",},
+              }}/>
+              </Button>
           <Drawer
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
-            sx={{backgroundColor:"#fff"}}
+            sx={{backgroundColor:"#fff",
+          width:"768px"
+          }}
           >
             {list(anchor)}
           </Drawer>
         </React.Fragment>
       ))}
-    </div>
+    </Box>
   );
 }
