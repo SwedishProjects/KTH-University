@@ -145,7 +145,7 @@ function Student() {
 
 
                                     <Grid item xs={12} md={6}>
-                                        <img className="img-fluid" alt="complex" src={images['KTH VIC studenter framför skärm.jpg']} />
+                                        <img className="img-fluid" alt="complex" src={images['Student/KTH VIC studenter framför skärm.jpg']} />
                                     </Grid>
                                 </Grid>
                             </div>
@@ -168,7 +168,7 @@ function Student() {
 
                                 <Grid item xs={12} md={6}>
                                     <div className="myBorder">
-                                        <img src={images['Two persons with laptop s.jpg']} alt="" />
+                                        <img src={images['Student/Student/Two persons with laptop s.jpg']} alt="" />
 
                                         <MyPadding>
                                             <Typography variant='h4'>

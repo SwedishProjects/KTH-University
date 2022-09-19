@@ -46,10 +46,7 @@ function  SecondaryMenu() {
              {item.name}
           </Link>
           
-      <Typography sx={{
-        display: item.name==="Staff" ? "inline-block" : "none",
-        paddingLeft:"12px"
-      }}> |</Typography>
+    
         
             </li>
                 ))}

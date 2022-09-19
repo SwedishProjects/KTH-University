@@ -55,6 +55,15 @@ export const SecondaryMenuInfo = [
     name: "Contact KTH ",
      route:"/contact-kth"
   },
+  {
+    id: 4,
+    name: "KTH på svenska ",
+     route:"/"
+  },
+
+
+  
+
   
 ];
 // -------------------------------------------Login navbar
