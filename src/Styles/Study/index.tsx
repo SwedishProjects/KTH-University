@@ -9,7 +9,7 @@ export const teaserBox={
  
 
     bottom:"50px",
-    left: {xs:"0",lg:"90px"},
+    left: {xs:"0",lg:"80px"},
     width: {xs:"100%",md:"100%",sm:"100%",lg:"50%"},
     backgroundColor: "#fff",
     paddingTop: {xs:"20px",sm:"20px",md:"20px",lg:"20px"},

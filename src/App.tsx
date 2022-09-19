@@ -40,8 +40,6 @@ function App() {
               <Route path="/student" element={<Student />} />
               <Route path="/alumni" element={<Alumni />} />
               <Route path="/phd" element={<PhD />} />
-            
-
             </Route>
           </Routes>
         </ScrollToTop>

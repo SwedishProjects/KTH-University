@@ -29,5 +29,6 @@ export const navLink={
 }
 
 export const mainMenu={
+   marginLeft:"20px"
   
 }

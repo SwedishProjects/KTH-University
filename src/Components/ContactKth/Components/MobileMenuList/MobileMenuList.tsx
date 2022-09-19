@@ -1,13 +1,14 @@
 import * as React from 'react';
 
-import{ List,
+import{ 
     Box,
     Drawer,
     Button,
-    ListItem,
-    ListItemButton,
+  
 } from '@mui/material';
 
+import { MenuRounded, } from "@mui/icons-material";
+import SecondaryMenuMobile from '../../../../Layouts/MainLayout/SecondaryMenuMobile/SecondaryMenuMobile';
 
 import ContactNav from "../ContactNav/ContactNav";
 
@@ -36,22 +37,23 @@ export default function MobileMenuList() {
 
   const list = (anchor: Anchor) => (
     <Box
-    
+    sx={{width:"768px",
+    marginTop:{xs:"80px",sm:"35px",md:"0px",lg:"0px",}
+  }}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      <List>
+    
         
-          <ListItem  disablePadding>
-            <ListItemButton>
+         
 <ContactNav />
+<SecondaryMenuMobile />
              
-             
-            </ListItemButton>
-          </ListItem>
+            
+         
      
-      </List>
+ 
      
     </Box>
   );
@@ -60,7 +62,26 @@ export default function MobileMenuList() {
     <div>
       {(['left'] as const).map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)} sx={{color:"#000"}}>{anchor}</Button>
+          <Button onClick={toggleDrawer(anchor, true)}  sx={{
+                position: "fixed",
+                zIndex: "25",
+                top: {xs:"90px",sm:"50px",md:"0px",lg:"0px",},
+                right: "15px",
+                padding: "5px 15px 15px",
+                backgroundColor: "#fff",
+                border: "5px solid #fff",
+                borderLeft:" 0",
+                borderRight: "0",
+                transform: "rotate(0)",
+                transition: ".3s ease-in-out",
+                cursor: "pointer",
+            color:"#000"
+            }}>
+              {/* {anchor} */}
+              <MenuRounded sx={{
+                   color: "#007fae",
+                   fontSize:{xs:"35px",sm:"35px",md:"0px",lg:"0px",},
+              }}/></Button>
           <Drawer
             anchor={anchor}
             open={state[anchor]}

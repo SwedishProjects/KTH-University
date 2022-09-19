@@ -47,13 +47,13 @@ export const SecondaryMenuInfo = [
   },
   {
     id: 3,
-    name: "Staff",
-     route:"/staff"
+    name: "PhD",
+     route:"/phd"
   },
   {
     id: 4,
-    name: "KTH på svenska",
-     route:"/"
+    name: "Contact KTH ",
+     route:"/contact-kth"
   },
   
 ];
