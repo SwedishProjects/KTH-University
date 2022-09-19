@@ -8,7 +8,7 @@
 export const teaserBox={
     position: {lg:"absolute",md:"relative"},
     height:{xs:"auto",lg:"170px"},
-    top: {xs:"0px",sm:"0px",md:"0px",lg:"150px"},
+    top: {xs:"0px",sm:"0px",md:"0px",lg:"400px"},
   
  
 

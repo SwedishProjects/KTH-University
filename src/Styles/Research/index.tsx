@@ -39,7 +39,7 @@ export const  searchWidgetButton = {
 export const teaserBox={
     position: {lg:"absolute",md:"absolute",sm:"relative"},
     height:{xs:"auto",md:"100px",lg:"150px"},
-    top: {xs:"0px",sm:"0px",md:"200px",lg:"200px"},
+    top: {xs:"0px",sm:"0px",md:"200px",lg:"400px"},
   
  
 
