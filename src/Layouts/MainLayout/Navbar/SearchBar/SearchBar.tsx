@@ -71,7 +71,7 @@ function SearchBar() {
             flexDirection:"row",
             justifyContent:"flex-start",
             alignItems:"flex-start",
-            width:"100%",
+            // width:"100%",
             marginTop: "8px"
             
           }}
@@ -84,7 +84,7 @@ function SearchBar() {
       flexDirection:"column",
       justifyContent:"flex-start",
       alignItems:"flex-start",
-      width:"100%",
+      // width:"100%",
      
       
     }}

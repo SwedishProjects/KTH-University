@@ -9,11 +9,9 @@ import{ List,
     Divider
 } from '@mui/material';
 
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
+
 import SecondaryMenuMobile from '../SecondaryMenuMobile/SecondaryMenuMobile';
+import MenuMobile from '../MenuMobile/MenuMobile';
 
 
 type Anchor =  'left' ;
@@ -45,8 +43,9 @@ export default function MobileMenuList() {
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
+      sx={{width:"100%"}}
     >
-      
+      <MenuMobile />
         <SecondaryMenuMobile />
         {/* tow */}
      
@@ -77,6 +76,7 @@ export default function MobileMenuList() {
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
+            sx={{backgroundColor:"#fff"}}
           >
             {list(anchor)}
           </Drawer>
