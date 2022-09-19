@@ -13,6 +13,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
+import SecondaryMenuMobile from '../SecondaryMenuMobile/SecondaryMenuMobile';
 
 
 type Anchor =  'left' ;
@@ -45,32 +46,10 @@ export default function MobileMenuList() {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      <List>
-        
-      {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
-      <Divider />
-      <List>
-        {['All mail', 'Trash', 'Spam'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
+      
+        <SecondaryMenuMobile />
+        {/* tow */}
+     
      
     </Box>
   );
@@ -82,7 +61,7 @@ export default function MobileMenuList() {
           <Button onClick={toggleDrawer(anchor, true)} sx={{
                 position: "fixed",
                 zIndex: "25",
-                top: {xs:"90px",sm:"50px",md:"0px",lg:"0px",},
+                top: {xs:"90px",sm:"50px",md:"25px",lg:"20px",},
                 right: "15px",
                 padding: "5px 15px 15px",
                 backgroundColor: "#fff",
