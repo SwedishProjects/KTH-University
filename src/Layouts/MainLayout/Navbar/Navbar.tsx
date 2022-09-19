@@ -26,7 +26,8 @@ sx={{
 <Box 
 sx={{
   display:"flex" ,
-  justifyContent:"space-between"
+  justifyContent:"space-between",
+  marginBottom:"-15px"
 }}
 >
 <Menu />

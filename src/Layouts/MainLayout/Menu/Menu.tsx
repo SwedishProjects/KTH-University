@@ -23,16 +23,34 @@ function  Menu() {
         >
     
     
-    <Box id="Secondary top menu" sx={listStyle }>
-      <ul className="UlStyle">
+    <Box  sx={{
+          marginTop: "40px",
+          lineHeight: "1.5",   
+    } }>
+      <Box sx={{
+          display:"flex",justifyContent:"space-between",
+      }}>
       {MenuInfo.map((item) => (
-        <li className="LiStyle"> 
+        <Box className="LiStyle"> 
       
           
             <Link
             sx={{
-              color: "#000",
-              fontSize: "1rem",
+                height: "90px",
+                fontWeight: "500",
+                fontSize: {md:"18px",lg:"20px"},
+                marginRight: "30px",
+                color: "rgba(0, 0, 0, 0.85)",
+                borderBottom: "3px solid white",
+                textDecoration:"none",
+               
+                paddingBottom:"10px",
+              
+                "&:hover": {
+                  borderBottom: "3px solid #006cb7",
+                 
+                  
+                },
             
             }}
            
@@ -51,10 +69,10 @@ function  Menu() {
         paddingLeft:"12px"
       }}> |</Typography>
         
-            </li>
+            </Box>
                 ))}
        
-      </ul>
+      </Box>
 
 
       
