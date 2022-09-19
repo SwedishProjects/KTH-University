@@ -132,7 +132,7 @@ export const secondaryMenu ={
 
 export const listStyle ={
   // display:{sm:"none",md:"none",lg:"block"},
-  display:"none",
+
   "& .UlStyle ": {
     listStyleType:" none",
     // position:" relative",

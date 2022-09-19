@@ -9,13 +9,13 @@ import {
   import * as React from 'react';
   import { useState } from "react";
 
-  import {  SecondaryMenuInfo } from "../../../../Services/Utils/Data/data";
+  import {  navbarItems } from "../../../Services/Utils/Data/data";
 
-  import {listStyle} from '../../../../Styles/Appbar';
+  import {listStyle} from '../../../Styles/Appbar';
 
-function  SecondaryMenu() {
+function  Menu() {
 
-    const [MenuInfo] = useState(SecondaryMenuInfo);
+    const [MenuInfo] = useState(navbarItems);
     return (
         <>
         <Box  data-cid="1.865038" lang="en-GB"
@@ -65,4 +65,4 @@ function  SecondaryMenu() {
     
 }
 
-export default SecondaryMenu ;
+export default Menu ;

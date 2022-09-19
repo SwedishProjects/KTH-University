@@ -45,7 +45,10 @@ export const  searchWidgetButton = {
     border: "none",
     zIndex: "1",
     minWidth:" 44px",
-    display:"inline-block"
+    display:"inline-block",
+    '&:hover': {
+        backgroundColor: "#007fae",
+    }
 }
 export const  labelText={
     color: "#000",

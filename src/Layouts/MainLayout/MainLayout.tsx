@@ -7,7 +7,7 @@ function MainLayout() {
   return (
     <>
      <TopNavbar />
-      {/* <Navbar /> */}
+      <Navbar />
       <Outlet />
       <Footer />
     </>

@@ -28,6 +28,7 @@ function App() {
       <Router>
         <ScrollToTop>
           <Routes>
+          <Route path="/login" element={<Login />} />
             <Route element={<MainLayout />}>
               <Route path="/" element={<Home />} />
               <Route path="/about-kth" element={<AboutKTH />} />
@@ -39,7 +40,7 @@ function App() {
               <Route path="/student" element={<Student />} />
               <Route path="/alumni" element={<Alumni />} />
               <Route path="/phd" element={<PhD />} />
-              <Route path="/login" element={<Login />} />
+            
 
             </Route>
           </Routes>

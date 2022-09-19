@@ -3,32 +3,32 @@ import images from "../../../Importer/Importer"
 export const navbarItems = [
   {
     id: 1,
-    name: "home",
+    name: "Home",
     route: "/",
   },
   {
     id: 2,
-    name: "studies",
+    name: "Studies",
     route: "/studies",
   },
   {
     id: 3,
-    name: "research",
+    name: "Research",
     route: "/research",
   },
   {
     id: 4,
-    name: "co-operation",
+    name: "Co-operation",
     route: "/co-operation",
   },
   {
     id: 5,
-    name: "about-kth",
+    name: "About-KTH",
     route: "/about-kth",
   },
   {
     id: 6,
-    name: "library",
+    name: "Library",
     route: "/library",
   },
 ];
