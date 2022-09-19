@@ -1,5 +1,5 @@
 
-import { Box, Container ,Grid } from "@mui/material";
+import {  Container ,Grid } from "@mui/material";
 import CustomBreadcrumbs from '../CustomBreadcrumbs/CustomBreadcrumbs';
 import ArticleFooter from "../ArticleFooter/ArticleFooter"
 import {ContainerStyle } from '../../Styles/Container/Container'
@@ -31,7 +31,7 @@ marginTop:"20px",
       }}>
 
         <Grid item xs={12} sm={12} lg={2.8} md={2.8}sx={{
-          // backgroundColor:"#528400",
+      
       display:{xs:"none",sm:"none",md:"flex",lg:"flex"},
     
 
@@ -40,7 +40,7 @@ marginTop:"20px",
           </Grid>
 
           <Grid item xs={12} sm={12} md={8.8} lg={8.8} sx={{
-            backgroundColor:"#d4351c" ,
+         
             paddingLeft:"0",
             paddingRight:"0px",
             paddingTop:"0",
@@ -58,10 +58,6 @@ marginTop:"20px",
       <ArticleFooter title={"info@kth.se"}
      pageName={"Student web"} time={" Jun 21, 2022"} />
           </Grid>
-
-         
-
-
         </Grid>
         </Container>
         

@@ -2,12 +2,10 @@
 
 import { useState } from "react";
 import { PhDBlogs } from "../../../../Services/Utils/Data/data";
-import { CardContent,
- 
-    Divider,
+import {
      Container ,
-     Box,CardMedia,Typography,
-     Link,
+     Box,
+   
     } from '@mui/material';
 
 import ArticleCard from './Components/ArticleCard';
@@ -21,7 +19,7 @@ const Blogs = () => {
     <>
    
         <Box sx={{
-              // padding: "30px 0 ",
+            
               maxWidth: "100%",
               marginLeft:{lg:"-40px"},
            
@@ -29,12 +27,12 @@ const Blogs = () => {
  <Container sx={{
     width:{xs:"100%",sm:"100%",md:"225px",lg:"225px",},
                     maxWidth: "100%",
-                    backgroundColor: "inherit",
-                    // backgroundColor: "#c1c1c1",
+               
+                    
                   padding:"0",
                   paddingLeft:"0",
                  
-                    // marginLeft: {xs:"0",sm:"0",md:"85px",lg:"85px",},
+                    
           }}>
 
 

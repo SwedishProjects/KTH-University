@@ -14,7 +14,7 @@ export const TitrPhD ={
     color:" #000",
     marginTop:" 0",
     marginBottom:" 28px",
-    lineHeight:" 1.3125",
+    lineHeight:" 1.7",
     marginLeft:"0"
 }
 
@@ -37,7 +37,7 @@ export const KTHText={
     margin:" 0 0 27px",
     maxWidth: "730px",
     fontFamily:" Georgia,'garamond pro',garamond,'times new roman',times,serif",
-    fontSize:"1rem",
+    fontSize:"1.5rem",
     fontWeight:"400",
 }
 

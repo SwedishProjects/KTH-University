@@ -7,7 +7,7 @@ import CardTitle from './CardTitle/CardTitle';
 
 
 
-import {  Grid, Divider, Container ,Box} from '@mui/material';
+import {   Divider,Box} from '@mui/material';
 interface info {
   title: string;
   image: string;
@@ -20,26 +20,32 @@ interface info {
 function ArticleCard(props: info) {
   return (
     <Box
-    sx={{
+   >
       
-display: "flex",
-// height:"400px",
-border:"2px solid #000",
-flexDirection: "column",
-justifyContent: "flex-start",
-width:{xs:"100%",sm:"100%",md:"200px",lg:"196px",},
-
-
-    }}>
+      <Divider orientation="vertical" sx={{    
+              
+            //  color:"#d4351c",
+            color:"#000"
+          
+          }} />
+   
+     <Box  sx={{
       
-   
-   
-     <Box>
+      display: "flex",
+      height:{xs:"auto",sm:"auto",md:"370px",lg:"365px"},
+      
+      flexDirection: "column",
+      justifyContent: "flex-start",
+      width:{xs:"100%",sm:"100%",md:"200px",lg:"199px",},
+      
+      
+          }}>
+  
         <CardImage title={props.Imagename} image={props.image}></CardImage>
         <Box sx={{
           padding: "20px 0",
         
-          // paddingRight:"10px",
+        
         }}>
         <CardTitle title={props.title}></CardTitle>
         <CardDescription
@@ -51,14 +57,7 @@ width:{xs:"100%",sm:"100%",md:"200px",lg:"196px",},
 
         </Box>
       </Box>
-       <Divider orientation="vertical" sx={{    margin: "15px 0",
-               paddingBottom:"6px",
-              width:{xs:"100%",sm:"100%",md:"100%",lg:"100%",},
-               marginBottom:"25px",
-               color:"#d4351c",
-            
-
-            }} />
+    
         
      
      </Box>

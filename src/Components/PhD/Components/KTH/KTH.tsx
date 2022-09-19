@@ -1,5 +1,5 @@
 
-import { Grid, Box, Link , Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import {TitrPhD,
     KTHText,
 } from "../../../../Styles/PhD" 
@@ -10,7 +10,7 @@ function KTH(){
     return(
         <>
        <Box
-       sx={{backgroundColor:"#17a2b8" ,
+       sx={{
     marginLeft:{lg:"-16px",xs:"-18px"},
     
     }}

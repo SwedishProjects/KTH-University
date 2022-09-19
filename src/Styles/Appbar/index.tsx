@@ -1,6 +1,5 @@
 import { styled } from "@mui/material/styles";
 import { Tab, Tabs, Box } from "@mui/material";
-
 interface StyledTabProps {
   label: string;
   component: any;
