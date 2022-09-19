@@ -19,7 +19,7 @@ export const headerContainerTop ={
     flexDirection:"row",
     justifyContent:"flex-start",
     alignItems:"flex-start",
-    marginTop:{md:"25px",lg:"20px",}
+    marginTop:{xs:"80px",sm:"35px",md:"25px",lg:"20px",}
 
   
    

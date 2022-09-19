@@ -2,6 +2,7 @@
 export const searchWidgetContainer ={
     fontSize: "14px",
     maxWidth: "100%",
+    width:{sm:"100%"},
 }
 export const searchWidget ={
   
@@ -9,14 +10,10 @@ export const searchWidget ={
     fontWeight: "normal",
     textAlign: "left",
     boxSizing: "border-box",
-}
-export const newSearchWidget={
+    width:{sm:"100%"},
 
 }
 
-export const searchInputBar ={
-
-}
 
 export const inputGroup = {
     

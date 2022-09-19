@@ -79,7 +79,21 @@ export default function MobileMenuList() {
     <div>
       {(['left'] as const).map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)} sx={{color:"#000"}}>{anchor}</Button>
+          <Button onClick={toggleDrawer(anchor, true)} sx={{
+                position: "fixed",
+                zIndex: "25",
+                top: {xs:"90px",sm:"50px",md:"0px",lg:"0px",},
+                right: "15px",
+                padding: "5px 15px 15px",
+                backgroundColor: "#fff",
+                border: "5px solid #fff",
+                borderLeft:" 0",
+                borderRight: "0",
+                transform: "rotate(0)",
+                transition: ".3s ease-in-out",
+                cursor: "pointer",
+            color:"#000"
+            }}>{anchor}</Button>
           <Drawer
             anchor={anchor}
             open={state[anchor]}

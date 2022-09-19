@@ -1,6 +1,7 @@
 import {ContainerStyle } from '../../../Styles/Container/Container';
 import SiteName from './SiteName/SiteName';
 import SecondaryMenu from './SecondaryMenu/SecondaryMenu';
+import MobileMenuList from '../MobileMenuList/MobileMenuList';
 import {
   Box,Link,Container
 } from "@mui/material";
@@ -19,8 +20,23 @@ sx={{
   display:"flex" ,
   justifyContent:"space-between"
 }}>
+
 <SiteName />
+<Box 
+sx={{
+  display:{xs:"none",sm:"none",md:"block",lg:"block"}
+}}
+>
+  
   <SecondaryMenu />
+  </Box>
+  <Box 
+sx={{
+  display:{xs:"block",sm:"block",md:"none",lg:"none"}
+}}
+>
+  <MobileMenuList />
+  </Box>
 </Box>
 
 <Box 
@@ -30,7 +46,13 @@ sx={{
   marginBottom:"-15px"
 }}
 >
+<Box 
+sx={{
+  display:{xs:"none",sm:"none",md:"block",lg:"block"}
+}}
+>
 <Menu />
+</Box>
   <SearchBar />
 </Box>
 
